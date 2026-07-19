@@ -1948,7 +1948,7 @@
       "Description": "Les cairns se trouvent généralement au sommet des montagnes et contiennent d'énormes quantités d'expérience"
     },
     "ExperienceBlock:0": {
-      "DisplayName": "format@@0 Experience Orb",
+      "DisplayName": "Orbe d'expérience",
       "Description": "Donne de l'expérience lorsque collecté par un joueur"
     },
     "ClothingBlock:0": {
@@ -2296,12 +2296,12 @@
     },
     "DelayGateBlock:0": {
       "DisplayName": "Porte de Délai",
-      "Description": "Une porte de délai avec une entrée et une sortie. Une seule porte retardera n'importe quel signal pendant environ 0,2 seconde. Enchaîner 2 portes directement (sans fil entre les deux), donne un délai de 1 seconde. Enchaîner 3 portes donne un délai de 5 secondes. L'enchaînement des portes de retard avec un fil entre les deux combine simplement les retards. Deux portes donneront un délai de 0. secondes, 3 portes donneront 0,6 seconde, etc. Peut être placé sur n'importe quelle surface et tourné à l'orientation souhaitée.",
+      "Description": "Une porte de délai avec une entrée et une sortie. Une seule porte retardera n'importe quel signal pendant environ 0,2 seconde. Enchaîner 2 portes directement (sans fil entre les deux), donne un délai de 1 seconde. Enchaîner 3 portes donne un délai de 5 secondes. L'enchaînement des portes de retard avec un fil entre les deux combine simplement les retards. Deux portes donneront un délai de 0.4. secondes, 3 portes donneront 0,6 seconde, etc. Peut être placé sur n'importe quelle surface et tourné à l'orientation souhaitée.",
       "CRDescription:0": "Fabriquer des portes de retard logique en cuivre et en germanium"
     },
     "AdjustableDelayGateBlock:0": {
       "DisplayName": "Porte de Délai Ajustable",
-      "Description": "Une porte de délai réglable avec une entrée et une sortie. Le délai de la porte peut être ajusté en 0. 1s par incréments en l'éditant. Peut être placé sur n'importe quelle surface et tourné à l'orientation souhaitée.",
+      "Description": "Une porte de délai réglable avec une entrée et une sortie. Le délai de la porte peut être ajusté en 0.01s par incréments en l'éditant. Peut être placé sur n'importe quelle surface et tourné à l'orientation souhaitée.",
       "CRDescription:0": "Fabriquez des portes Delay Ajustable Logique à partir du cuivre, du germanium et du fer"
     },
     "SRLatchBlock:0": {
@@ -2316,7 +2316,7 @@
     },
     "MemoryBankBlock:0": {
       "DisplayName": "Banque de Mémoire",
-      "Description": "Banque de mémoire inscriptible contenant 256 mots 4-bit. La mémoire peut être traitée à l'aide de deux lignes d'adresses à 4 bits placées à gauche et à droite. Si une ligne d'adresse n'est pas connectée, elle est supposée être zéro. La valeur stockée dans la banque de mémoire sous l'adresse spécifiée peut être lue à la sortie supérieure. L'entrée du bas est utilisée comme une horloge de la même manière que SR Latch. Si la ligne de l'horloge n'est pas connectée, les lectures sont immédiates. Pour écrire dans la banque de mémoire, fournissez la valeur à écrire sur l'entrée arrière (vous devez utiliser un bloc filaire). L'écriture est déclenchée en réglant l'entrée de l'horloge à une basse tension entre 0,1 et 0,7 volts (une valeur de 0. et plus grand déclenchera une lecture). Le contenu du bloc de mémoire peut être modifié manuellement en appuyant sur le bouton d'édition quand le bloc est maintenu dans la main ou regardé. Peut être placé sur n'importe quelle surface et tourné à l'orientation souhaitée.",
+      "Description": "Banque de mémoire inscriptible contenant 256 mots 4-bit. La mémoire peut être traitée à l'aide de deux lignes d'adresses à 4 bits placées à gauche et à droite. Si une ligne d'adresse n'est pas connectée, elle est supposée être zéro. La valeur stockée dans la banque de mémoire sous l'adresse spécifiée peut être lue à la sortie supérieure. L'entrée du bas est utilisée comme une horloge de la même manière que SR Latch. Si la ligne de l'horloge n'est pas connectée, les lectures sont immédiates. Pour écrire dans la banque de mémoire, fournissez la valeur à écrire sur l'entrée arrière (vous devez utiliser un bloc filaire). L'écriture est déclenchée en réglant l'entrée de l'horloge à une basse tension entre 0,1 et 0,7 volts (une valeur de 0.8. et plus grand déclenchera une lecture). Le contenu du bloc de mémoire peut être modifié manuellement en appuyant sur le bouton d'édition quand le bloc est maintenu dans la main ou regardé. Peut être placé sur n'importe quelle surface et tourné à l'orientation souhaitée.",
       "CRDescription:0": "Fabriquer une banque de mémoire en cuivre et en germanium"
     },
     "TruthTableCircuitBlock:0": {
@@ -2326,7 +2326,7 @@
     },
     "RealTimeClockBlock:0": {
       "DisplayName": "Horloge en temps réel",
-      "Description": "Une horloge en temps réel qui fournit un temps de lecture précis et toujours à jour. La valeur de l'horloge change même si elle est loin du lecteur. La valeur zéro de l'horloge est au moment où le jeu a commencé. Vous ne pouvez pas réinitialiser l'horloge, il indique toujours l'heure depuis le début du jeu. L'horloge donne l'heure via 5 sorties, chacune d'elles 4 bits de signal analogique. Seize bits les moins significatifs sont des quatre côtés, et la 5ème sortie (contenant les 4 bits les plus significatifs) est à l'arrière (vous devez placer l'horloge sur un bloc filaire pour accéder à la 5ème sortie). L'horloge est configurée pour qu'elle avance de 4096 ticks par jour, ce qui signifie que chaque tick est environ 0. secondes de long et cette quatrième sortie contient le nombre de jours depuis le début de la partie. La valeur combinée des sorties 1, 2 et 3 contient l'heure de la journée, à environ 0,3 seconde de précision. La 4ème sortie à elle seule dépassera au bout de 16 jours. Utilisez la 5ème sortie pour étendre la période de débordement à 256 jours. ",
+      "Description": "Une horloge en temps réel fournissant une lecture précise et toujours à jour. Sa valeur continue de changer même loin du joueur. La valeur zéro correspond au démarrage de la partie. L'horloge ne peut pas être réinitialisée et indique toujours le temps écoulé depuis le début de la partie. Elle fournit le temps via 5 sorties, chacune étant un signal analogique de 4 bits. Les 16 bits de poids faible se trouvent sur les quatre côtés, et la 5e sortie, contenant les 4 bits de poids fort, se trouve à l'arrière (placez l'horloge sur un bloc passe-fil pour y accéder). L'horloge avance d'exactement 4096 ticks par jour. Chaque tick dure donc environ 0.3 seconde et la 4e sortie contient le nombre de jours écoulés. La valeur combinée des sorties 1, 2 et 3 contient l'heure du jour avec une précision d'environ 0.3 seconde. La 4e sortie seule déborde après 16 jours. Utilisez la 5e sortie pour étendre cette période à 256 jours. ",
       "CRDescription:0": "Fabriquez des horloges en temps réel à partir de cuivre, de germanium et de verre"
     },
     "RandomGeneratorBlock:0": {
@@ -2346,12 +2346,12 @@
     },
     "SoundGeneratorBlock:0": {
       "DisplayName": "Générateur de son",
-      "Description": "Générateur de son électrique. Prend 4 entrées: pitch (à gauche), octave (à droite), volume (haut) et ton (en bas). Toutes ces entrées sont analogiques. Le pas va de la note C (valeur de 0V) à la note D dans l'octave suivante (valeur de 1. V). 1.5V à l'entrée de hauteur signifie pause, aucun son n'est joué. L'entrée de l'octave peut être utilisée pour déplacer le pas de jusqu'à deux octaves. L'entrée de volume définit le volume du son joué, 0V étant mis en sourdine et 1. V étant le plus bruyant, le son réel est joué à chaque fois que l'entrée de tonalité passe de zéro à non-zéro. La valeur fournie à l'entrée de tonalité quand elle passe de zéro à non zéro détermine quel instrument doit être joué: 0.1=cloche, 0.2=Organ, 0. =Ping, 0.4=String, 0.5=Trumpet, 0.6=Voice, 0.7=Piano, 0.8=PianoSustain, 0.9=Drums. =Snare, 0.1=BassDrum, 0.2=ClosedHiHat, 0.3=PedalHiHat, 0.4=OpenHiHat, 0.5=LowTom, 0.6=HighTom, 0.7=Crash, 0.8=Ride, 0.9=HandClap. Certains animaux, en particulier les oiseaux, ont peur des sons bruyants, qui peuvent être placés sur n'importe quelle surface et tournés à l'orientation souhaitée.",
+      "Description": "Générateur de sons électrique. Il possède 4 entrées : hauteur (gauche), octave (droite), volume (haut) et timbre (bas). Toutes sont analogiques. La hauteur va de la note C (valeur 0V) à la note D de l'octave suivante (valeur 1.4V). Une valeur de 1.5V à l'entrée de hauteur signifie une pause : aucun son n'est joué. L'entrée d'octave permet de décaler la hauteur jusqu'à 2 octaves. L'entrée de volume règle le niveau sonore : 0V coupe le son et 1.5V donne le volume maximal. Le son est joué lorsque l'entrée de timbre passe de zéro à une valeur non nulle. Cette valeur détermine l'instrument : 0.1=bell, 0.2=Organ, 0.3=Ping, 0.4=String, 0.5=Trumpet, 0.6=Voice, 0.7=Piano, 0.8=PianoSustain, 0.9=Drums. Pour les percussions, l'entrée de hauteur sélectionne l'un des 10 sons : 0.0=Snare, 0.1=BassDrum, 0.2=ClosedHiHat, 0.3=PedalHiHat, 0.4=OpenHiHat, 0.5=LowTom, 0.6=HighTom, 0.7=Crash, 0.8=Ride, 0.9=HandClap. Certains animaux, surtout les oiseaux, ont peur des sons forts. Cet élément peut être placé sur n'importe quelle surface et orienté comme souhaité.",
       "CRDescription:0": "Fabriquez des générateurs de son à partir de cuivre, de germanium et de fer"
     },
     "BatteryBlock:0": {
       "DisplayName": "Batterie",
-      "Description": "Une batterie électrique utilisée pour alimenter les circuits électriques. Se connectera à n'importe quel fil placé à côté de lui et l'alimentera à une tension constante, ce qui est 1. V par défaut. La tension peut être réglée en éditant la batterie.",
+      "Description": "Une batterie électrique utilisée pour alimenter les circuits électriques. Se connectera à n'importe quel fil placé à côté de lui et l'alimentera à une tension constante, ce qui est 1.5. V par défaut. La tension peut être réglée en éditant la batterie.",
       "CRDescription:0": "Fabriquez des piles à partir de cuivre et de charbon"
     },
     "LightbulbBlock:0": {
@@ -2371,21 +2371,21 @@
     },
     "PressurePlateBlock:0": {
       "DisplayName": "Plaque de pression en bois",
-      "Description": "Plaque de pression électrique. La plaque de pression génère un signal quand elle est pressée, par exemple par quelque chose de reposant lourd sur elle, ou par un projectile qui la frappe. La tension générée dépend du poids de l'élément et se situe entre 0. V (plus léger) et 1.5V (plus lourd), donc la plaque de pression peut être utilisée comme un poids. Dès que la pression est retirée, le signal de sortie revient à 0V. La plaque a des sorties sur tous les côtés pour une connexion facile et peut être posée sur n'importe quelle surface.",
+      "Description": "Plaque de pression électrique. La plaque de pression génère un signal quand elle est pressée, par exemple par quelque chose de reposant lourd sur elle, ou par un projectile qui la frappe. La tension générée dépend du poids de l'élément et se situe entre 0.8. V (plus léger) et 1.5V (plus lourd), donc la plaque de pression peut être utilisée comme un poids. Dès que la pression est retirée, le signal de sortie revient à 0V. La plaque a des sorties sur tous les côtés pour une connexion facile et peut être posée sur n'importe quelle surface.",
       "CRDescription:0": "Fabriquez des plaques de pression électriques à partir de cuivre et de planches"
     },
     "MotionDetectorBlock:0": {
       "DisplayName": "Détecteur de mouvement",
-      "Description": "Un détecteur de mouvement électrique. Le détecteur produira du signal chaque fois qu'il détectera un mouvement devant sa face, jusqu'à 8 blocs de distance. Lorsque le mouvement est détecté, la sortie du détecteur de mouvement se situe entre 0. et 1.5V, indiquant à quel point le détecteur est proche du détecteur. Il a des sorties sur tous les côtés pour une connexion facile et peut être placé sur n'importe quelle surface.",
+      "Description": "Un détecteur de mouvement électrique. Le détecteur produira du signal chaque fois qu'il détectera un mouvement devant sa face, jusqu'à 8 blocs de distance. Lorsque le mouvement est détecté, la sortie du détecteur de mouvement se situe entre 0.8. et 1.5V, indiquant à quel point le détecteur est proche du détecteur. Il a des sorties sur tous les côtés pour une connexion facile et peut être placé sur n'importe quelle surface.",
       "CRDescription:0": "Fabriquer des détecteurs de mouvement à partir de cuivre, de verre et de marbre"
     },
     "PistonBlock:0": {
       "DisplayName": "Piston",
-      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8."
+      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0.9. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8."
     },
     "PistonHeadBlock:0": {
       "DisplayName": "Tête de piston",
-      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8."
+      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0.9. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8."
     },
     "WireThroughPlanksBlock:0": {
       "DisplayName": "Planches de fil à fil",
@@ -2439,7 +2439,7 @@
     },
     "TargetBlock:0": {
       "DisplayName": "Target",
-      "Description": "Une cible peut être utilisée pour l'entraînement de tirs. Elle signale un coup avec un signal électrique analogique. La tension du signal détermine la proximité du centre du hit à partir de 0. V à l'extérieur de la cible à 1,5V au centre. Les tensions inférieures à 0,8V indiquent qu'aucun coup n'a été enregistré.",
+      "Description": "Une cible peut être utilisée pour l'entraînement de tirs. Elle signale un coup avec un signal électrique analogique. La tension du signal détermine la proximité du centre du hit à partir de 0.8. V à l'extérieur de la cible à 1,5V au centre. Les tensions inférieures à 0,8V indiquent qu'aucun coup n'a été enregistré.",
       "CRDescription:0": "Mettez des planches blanches et noires pour faire une cible de tir."
     },
     "DetonatorBlock:0": {
@@ -2760,22 +2760,22 @@
     },
     "PressurePlateBlock:1": {
       "DisplayName": "Plaque de Pression en Pierre",
-      "Description": "Plaque de pression électrique. La plaque de pression génère un signal quand elle est pressée, par exemple par quelque chose de reposant lourd sur elle, ou par un projectile qui la frappe. La tension générée dépend du poids de l'élément et se situe entre 0. V (plus léger) et 1.5V (plus lourd), donc la plaque de pression peut être utilisée comme un poids. Dès que la pression est retirée, le signal de sortie revient à 0V. La plaque a des sorties sur tous les côtés pour une connexion facile et peut être posée sur n'importe quelle surface.",
+      "Description": "Plaque de pression électrique. La plaque de pression génère un signal quand elle est pressée, par exemple par quelque chose de reposant lourd sur elle, ou par un projectile qui la frappe. La tension générée dépend du poids de l'élément et se situe entre 0.8. V (plus léger) et 1.5V (plus lourd), donc la plaque de pression peut être utilisée comme un poids. Dès que la pression est retirée, le signal de sortie revient à 0V. La plaque a des sorties sur tous les côtés pour une connexion facile et peut être posée sur n'importe quelle surface.",
       "CRDescription:0": "Fabriquez des plaques de pression électriques à partir de cuivre et de pierre"
     },
     "PistonBlock:448": {
       "DisplayName": "Piston",
-      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8.",
+      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0.9. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8.",
       "CRDescription:0": "Utilisez des planches, des semi-conducteurs et du cuivre pour fabriquer un piston"
     },
     "PistonBlock:450": {
       "DisplayName": "Tirer un piston",
-      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8.",
+      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0.9. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8.",
       "CRDescription:0": "Ajouter des crochets en fer au piston pour faire un piston de tirage"
     },
     "PistonBlock:452": {
       "DisplayName": "Piston de tirage strict",
-      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8.",
+      "Description": "Les pistons peuvent être utilisés pour pousser et tirer des blocs. L'extension du piston est contrôlée par la tension qui lui est appliquée. 0.8V permet d'étendre le piston à un bloc, 0.9. V à deux etc. 1.5V prolongera un piston à un maximum de 8 blocs. Les pistons peuvent également être modifiés pour limiter l'extension maximale à des valeurs inférieures. Si le piston est un piston de tireur, il va aussi tirer les blocs en arrière lors de la rétraction. Si le piston est un piston de traction strict, il ne se retirera pas à moins qu'il ne retire suffisamment de blocs. Le nombre de blocs tirés peut être ajusté en éditant jusqu'à un maximum de 8.",
       "CRDescription:0": "Ajouter des crochets en cuivre au piston pour faire un piston de tirage strict"
     },
     "DirtSlabBlock:0": {
@@ -3049,7 +3049,7 @@
     "ServerConfig.MaxPlayers.Description": "Définissez le nombre maximum de joueurs qui peuvent être en ligne simultanément. Plage: 1-20. Des valeurs plus élevées requièrent de meilleures performances du serveur.",
     "ServerConfig.NeedLogin.Description": "Si vous voulez que les joueurs se connectent à leur compte de la communauté avant de rejoindre le serveur. Lorsqu'il est activé, il aide à gérer l'identité du joueur et à prévenir les comportements malveillants.",
     "ServerConfig.RandomSpawn.Description": "Activer ou non les points d'apparition aléatoires. Lorsque cette option est activée, les nouveaux joueurs apparaîtront à des endroits aléatoires au lieu d'un point d'apparition fixe.",
-    "ServerConfig.DaySpeed.Description": "Définissez le facteur de vitesse du cycle jour/nuit. 1.0 est la vitesse normale, 2.0 est la moitié de la vitesse, 10. est la vitesse la plus lente. Les cycles de jour/nuit plus lents donnent aux joueurs plus de temps à construire et à explorer.",
+    "ServerConfig.DaySpeed.Description": "Définissez le facteur de vitesse du cycle jour/nuit. 1.0 est la vitesse normale, 2.0 est la moitié de la vitesse, 10.0. est la vitesse la plus lente. Les cycles de jour/nuit plus lents donnent aux joueurs plus de temps à construire et à explorer.",
     "ServerConfig.RecoverySpeed.Description": "Définir le facteur de vitesse de récupération lorsque les joueurs dorment. Des valeurs plus élevées signifient une récupération plus rapide de la santé et de la faim pendant le sommeil. La valeur minimale est de 0,1.",
     "ServerConfig.DisableBlocks.Description": "Définit la liste des blocs à désactiver. Séparez les IDs de blocs multiples par des points-virgules (;). Les blocs désactivés ne peuvent pas être placés ou utilisés. Exemple: 1;2;3",
     "ServerConfig.KeywordBlocking.Description": "Définissez la liste des mots-clés à bloquer. Séparez plusieurs mots-clés par des points-virgules (;). Les messages contenant ces mots-clés seront automatiquement filtrés.",
@@ -4258,14 +4258,14 @@
       "7": "Sentiers plats"
     },
     "HeadNames": {
-      "0": "format@@0 HeadConeSmall",
-      "1": "format@@0 HeadConeLarge",
-      "2": "format@@0 HeadCylinderSmall",
-      "3": "format@@0 HeadCylinderLarge",
+      "0": "Petit cône",
+      "1": "Grand cône",
+      "2": "Petit cylindre",
+      "3": "Grand cylindre",
       "4": "HeadSphere",
       "5": "HeadDiamondSmall",
       "6": "Tête DiamondLarge",
-      "7": "format@@0 HeadCylinderFlat"
+      "7": "Cylindre plat"
     },
     "FireworksColorDisplayNames": {
       "0": "Blancs",
@@ -4331,7 +4331,7 @@
       "2": "Cheval blanc",
       "3": "Œuf de cheval blanc",
       "4": "Ours marron",
-      "5": "format@@0 Brown Bear Spawner",
+      "5": "Générateur d'ours brun",
       "6": "Cheval de châtaignes",
       "7": "Œuf de Cheval de châtaignier",
       "8": "Basses d'eau douce",
@@ -4343,9 +4343,9 @@
       "14": "Ostrich",
       "15": "Oeuf d’Autruche",
       "16": "Cheval Palomino",
-      "17": "format@@0 Palomino Horse Spawner",
+      "17": "Générateur de cheval palomino",
       "18": "Leopard",
-      "19": "format@@0 Leopard Spawner",
+      "19": "Générateur de léopard",
       "20": "Gnu Antelope",
       "21": "Gnu Spawner",
       "22": "Loup gris",
@@ -4366,7 +4366,7 @@
       "37": "Bulle marron",
       "38": "Gain de taureau marron",
       "39": "Orque",
-      "40": "format@@0 Orca Spawner",
+      "40": "Générateur d'orque",
       "41": "Canard",
       "42": "Oeuf de canard",
       "43": "Giraffe",
@@ -4374,11 +4374,11 @@
       "45": "Requin taureau",
       "46": "Œuf de requin taureau",
       "47": "Requin Tigre",
-      "48": "format@@0 Tiger Shark Spawner",
+      "48": "Générateur de requin-tigre",
       "49": "Cheval noir",
       "50": "Œuf de cheval noir",
       "51": "Ours noir",
-      "52": "format@@0 Black Bear Spawner",
+      "52": "Générateur d'ours noir",
       "53": "Lion",
       "54": "Œuf de Lion",
       "55": "Tigre",
@@ -4394,24 +4394,24 @@
       "65": "Sanglier",
       "66": "Spawner de Sang-Sanglier",
       "67": "Ours polaire",
-      "68": "format@@0 Polar Bear Spawner",
+      "68": "Générateur d'ours polaire",
       "69": "Cheval de la Baie",
-      "70": "format@@0 Bay Horse Spawner",
+      "70": "Générateur de cheval bai",
       "71": "Gris jaune",
       "72": "Spawner Rayon Jaune",
       "73": "Élan",
       "74": "Spawner d'élan",
       "75": "Gris foncé marron",
-      "76": "format@@0 Brown Ray Spawner",
+      "76": "Générateur de raie brune",
       "77": "Coyote",
       "78": "Spawner de Coyote",
       "79": "Seabass",
       "80": "Œuf de la mer",
       "81": "Hyène",
-      "82": "format@@0 Hyena Spawner",
+      "82": "Générateur d'hyène",
       "83": "Seagull",
       "84": "Oeuf de mouette",
-      "85": "format@@0 White Alpaca Spawner",
+      "85": "Générateur d'alpaga blanc",
       "86": "Bulle blanche",
       "87": "Grand requin blanc",
       "88": "Grand spawner de requin blanc",
