@@ -3649,7 +3649,7 @@
       "NoMsgPlayerAlert": "Anda telah dibisukan dan tidak dapat mengirim pesan",
       "ParserInValid": "Format pesan tidak valid. Tidak dapat mengirim.",
       "ChatHelp": "Panduan Fitur Online",
-      "ChatHelpContent": "<c=kuning>Interaksi Antarmuka</c><br/>Panel Pesan, Pesta, dan Aktivitas, serta kontrol kanan atas, kini mendukung \"Tampilan otomatis ke depan saat klik/aktivasi\" untuk mengatasi masalah yang tumpang tindih.<br/><c=kuning>Sistem Pesan</c><br/>Mengirim pesan global secara default.<br/>Teks merah awal disembunyikan secara default; sistem secara otomatis memblokir teks terlarang.<br/>Mengklik lagi pesan yang dipilih akan menampilkan opsi penyalinan/tindakan.<br/>Kotak teks masukan mendukung penarikan horizontal; di PC, ini juga mendukung posisi kursor instan saat diklik. <br/>Suara notifikasi dan hamparan pesan di bagian bawah dapat disesuaikan di Setelan.<br/><c=gray>Ctrl+Backspace</c> untuk menghapus konten di sebelah kiri kursor.<br/> Perintah: Ketik / di awal baris untuk mengirim instruksi yang didukung (bervariasi menurut server).<br/><c=kuning>Sintaks Rich Text Sederhana</c><br/>Catatan: Karena alasan warisan, penumpukan tidak didukung. Untuk mengedit elemen non-teks, gunakan spasi mundur di sisi kanannya.<br/>Spasi: \\<br/\\>,<br/>Warna: \\<c=green\\>Teks Hijau\\</c\\>,<br/>Blok: \\<b\\>8\\</b\\>,<br/>Emoji: \\<em\\>senyum\\</em\\><br/>Gunakan <c=gray>\\\\</c> sebagai karakter escape untuk simbol khusus: <c=gray>\\<, \\>, \\\\</c>.<br/><c=Yellow>Sistem Partai</c><br/>Mendukung penyiaran acara pesta ke antrean pesan anggota, tombol tembak persahabatan, izin undangan anggota, dan izin tendangan anggota.<br/>Pemimpin dapat mentransfer kepemimpinan kepada anggota dengan memilih mereka di daftar partai terlebih dahulu.<br/><br/>"
+      "ChatHelpContent": "<c=yellow>Interaksi Antarmuka</c><br/>Panel Pesan, Pesta, dan Aktivitas, serta kontrol kanan atas, kini mendukung \"Tampilan otomatis ke depan saat klik/aktivasi\" untuk mengatasi masalah yang tumpang tindih.<br/><c=yellow>Sistem Pesan</c><br/>Mengirim pesan global secara default.<br/>Teks merah awal disembunyikan secara default; sistem secara otomatis memblokir teks terlarang.<br/>Mengklik lagi pesan yang dipilih akan menampilkan opsi penyalinan/tindakan.<br/>Kotak teks masukan mendukung penarikan horizontal; di PC, ini juga mendukung posisi kursor instan saat diklik. <br/>Suara notifikasi dan hamparan pesan di bagian bawah dapat disesuaikan di Setelan.<br/><c=gray>Ctrl+Backspace</c> untuk menghapus konten di sebelah kiri kursor.<br/> Perintah: Ketik / di awal baris untuk mengirim instruksi yang didukung (bervariasi menurut server).<br/><c=yellow>Sintaks Rich Text Sederhana</c><br/>Catatan: Karena alasan warisan, penumpukan tidak didukung. Untuk mengedit elemen non-teks, gunakan spasi mundur di sisi kanannya.<br/>Spasi: \\<br/\\>,<br/>Warna: \\<c=green\\>Teks Hijau\\</c\\>,<br/>Blok: \\<b\\>8\\</b\\>,<br/>Emoji: \\<em\\>senyum\\</em\\><br/>Gunakan <c=gray>\\\\</c> sebagai karakter escape untuk simbol khusus: <c=gray>\\<, \\>, \\\\</c>.<br/><c=yellow>Sistem Partai</c><br/>Mendukung penyiaran acara pesta ke antrean pesan anggota, tombol tembak persahabatan, izin undangan anggota, dan izin tendangan anggota.<br/>Pemimpin dapat mentransfer kepemimpinan kepada anggota dengan memilih mereka di daftar partai terlebih dahulu.<br/><br/>"
     },
     "SubsystemGameWidgets": {
       "System": "Sistem",
@@ -3852,7 +3852,7 @@
     },
     "KeyboardHelpDialog": {
       "1": "Kontrol Papan Ketik",
-      "2": "W/A/S/D",
+      "2": "W / A / S / D",
       "3": "Gerakan Tikus",
       "4": "Luar angkasa",
       "5": "Pergeseran",
@@ -4143,7 +4143,7 @@
     "Item_MediaFireCloud": "MediaFire",
     "Item_QuarkCloud": "Kuark Pan",
     "Version_Release": "Lepaskan",
-    "Version_Beta": "Beta",
+    "Version_Beta": "Versi beta",
     "Title_SelectVersionForDownload": "Pilih Versi untuk Diunduh",
     "Title_SelectFileToDownload": "Pilih File untuk Diunduh - {0}",
     "Status_FetchingVersions": "Mengambil daftar versi...",
@@ -4262,7 +4262,7 @@
       "1": "KepalaKerucutBesar",
       "2": "KepalaSilinderKecil",
       "3": "KepalaSilinderBesar",
-      "4": "HeadSphere",
+      "4": "Bola Kepala",
       "5": "KepalaBerlianKecil",
       "6": "KepalaBerlianBesar",
       "7": "KepalaSilinderDatar"
