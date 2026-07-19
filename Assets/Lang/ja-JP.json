@@ -179,7 +179,7 @@
     "4": "戻ってきて！",
     "5": "焼き殺された",
     "6": "陸地で立ち往生しました",
-    "7": "<unk>"
+    "7": "窒息"
   },
   "ComponentBody": {
     "Crushed": "粉砕しました",
@@ -512,7 +512,7 @@
     "67": "合計睡眠時間",
     "68": " 日",
     "69": "Vomitado",
-    "70": "契約インフルエンザformat@@0",
+    "70": "インフルエンザに感染",
     "71": "病気になった",
     "72": "その他の統計情報",
     "73": "ライトニングで幸せになった",
@@ -813,7 +813,7 @@
     "染めることができる",
     "防具の保護",
     "防具の耐久値",
-    "<unk>",
+    "断熱性",
     "移動速度",
     "はい（ {0}まで）",
     "{0} days"
@@ -919,7 +919,7 @@
     "7": "Vomiting ではありません",
     "8": "Flu",
     "9": "インフルエンザなし",
-    "10": "<unk>",
+    "10": "咳",
     "11": "咳なし",
     "12": "{0} モード"
   },
@@ -1058,7 +1058,7 @@
     "1": "木製の熊手を作る"
   },
   "BasePumpkinBlock": {
-    "1": "カボチャformat@@0",
+    "1": "カボチャ",
     "2": "{0} カボチャ",
     "3": "{0} {1} カボチャ",
     "4": "腐った",
@@ -1256,7 +1256,7 @@
     },
     "BedrockBlock:1": {
       "DisplayName": "土地石",
-      "Description": "テリトリーストーンを配置すると、2×2チャンク(32×32ブロック)内のブロックと他のプレイヤーの相互作用を制限できます。 各プレイヤーは1つの土石しか持てません。複数の石が置かれている場合、最後に1つの石が置かれます。"
+      "Description": "配置したテリトリーストーンは、2x2チャンク（32x32ブロック）の範囲で他のプレイヤーによるブロック操作を制限します。各プレイヤーが持てるテリトリーストーンは一つだけです。複数置いた場合は最後に置いたものが有効になります。"
     },
     "DirtBlock:0": {
       "DisplayName": "土",
@@ -1271,7 +1271,7 @@
       "Description": "石灰岩は、水面付近で時折見つかる脆い白っぽい石です。 つるはしで簡単に採石でき、素手でも脆さがある。 顔料や大理石を作るのに使えます。"
     },
     "GraniteBlock:0": {
-      "DisplayName": "<unk>",
+      "DisplayName": "花崗岩",
       "Description": "花崗岩は、地下世界の大半を埋め、山々を背の高い立場にするタフな灰色の石です。 時には石炭の静脈が含まれ、しばしばより深く、銅。 収穫すると、丸石に変わり、石を精錬して純粋な花崗岩に変えることができます。塗装できます。",
       "CRDescription:0": "石畳を精錬して花崗岩に変える"
     },
@@ -1316,7 +1316,7 @@
       "Description": "凍結した固体の水ブロック。低温にさらされると氷に変わる。 氷は、熱源として火かマグマを使用することによって、結果として水へと溶け戻すことができます。 滑りやすい表面があり、歩行を困難にします。"
     },
     "FireBlock:0": {
-      "DisplayName": "<unk>",
+      "DisplayName": "火",
       "Description": ""
     },
     "CoalOreBlock:0": {
@@ -1450,11 +1450,11 @@
       "Description": "白い花は明るく湿った芝生のブロックの上にランダムに生えます。装飾的な植物として使用できます。"
     },
     "DryBushBlock:0": {
-      "DisplayName": "ドライブッシュformat@@0",
+      "DisplayName": "枯れた低木",
       "Description": "乾燥した茂みは、砂漠の端や寒い場所で一般的に見られます。 植物が自らを維持するのに十分な湿度や日光を持っていない場合は、乾燥した茂みになります。 "
     },
     "LargeDryBushBlock:0": {
-      "DisplayName": "大きなドライブッシュformat@@0",
+      "DisplayName": "二人のプレイヤーを垂直方向に分割",
       "Description": "乾燥した茂みは、砂漠の端や寒い場所で一般的に見られます。 植物が自らを維持するのに十分な湿度や日光を持っていない場合は、乾燥した茂みになります。 "
     },
     "SaplingBlock:0": {
@@ -1475,7 +1475,7 @@
       "Description": "かぼちゃは大きく、オレンジ色の野菜で、5〜10個の植物のグループに成長します。 収集されると、彼らは食べられ、カボチャのスープに調理されたり、ジャックO'Lanternsに細工されたりすることができます。"
     },
     "PumpkinBlock:1": {
-      "DisplayName": "カボチャformat@@0",
+      "DisplayName": "カボチャ",
       "Description": "かぼちゃは大きく、オレンジ色の野菜で、5〜10個の植物のグループに成長します。 収集されると、彼らは食べられ、カボチャのスープに調理されたり、ジャックO'Lanternsに細工されたりすることができます。"
     },
     "RottenPumpkinBlock:0": {
@@ -1551,7 +1551,7 @@
     },
     "DiamondBlock:0": {
       "DisplayName": "ソリッドダイヤモンドブロック",
-      "Description": "ダイヤモンドのブロック。非常に価値があり、複数のダイヤモンド結晶を1つの大きなブロックに組み合わせることができます。装飾用に最適です。 注意してください, ダイヤモンドは可燃性であり、マグマに触れたときに燃えるか、雷によって火に焼かれるので、.",
+      "Description": "ダイヤモンドのブロック。非常に価値が高く、複数のダイヤモンド結晶を一つの大きなブロックにまとめたものです。装飾にも適しています。ダイヤモンドは可燃性で、マグマに触れたり落雷で着火したりすると燃えるため注意してください。",
       "CRDescription:0": "多数のダイヤモンドを大きなブロックに組み合わせましょう"
     },
     "IronBlock:0": {
@@ -1741,7 +1741,7 @@
     "RodBlock:0": {
       "DisplayName": "Rod",
       "Description": "ロッドは鉄を形に鍛えて作られており、フェンスやドアなどを作るのに役立ちます。",
-      "CRDescription:0": "鉄のインゴットを棒に<unk>"
+      "CRDescription:0": "鉄インゴットを鍛造して棒状にする"
     },
     "CraftingTableBlock:0": {
       "DisplayName": "ワークベンチ",
@@ -1898,12 +1898,12 @@
       "CRDescription:0": "棒からキャンプファイヤーを作る"
     },
     "GunpowderBlock:0": {
-      "DisplayName": "<unk>",
+      "DisplayName": "火薬",
       "Description": "酸素のない環境で燃焼できる物質ですなぜなら酸素の源であるソルトピーターが含まれているからです 燃焼すると、火薬は大量の熱気を放出します。 ケグなどの小さな容量に閉じ込められた場合、壊滅的な力で爆発し、点火します。",
       "CRDescription:0": "石炭、硫黄、塩化物を組み合わせて火薬を作る"
     },
     "PigmentBlock:0": {
-      "DisplayName": "白色の<unk>",
+      "DisplayName": "白色顔料",
       "Description": "色素は塗料の主成分です。石灰岩を炉内で発射すると白色粉末になるまで入手できます。 白い塗料を作るには、炉を使用して水の色素を沸騰させます。",
       "CRDescription:0": "石灰岩を発射して色素を白にする"
     },
@@ -2182,12 +2182,12 @@
       "CRDescription:0": "小麦粉を作るためにライ麦粒を砕いてください"
     },
     "DoughBlock:0": {
-      "DisplayName": "<unk>",
+      "DisplayName": "生地",
       "Description": "生地は様々な原料と小麦粉を混ぜることによって得られ、パンに焼くことができます。",
       "CRDescription:0": "小麦粉と水を混ぜてパン生地を作る。"
     },
     "RottenDoughBlock:0": {
-      "DisplayName": "金型<unk>",
+      "DisplayName": "カビの生えた生地",
       "Description": "カビの生地。"
     },
     "BreadBlock:0": {
@@ -2860,8 +2860,8 @@
     },
     "14": {
       "value": "\\n Your character can get wet by being outside in the rain or by falling into water.\\n Wetness heavily reduces insulation provided by clothing, so it's very easy to freeze in colder climates.\\n Your character will dry faster in a warm place.\\n ",
-      "Name": "<unk>",
-      "Title": "<unk>"
+      "Name": "濡れ",
+      "Title": "濡れ"
     },
     "15": {
       "value": "\\n All food items will turn rotten after some time.\\n The little white fish icon next to the item will turn brown to indicate that the rot process is starting.\\n Some time after that, the food item will rot.\\n \\n\\n\\n Raw food will rot very quickly.\\n Cooking food will prolong its life.\\n \\n\\n\\n Rotten food is still attractive to animals and can even be eaten by the player, but has a high chance of causing sickness.\\n \\n\\n\\n When the player is sick, he is very slow, weak and will stop to vomit periodically.\\n It's best to go to sleep and wait for the sickness to pass.\\n \\n\\n\\n Most rotten food will eventually turn into compost, a valuable farming resource which can be used instead of soil to grow plants more quickly.\\n This will let you utilize valuable saltpeter for making explosives, instead of sprinkling it as fertilizer. \\n ",
@@ -2919,7 +2919,7 @@
     },
     "28": {
       "value": "\\n Farming allows you to grow a variety of plants for decorative or consumption purposes.\\n To grow a plant, you need to obtain its seeds, usually from a fully grown plant specimen.\\n \\n\\n\\n Some plants will drop seeds immediately when they are harvested, some will require crafting to extract seeds.\\n Some seeds will tolerate poor soil, like dirt or grass.\\n Others, like rye or pumpkins, require high quality tilled and moist soil, which has been fertilized with saltpeter.\\n To make sure the soil is moist, use bucket to create water channels no further than several blocks away.\\n Moist soil is darker than a dry one.\\n To further enhance soil quality, sprinkle it with saltpeter (which is a source of nitrogen).\\n \\n\\n\\n Plants may take a long time to grow, be patient.\\n ",
-      "Title": "<unk>"
+      "Title": "農業"
     },
     "29": {
       "value": "\\n Buckets are used for transporting fluids, such as water or magma.\\n To fill empty bucket with a fluid, you need to find a source block of the fluid.\\n For example, all ocean blocks are source blocks of water.\\n \\n\\n\\n Holding the empty bucket in your hand, tap the source block to collect it.\\n The block will be removed from the world and placed inside the bucket.\\n \\n\\n\\n To pour the fluid from the bucket, tap on terrain.\\n A new source block of fluid will be created, and the fluid will spread out from there.\\n You can collect the placed source block again with the empty bucket.\\n ",
@@ -3059,19 +3059,19 @@
     "ScreenLayout.DoubleVertical.Name": "垂直方向のダブル",
     "ScreenLayout.DoubleVertical.Description": "2人のプレイヤーが垂直方向に分割",
     "ScreenLayout.DoubleHorizontal.Name": "水平方向のダブル",
-    "ScreenLayout.DoubleHorizontal.Description": "2人のプレイヤーが水平に分割",
+    "ScreenLayout.DoubleHorizontal.Description": "二人のプレイヤーを水平方向に分割",
     "ScreenLayout.DoubleOpposite.Name": "2倍の反対側にある",
     "ScreenLayout.DoubleOpposite.Description": "タッチデバイスの共有に対応",
     "ScreenLayout.TripleVertical.Name": "垂直方向にトリプルする",
     "ScreenLayout.TripleVertical.Description": "3人のプレイヤーが垂直に分割されます",
     "ScreenLayout.TripleHorizontal.Name": "水平方向にトリプルする",
-    "ScreenLayout.TripleHorizontal.Description": "水平方向に3人分割する",
+    "ScreenLayout.TripleHorizontal.Description": "三人のプレイヤーを水平方向に分割",
     "ScreenLayout.TripleEven.Name": "でもトリプルする",
-    "ScreenLayout.TripleEven.Description": "3人のプレイヤーが均等に分割",
+    "ScreenLayout.TripleEven.Description": "三人のプレイヤーを均等に分割",
     "ScreenLayout.TripleOpposite.Name": "トリプルの反対側にある",
     "ScreenLayout.TripleOpposite.Description": "タッチデバイスの共有に対応",
     "ScreenLayout.Quadruple.Name": "クアドルプル",
-    "ScreenLayout.Quadruple.Description": "4人のプレイヤーが均等に分割されます",
+    "ScreenLayout.Quadruple.Description": "四人のプレイヤーを均等に分割",
     "ScreenLayout.QuadrupleOpposite.Name": "四角形の反対側の",
     "ScreenLayout.QuadrupleOpposite.Description": "タッチデバイスの共有に対応"
   },
@@ -3604,14 +3604,14 @@
       "4": "Estamina",
       "5": "スリープ",
       "6": "Comida",
-      "7": "<unk>",
+      "7": "濡れ度",
       "8": "体熱量",
       "9": "経験",
       "10": "力",
       "11": "Resilience",
       "12": "速度",
       "13": "Hunger",
-      "14": "<unk>",
+      "14": "断熱性",
       "15": "",
       "16": "近接攻撃力、掘削速度、投げ範囲、弓射程に影響します。",
       "17": "攻撃、落下、火災、窒息によるダメージに影響します。",
