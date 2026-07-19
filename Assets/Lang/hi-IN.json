@@ -1,1330 +1,1330 @@
 {
   "Language": {
-    "Name": "English"
+    "Name": "अंग्रेज़ी"
   },
   "SubsystemBedrockBlockBehavior": {
-    "ShowBounds": "Show Bounds",
-    "AllowTeamEnter": "Allow Team Entry",
-    "NoPermission": "No permission to operate this land stone.",
-    "NotActivated": "This land stone has not been activated.",
-    "BlockInfoFormat": "Block Data: {0}",
-    "ConflictError": "Another territory already exists in this area!",
-    "ActivationSuccess": "Territory activated successfully!"
+    "ShowBounds": "सीमा दिखाएं",
+    "AllowTeamEnter": "टीम में प्रवेश की अनुमति दें",
+    "NoPermission": "इस भूमि पत्थर को संचालित करने की अनुमति नहीं है।",
+    "NotActivated": "इस भूमि पत्थर को सक्रिय नहीं किया गया है।",
+    "BlockInfoFormat": "डेटा ब्लॉक करें: {0}",
+    "ConflictError": "इस क्षेत्र में एक और क्षेत्र पहले से मौजूद है!",
+    "ActivationSuccess": "क्षेत्र सफलतापूर्वक सक्रिय हुआ!"
   },
   "MagnetBlock": [
-    "Too many magnets"
+    "बहुत सारे मैग्नेट"
   ],
   "FurnitureBlock": [
-    "Combine furniture into interactive design",
-    "Too many different furniture designs"
+    "फर्नीचर को इंटरैक्टिव डिज़ाइन में मिलाएं",
+    "बहुत सारे अलग-अलग फर्नीचर डिजाइन"
   ],
   "FurnitureSetItemWidget": {
-    "Unclassified": "Unclassified",
-    "FurnitureCount": "{0} Furnitures",
-    "All": "All"
+    "Unclassified": "अवर्गीकृत",
+    "FurnitureCount": "{0} फर्नीचर",
+    "All": "सभी"
   },
   "DiskExternalContentProvider": {
-    "DisplayName": "disk",
-    "Description": "No login required; Save to disk"
+    "DisplayName": "डिस्‍क",
+    "Description": "कोई लॉगिन आवश्यक नहीं है; डिस्क पर सहेजें"
   },
   "MemoryBankBlockBehavior": {
-    "1": "Select Editor Type",
-    "2": "original",
-    "3": "api version"
+    "1": "संपादक प्रकार का चयन करें",
+    "2": "मूल",
+    "3": "एपीआई संस्करण"
   },
   "ContentManager": {
-    "1": "Content \"{0}\" has type {1}, requested type was {2}"
+    "1": "सामग्री \"{0}\" प्रकार है {1}, अनुरोधित प्रकार था {2}"
   },
   "AndroidSdCardExternalContentProvider": {
-    "1": "SD Card"
+    "1": "एसडी कार्ड"
   },
   "ContentScreen": {
-    "1": "Mod Management",
-    "2": "Resource Management",
-    "3": "Content Management",
-    "4": "Account Management"
+    "1": "मॉड प्रबंधन",
+    "2": "संसाधन प्रबंधन",
+    "3": "सामग्री प्रबंधन",
+    "4": "खाता प्रबंधन"
   },
   "ModsManageContentScreen": {
-    "1": "Manage mod content",
-    "2": "Folder",
-    "3": "Version:{0}    Author:{1}   File size:{2}KB",
-    "4": "Tip",
-    "5": "Unable to enter directory:",
-    "6": "Introduction:",
-    "7": "Package name:",
-    "8": "Whether to delete the mod",
-    "9": "Delete",
-    "10": "Cancel",
-    "11": "Double-click the mod file to view the mod description.\n\nQuick scan of the directory below:",
-    "12": "If the mod you downloaded is not in one of these directories, you can manually select the folder to scan.",
-    "13": "No quick scan path is currently available",
-    "14": "Instructions",
-    "15": "OK",
-    "16": "Full Scan",
-    "17": "Default directory",
-    "18": "Uninstall",
-    "19": "Install",
-    "20": "Scan",
-    "21": "Handle",
-    "22": "Uninstall Successed",
-    "23": "Install Successed",
-    "24": "Install Failed",
-    "25": "A mod file with the same package name has been installed or exists",
-    "26": "Scanning",
-    "27": "Scanning all mods in the current folder",
-    "28": "Scan Successed",
-    "29": "The new valid mod file is found in number {0}, if check the result",
-    "30": "View",
-    "31": "Later",
-    "32": "Quick scan of all mods in common folders",
-    "33": "No new mod file is found. Do you want to download it from the Chinese community",
-    "34": "Go",
-    "35": "The new valid mod file is found in number {0}",
-    "36": "Not installed the mod",
-    "37": "Installed the mod",
-    "38": "Restart the game mod changes will only take effect, whether to restart",
-    "39": "Restart",
-    "40": "Current directory:",
-    "41": "Directory:{0}\nUnable to scan.",
-    "42": "Manage",
-    "43": "Loading",
-    "44": "Uninstall",
-    "45": "Installed",
-    "46": "Note: Detected that your device can not access the /Android/data directory, can not scan the QQ downloaded mod file, it is recommended to use your own browser to download the mod to the Chinese community.",
-    "47": "After downloading the mod, you can perform a full scan, and the directory scanned to the mod will be automatically listed in the automatic scan directory.",
-    "48": "The following are the directories that are automatically scanned when entering manager:",
-    "49": "Are you sure you uninstall the mod?",
-    "50": "Mod uninstall failed",
-    "51": "An exception has occurred:",
-    "52": "The same mod is already installed",
-    "53": "The installed Mod versions are consistent and there is no need for duplicate installations",
-    "54": "The current Mod version is {0}, the installed Mod version is {1}, whether to replace",
-    "55": "The same mod is already installed",
-    "56": "Mod replacement failed",
-    "57": "The file already exists",
-    "58": "The following paths cannot be scanned:",
-    "59": "{0} valid MOD file(s) has/have been scanned\n",
-    "60": "Update",
-    "61": "The feature is under development",
-    "62": "Background processing",
-    "63": "Reinforcing",
-    "64": "Mod reinforcement considerations",
-    "65": "Mod reinforcement will replace the current mod file, after the reinforcement usually means can not be restored, please back up the file before operation. \nIf the original project file is accidentally lost after reinforcement, you can contact the community administrator to restore the hardened mod file. \nNormal players can ignore this feature.",
-    "66": "The current mod file is hardened and does not need to be reinforced",
-    "67": "The current mod file reinforcement failed with an unknown error:",
-    "68": "Old API version(API 1.3) mod is not available",
-    "69": "This mod is an API 1.3 mod that cannot be used in this API version(API 1.4)",
-    "70": "This mod is an old API version mod, which does not take effect here and is recommended to be removed",
-    "71": "Directory into the failure",
-    "72": "Your device can't access ",
-    "73": "Unlock"
+    "1": "मॉड सामग्री प्रबंधित करें",
+    "2": "फ़ोल्डर",
+    "3": "विवरण:{0}    रचयिता:{1}   फ़ाइल का आकार:{2}केबी",
+    "4": "टिप",
+    "5": "निर्देशिका में प्रवेश करने में असमर्थ:",
+    "6": "परिचय:",
+    "7": "पैकेज का नाम:",
+    "8": "मॉड को हटाना है या नहीं",
+    "9": "मिटाना",
+    "10": "रद्द करना",
+    "11": "मॉड विवरण देखने के लिए मॉड फ़ाइल पर डबल-क्लिक करें।\n\nनीचे दी गई निर्देशिका का त्वरित स्कैन:",
+    "12": "यदि आपके द्वारा डाउनलोड किया गया मॉड इनमें से किसी एक निर्देशिका में नहीं है, तो आप स्कैन करने के लिए मैन्युअल रूप से फ़ोल्डर का चयन कर सकते हैं।",
+    "13": "वर्तमान में कोई त्वरित स्कैन पथ उपलब्ध नहीं है",
+    "14": "अनुदेश",
+    "15": "ठीक है",
+    "16": "पूर्ण स्कैन",
+    "17": "डिफ़ॉल्ट निर्देशिका",
+    "18": "स्थापना रद्द करें",
+    "19": "पदासीन करना",
+    "20": "स्कैन",
+    "21": "संभालना",
+    "22": "अनइंस्टॉल करें सफल",
+    "23": "सफल स्थापित करें",
+    "24": "स्थापित करने में विफल रहा",
+    "25": "एक ही पैकेज नाम के साथ एक मॉड फ़ाइल स्थापित की गई है या मौजूद है",
+    "26": "स्कैनिंग",
+    "27": "वर्तमान फ़ोल्डर में सभी मॉड को स्कैन करना",
+    "28": "स्कैन सफल",
+    "29": "नई वैध मॉड फ़ाइल संख्या में पाई जाती है {0}, अगर परिणाम की जांच करें",
+    "30": "द्वारा",
+    "31": "बाद में",
+    "32": "सामान्य फ़ोल्डरों में सभी मॉड का त्वरित स्कैन",
+    "33": "कोई नई मॉड फ़ाइल नहीं मिली है। क्या आप इसे चीनी समुदाय से डाउनलोड करना चाहते हैं",
+    "34": "कोशिश",
+    "35": "नई वैध मॉड फ़ाइल संख्या में पाई जाती है {0}",
+    "36": "मॉड स्थापित नहीं किया गया",
+    "37": "मॉड स्थापित किया",
+    "38": "गेम मॉड को पुनरारंभ करें परिवर्तन केवल प्रभावी होंगे, चाहे पुनरारंभ करना हो",
+    "39": "पुनरारंभ करें",
+    "40": "वर्तमान निर्देशिका:",
+    "41": "निर्देशिका:{0}\nस्कैन करने में असमर्थ।",
+    "42": "प्रबंध",
+    "43": "लोड हो रहा है",
+    "44": "स्थापना रद्द करें",
+    "45": "स्थापित",
+    "46": "नोट: पता चला कि आपका डिवाइस /Android/डेटा निर्देशिका तक नहीं पहुंच सकता है, QQ डाउनलोड की गई मॉड फ़ाइल को स्कैन नहीं कर सकता है, चीनी समुदाय में मॉड डाउनलोड करने के लिए अपने स्वयं के ब्राउज़र का उपयोग करने की अनुशंसा की जाती है।",
+    "47": "मॉड डाउनलोड करने के बाद, आप एक पूर्ण स्कैन कर सकते हैं, और मॉड पर स्कैन की गई निर्देशिका स्वचालित रूप से स्वचालित स्कैन निर्देशिका में सूचीबद्ध हो जाएगी।",
+    "48": "निम्नलिखित निर्देशिकाएँ हैं जो प्रबंधक में प्रवेश करते समय स्वचालित रूप से स्कैन की जाती हैं:",
+    "49": "क्या आप वाकई मॉड को अनइंस्टॉल कर रहे हैं?",
+    "50": "मॉड अनइंस्टॉल विफल रहा",
+    "51": "कोई अपवाद उत्पन्न हुआ:",
+    "52": "वही मॉड पहले से ही स्थापित है",
+    "53": "स्थापित मॉड संस्करण सुसंगत हैं और डुप्लिकेट इंस्टॉलेशन की कोई आवश्यकता नहीं है",
+    "54": "वर्तमान मॉड संस्करण है {0}, स्थापित मॉड संस्करण है {1}, चाहे बदलना है",
+    "55": "वही मॉड पहले से ही स्थापित है",
+    "56": "मॉड प्रतिस्थापन विफल रहा",
+    "57": "फ़ाइल पहले से मौजूद है",
+    "58": "निम्न पथ स्कैन नहीं किए जा सकते:",
+    "59": "{0} वैध MOD फ़ाइलें स्कैन की गई हैं/की गई हैं\n",
+    "60": "अपडेट करें",
+    "61": "यह सुविधा विकास के अधीन है",
+    "62": "पृष्ठभूमि प्रसंस्करण",
+    "63": "सुदृढ़ीकरण",
+    "64": "मॉड सुदृढीकरण विचार",
+    "65": "मॉड सुदृढीकरण वर्तमान मॉड फ़ाइल को बदल देगा, सुदृढीकरण के बाद आमतौर पर इसका मतलब होता है कि बहाल नहीं किया जा सकता है, कृपया ऑपरेशन से पहले फ़ाइल का बैकअप लें। \nयदि सुदृढीकरण के बाद मूल प्रोजेक्ट फ़ाइल गलती से खो जाती है, तो आप कठोर मॉड फ़ाइल को पुनर्स्थापित करने के लिए समुदाय व्यवस्थापक से संपर्क कर सकते हैं। \nसामान्य खिलाड़ी इस सुविधा को इग्नोर कर सकते हैं।",
+    "66": "वर्तमान मॉड फ़ाइल कठोर है और इसे मजबूत करने की आवश्यकता नहीं है",
+    "67": "वर्तमान मॉड फ़ाइल सुदृढीकरण एक अज्ञात त्रुटि के साथ विफल रहा:",
+    "68": "पुराना एपीआई संस्करण (एपीआई 1.3) मॉड उपलब्ध नहीं है",
+    "69": "यह मॉड एक एपीआई 1.3 मॉड है जिसका उपयोग इस एपीआई संस्करण (एपीआई 1.4) में नहीं किया जा सकता है",
+    "70": "यह मॉड एक पुराना एपीआई संस्करण मॉड है, जो यहां प्रभावी नहीं होता है और इसे हटाने की सिफारिश की जाती है",
+    "71": "विफलता में निर्देशिका",
+    "72": "आपका डिवाइस एक्सेस नहीं कर पा रहा है ",
+    "73": "अनलॉक"
   },
   "ManageContentScreen": {
-    "1": "Blocks Texture | {0}x{1}",
-    "2": " | in {0} world(s)",
-    "3": "Furniture Pack | {0} designs(s)",
-    "4": "Character Skin | {0}x{1}",
-    "5": "[{0}] will be irrecoverably deleted.",
-    "6": "[{0}] will be irrecoverably deleted.\n(used by {1} world(s), they will revert to using the default)",
-    "7": "Select Items Filter",
-    "8": "All Items",
-    "9": "Are you sure?",
-    "10": "Invalid item type.",
-    "11": "The configuration has been changed. Do you want to reload it?"
+    "1": "ब्लॉक बनावट | {0}x{1}",
+    "2": " | में {0} दुनिया",
+    "3": "फर्नीचर पैक | {0} डिजाइन",
+    "4": "चरित्र त्वचा | {0}x{1}",
+    "5": "[{0}] अपरिवर्तनीय रूप से हटा दिया जाएगा।",
+    "6": "[{0}] अपरिवर्तनीय रूप से हटा दिया जाएगा।\n(द्वारा उपयोग किया जाता है {1} world(ओं), वे डिफ़ॉल्ट का उपयोग करने के लिए वापस आ जाएंगे)",
+    "7": "आइटम फ़िल्टर का चयन करें",
+    "8": "सभी आइटम",
+    "9": "क्या आपको यकीन है?",
+    "10": "अमान्य आइटम प्रकार.",
+    "11": "कॉन्फ़िगरेशन बदल दिया गया है। क्या आप इसे पुनः लोड करना चाहते हैं?"
   },
   "SubsystemFurnitureBlockBehavior": {
-    "0": "Unsuitable block found",
-    "1": "Unsuitable block found",
-    "2": "Furniture design is too large",
-    "3": "Too many different furniture designs"
+    "0": "अनुपयुक्त ब्लॉक मिला",
+    "1": "अनुपयुक्त ब्लॉक मिला",
+    "2": "फर्नीचर डिजाइन बहुत बड़ा है",
+    "3": "बहुत सारे अलग-अलग फर्नीचर डिजाइन"
   },
   "MainMenuScreen": {
-    "1": "Announcement fetch failed",
-    "2": "No announcements available,\nor not connected to the internet"
+    "1": "घोषणा लाने में विफल रहा",
+    "2": "कोई घोषणा उपलब्ध नहीं है,\nया इंटरनेट से कनेक्ट नहीं है"
   },
   "SubsystemExplosions": [
-    "Blasted by explosion",
-    "You do not have permission to use block behavior here"
+    "विस्फोट से विस्फोट",
+    "आपको यहाँ ब्लॉक व्यवहार का उपयोग करने की अनुमति नहीं है"
   ],
   "SubsystemSpikesBlockBehavior": [
-    "Spiked by a trap"
+    "एक जाल द्वारा नुकीला"
   ],
   "ExternalContentManager": {
-    "1": "Name empty.",
-    "2": "Name too long. Maximum 50 characters allowed.",
-    "3": "Name cannot start or end with a space.",
-    "4": "Unsupported external content type.",
-    "5": "Logging in",
-    "6": "Login Required",
-    "7": "Do you want to login to {0}?",
-    "8": "Login",
-    "9": "Select Upload Destination",
-    "10": "Uploading",
-    "11": "Cannot upload this item.",
-    "12": "Unsupported content type.",
-    "13": "Compressing world",
-    "14": "Uploading",
-    "15": "{0} uploaded.",
-    "Directory": "Directory",
-    "World": "World",
-    "Blocks Texture": "Blocks Texture",
-    "Character Skin": "Character Skin",
-    "Furniture Pack": "Furniture Pack",
-    "Mod": "Mod"
+    "1": "नाम खाली।",
+    "2": "नाम बहुत लंबा है। अधिकतम 50 वर्णों की अनुमति है।",
+    "3": "नाम किसी रिक्त स्थान के साथ प्रारंभ या समाप्त नहीं हो सकता.",
+    "4": "असमर्थित बाह्य सामग्री प्रकार.",
+    "5": "लॉग इन करना",
+    "6": "लॉगिन आवश्यक",
+    "7": "क्या आप इसमें लॉग इन करना चाहते हैं {0}?",
+    "8": "लॉगिन करें",
+    "9": "अपलोड गंतव्य चुनें",
+    "10": "अपलोड हो रहा है",
+    "11": "इस आइटम को अपलोड नहीं किया जा सकता.",
+    "12": "असमर्थित सामग्री प्रकार.",
+    "13": "दुनिया को संपीड़ित करना",
+    "14": "अपलोड हो रहा है",
+    "15": "{0} अपलोड किया गया।",
+    "Directory": "निर्देशिका",
+    "World": "दुनिया",
+    "Blocks Texture": "ब्लॉक बनावट",
+    "Character Skin": "चरित्र त्वचा",
+    "Furniture Pack": "फर्नीचर पैक",
+    "Mod": "आधुनिक"
   },
   "ComponentHealth": {
-    "1": "Burned by magma",
-    "2": "Impact with the ground",
-    "3": "Left the world",
-    "4": "Come back!",
-    "5": "Burned to death",
-    "6": "Stranded on land",
-    "7": "Suffocated"
+    "1": "मैग्मा से जला दिया",
+    "2": "जमीन के साथ प्रभाव",
+    "3": "दुनिया छोड़ दी",
+    "4": "वापस आओ!",
+    "5": "जलकर मार डाला",
+    "6": "जमीन पर फंसे",
+    "7": "घुटन"
   },
   "ComponentBody": {
-    "Crushed": "Crushed",
-    "StuckMessage": "You are stuck",
-    "NoTerritoryPassPermission": "You don't have permission to pass this territory",
-    "TerritoryTeleportMessage": "You entered someone else's territory and have been randomly teleported out"
+    "Crushed": "कुचला हुआ",
+    "StuckMessage": "तुम फंस गए हो",
+    "NoTerritoryPassPermission": "आपके पास इस क्षेत्र से गुजरने की अनुमति नहीं है",
+    "TerritoryTeleportMessage": "आपने किसी और के क्षेत्र में प्रवेश किया है और बेतरतीब ढंग से टेलीपोर्ट किया गया है"
   },
   "PlayerWidget": {
-    "ControlFormat": "{0} controlled by {1}",
-    "SurvivalTimeFormat": "Has survived for {0} days",
-    "NeverPlayed": "Never played",
-    "OnlySelfAction": "You can only perform actions on yourself"
+    "ControlFormat": "{0} द्वारा नियंत्रित {1}",
+    "SurvivalTimeFormat": "के लिए बच गया है {0} दिन",
+    "NeverPlayed": "कभी नहीं खेला",
+    "OnlySelfAction": "आप केवल अपने आप पर कार्य कर सकते हैं"
   },
   "SubsystemCactusBlockBehavior": {
-    "CactusStabCause": "Stabbed by a cactus"
+    "CactusStabCause": "कैक्टस द्वारा छुरा घोंपा गया"
   },
   "ComponentHealthPackage": {
-    "CactusCause": "Pricked by Cactus",
-    "FallCause": "Fell from High Place",
-    "FireCause": "Burned by Fire",
-    "ChokeCause": "Drowned",
-    "SuicideCause": "Suicide"
+    "CactusCause": "कैक्टस द्वारा चुभाया गया",
+    "FallCause": "ऊंचे स्थान से गिर गया",
+    "FireCause": "आग से जला हुआ",
+    "ChokeCause": "डूब गया",
+    "SuicideCause": "आत्‍महत्‍या करना"
   },
   "CrossbowWidget": {
-    "0": "Pull",
-    "1": "Load bolt",
-    "2": "Ready to fire"
+    "0": "खींचना",
+    "1": "लोड बोल्ट",
+    "2": "आग लगाने के लिए तैयार"
   },
   "SubsystemMusketBlockBehavior": {
-    "0": "Load gunpowder first",
-    "1": "No bullet, blind shot fired"
+    "0": "पहले बारूद लोड करें",
+    "1": "कोई गोली नहीं, अंधा गोली चलाई गई"
   },
   "SubsystemBucketBlockBehavior": {
-    "1": "Empty inventory space for fluid bucket is needed",
-    "2": "Empty inventory space for milk bucket is needed",
-    "3": "Empty inventory space for empty bucket is needed"
+    "1": "द्रव बाल्टी के लिए खाली इन्वेंट्री स्थान की आवश्यकता है",
+    "2": "दूध की बाल्टी के लिए खाली इन्वेंट्री स्पेस की जरूरत है",
+    "3": "खाली बाल्टी के लिए खाली इन्वेंट्री स्पेस की जरूरत है"
   },
   "BowWidget": {
-    "0": "Load arrow",
-    "1": "Ready to fire"
+    "0": "लोड तीर",
+    "1": "आग लगाने के लिए तैयार"
   },
   "SubsystemBowBlockBehavior": {
-    "0": "Load an arrow first"
+    "0": "पहले एक तीर लोड करें"
   },
   "CraftingRecipesManager": {
-    "0": "Use a furnace to smelt this item",
-    "1": "Need more heat to smelt this item, use better fuel",
-    "2": "You must be level {0} to craft this item",
-    "3": "You must be level {0} to smelt this item"
+    "0": "इस वस्तु को गलाने के लिए भट्टी का प्रयोग करें",
+    "1": "इस वस्तु को गलाने के लिए अधिक गर्मी की आवश्यकता है, बेहतर ईंधन का उपयोग करें",
+    "2": "आपको स्तर होना चाहिए {0} इस आइटम को तैयार करने के लिए",
+    "3": "आपको स्तर होना चाहिए {0} इस आइटम को गलाने के लिए"
   },
   "SubsystemCrossbowBlockBehavior": {
-    "0": "Draw the crossbow first",
-    "1": "Load a bolt first"
+    "0": "पहले क्रॉसबो बनाएं",
+    "1": "पहले बोल्ट लोड करें"
   },
   "MusketWidget": {
-    "0": "Load gunpowder",
-    "1": "Load cotton wad",
-    "2": "Load bullet",
-    "3": "Ready to fire"
+    "0": "लोड बारूद",
+    "1": "लोड कॉटन वाड",
+    "2": "लोड बुलेट",
+    "3": "आग लगाने के लिए तैयार"
   },
   "PlayerData": {
-    "1": "Cannot change player class when player data already exists.",
-    "2": "Respawning {0} (Level {1})",
-    "3": "Your items will remain for a short time at the place of death.",
-    "4": "Spawning {0} (Level {1})",
-    "5": "Invalid spawn mode.",
-    "6": "YOU HAVE DIED",
-    "7": "{0}\n\nCannot respawn in \"{1}\" game mode",
-    "8": "{0}\n\nTap to restart adventure",
-    "9": "{0}\n\nTap to respawn",
-    "10": "More than 1 player with PlayerIndex {0} added to world.",
-    "11": "No GameWidget found for player.",
-    "12": "Unknown",
-    "13": "Cause of death: {0}",
-    "14": "Waiting for server response player entity",
-    "15": "Adventure respawn is not allowed.",
-    "16": "Confirm",
-    "Connecting": "Connecting to {0}'s world (Level {1})",
-    "WaitingEntity": "Waiting for player entity from server...",
-    "Notice": "Notice",
-    "CruelDeath": "You died in Cruel mode and cannot respawn! Do you want to create a new player?",
-    "RespawnDisabled": "The server has disabled player respawning!"
+    "1": "खिलाड़ी वर्ग को तब नहीं बदला जा सकता जब खिलाड़ी डेटा पहले से मौजूद हो.",
+    "2": "रिस्पॉनिंग {0} (स्तर {1})",
+    "3": "मृत्यु स्थान पर आपकी वस्तुएं थोड़े समय के लिए रहेंगी।",
+    "4": "स्पॉनिंग {0} (स्तर {1})",
+    "5": "अमान्य स्पॉन मोड।",
+    "6": "तुम मर गए",
+    "7": "{0}\n\n\" में पुन: उत्पन्न नहीं हो सकता \"{1}\" खेल मोड",
+    "8": "{0}\n\nसाहसिक कार्य को पुनः आरंभ करने के लिए टैप करें",
+    "9": "{0}\n\nरिस्पॉन करने के लिए टैप करें",
+    "10": "PlayerIndex के साथ 1 से अधिक खिलाड़ी {0} दुनिया में जोड़ा गया।",
+    "11": "खिलाड़ी के लिए कोई GameWidget नहीं मिला।",
+    "12": "अप्रसिद्घ व्यक्ति",
+    "13": "मौत का कारण: {0}",
+    "14": "सर्वर प्रतिसाद खिलाड़ी निकाय की प्रतीक्षा कर रहा है",
+    "15": "एडवेंचर रिस्पॉन की अनुमति नहीं है।",
+    "16": "सुदृढ़ करना",
+    "Connecting": "से कनेक्ट हो रहा है {0}की दुनिया (स्तर {1})",
+    "WaitingEntity": "सर्वर से खिलाड़ी इकाई की प्रतीक्षा कर रहा है ...",
+    "Notice": "सूचना",
+    "CruelDeath": "आप क्रूर मोड में मर गए और फिर से पैदा नहीं हो सकते! क्या आप एक नया खिलाड़ी बनाना चाहते हैं?",
+    "RespawnDisabled": "सर्वर ने प्लेयर रिस्पॉनिंग को अक्षम कर दिया है!"
   },
   "GameLoadingScreen": {
-    "Exception": "Error loading world",
-    "ConnectingServer": "Connecting to server",
-    "ModDownloadfailure": "Mod download failed",
-    "WaitingModDownload": "Waiting for mods",
-    "WaitingServerResponse": "Waiting for server response",
-    "Timeout": "Connection timed out",
-    "ConnectionLost": "Connection lost",
-    "WaitingProject": "Waiting for project and textures",
-    "ServerConnectionLost": "Disconnected from server",
-    "LoadingProject": "Loading server project"
+    "Exception": "त्रुटि लोड हो रही दुनिया",
+    "ConnectingServer": "सर्वर से कनेक्ट करना",
+    "ModDownloadfailure": "मॉड डाउनलोड विफल रहा",
+    "WaitingModDownload": "मॉड की प्रतीक्षा कर रहा है",
+    "WaitingServerResponse": "सर्वर प्रतिक्रिया की प्रतीक्षा कर रहा है",
+    "Timeout": "कनेक्शन का समय समाप्त हो गया",
+    "ConnectionLost": "कनेक्शन टूट गया",
+    "WaitingProject": "परियोजना और बनावट की प्रतीक्षा कर रहा है",
+    "ServerConnectionLost": "सर्वर से डिस्कनेक्ट किया गया",
+    "LoadingProject": "सर्वर प्रोजेक्ट लोड हो रहा है"
   },
   "LoadingScreen": {
-    "1": "Executing OnLoadingStart missions.",
-    "2": "Initializing TextureAtlasManager.",
-    "3": "Loading database.",
-    "4": "Initializing BlocksManager.",
-    "5": "Loading mod settings.",
-    "6": "Executing OnLoadingFinished mission."
+    "1": "OnLoadingStart मिशन निष्पादित करना।",
+    "2": "TextureAtlasManager को इनिशियलाइज़ करना।",
+    "3": "डेटाबेस लोड हो रहा है।",
+    "4": "BlocksManager को प्रारंभ करना।",
+    "5": "मॉड सेटिंग्स लोड हो रहा है।",
+    "6": "OnLoadingFinished मिशन को निष्पादित करना।"
   },
   "ModEntity": {
-    "1": "Loading .csv blocksdata files.",
-    "2": "Loading .xdb database files.",
-    "3": "Loading .clo clothes data files.",
-    "4": "Loading .cr crafting recipaedia files.",
-    "5": "Loading .js javascript files."
+    "1": ".csv ब्लॉकडेटा फ़ाइलों को लोड कर रहा है।",
+    "2": ".xdb डेटाबेस फ़ाइलें लोड हो रहा है।",
+    "3": ".clo कपड़े डेटा फ़ाइलें लोड हो रहा है।",
+    "4": ".cr क्राफ्टिंग recipaedia फ़ाइलें लोड हो रहा है।",
+    "5": ".js जावास्क्रिप्ट फ़ाइलों को लोड कर रहा है।"
   },
   "SurvivalCraftModEntity": {
-    "1": "Loading blocksdata.",
-    "2": "Loading database.",
-    "3": "Loading crafting recipaedia.",
-    "4": "Loading clothes data."
+    "1": "ब्लॉकडेटा लोड हो रहा है।",
+    "2": "डेटाबेस लोड हो रहा है।",
+    "3": "क्राफ्टिंग रेसिपीडिया लोड हो रहा है।",
+    "4": "कपड़े का डेटा लोड हो रहा है।"
   },
   "FurnitureDesign": {
-    "1": "Invalid name.",
-    "2": "Invalid furniture values string.",
-    "3": "resolution",
-    "4": "values",
-    "5": "{0}-state Furniture",
-    "6": "Furniture Button",
-    "7": "Furniture Switch",
-    "8": "{0}-state Connected Furniture",
-    "9": "Furniture"
+    "1": "अमान्य नाम.",
+    "2": "अमान्य फर्नीचर मान स्ट्रिंग।",
+    "3": "संकल्प",
+    "4": "मान",
+    "5": "{0}-राज्य फर्नीचर",
+    "6": "फर्नीचर बटन",
+    "7": "फर्नीचर स्विच",
+    "8": "{0}-स्टेट कनेक्टेड फर्नीचर",
+    "9": "फर्नीचर"
   },
   "BuildFurnitureDialog": {
-    "1": "Complexity {0}/{1} {2}",
-    "2": "(OK)",
-    "3": "(too complex)",
-    "4": "Side View",
-    "5": "Top View",
-    "6": "Front View",
-    "7": "Rename Original Furniture",
-    "8": "Rename Modified Furniture",
-    "9": "Name Modified Furniture",
-    "10": "Rename Furniture",
-    "11": "Name Furniture"
+    "1": "जटिलता {0}/{1} {2}",
+    "2": "(ठीक है)",
+    "3": "(बहुत जटिल)",
+    "4": "साइड व्यू",
+    "5": "शीर्ष दृश्य",
+    "6": "सामने का दृश्य",
+    "7": "मूल फर्नीचर का नाम बदलें",
+    "8": "संशोधित फर्नीचर का नाम बदलें",
+    "9": "नाम: संशोधित फर्नीचर",
+    "10": "फर्नीचर का नाम बदलें",
+    "11": "नाम फर्नीचर"
   },
   "EditAdjustableDelayGateDialog": {
-    "1": "{0} seconds"
+    "1": "{0} सेकंड"
   },
   "EditBatteryDialog": {
-    "1": "Low",
-    "2": "High"
+    "1": "संख्‍या आदि",
+    "2": "उच्च"
   },
   "EditColorDialog": {
-    "1": "Edit Color",
-    "2": "Red:",
-    "3": "Green:",
-    "4": "Blue:",
-    "5": "Enter Color",
-    "6": "Invalid Color",
-    "7": "Use R,G,B or #HEX notation, e.g. 255,92,13 or #FF5C0D"
+    "1": "रंग संपादित करें",
+    "2": "ललौहा-भूरा:",
+    "3": "हरा:",
+    "4": "खिन्‍नता:",
+    "5": "रंग दर्ज करें",
+    "6": "अमान्य रंग",
+    "7": "R, G, B या #HEX संकेतन का उपयोग करें, उदाहरण के लिए 255,92,13 या #FF5C0D"
   },
   "EditPaletteDialog": {
-    "1": "Reset",
-    "2": "Edit Color Name",
-    "3": "Invalid name"
+    "1": "रीसेट करें",
+    "2": "रंग नाम संपादित करें",
+    "3": "अमान्य नाम"
   },
   "EditPistonDialog": {
-    "1": "{0} blocks"
+    "1": "{0} ब्लॉक"
   },
   "EditTruthTableDialog": {
-    "1": "Table",
-    "2": "Linear"
+    "1": "सारणी",
+    "2": "रेखीय"
   },
   "ViewGameLogDialog": {
-    "1": "Clear",
-    "2": "Error",
-    "3": "Please log in and submit the log",
-    "4": "OK",
-    "5": "Cancel",
-    "6": "Uploading log",
-    "7": "Upload succeeded",
-    "8": "Upload failed",
-    "9": "World Running Error",
-    "10": "Contact mod developers with Log file to Solve the problem.",
-    "11": "Error loading world",
-    "12": "Error Spawning Player",
-    "13": "Copy This log"
+    "1": "साफ़ करें",
+    "2": "चूक",
+    "3": "कृपया लॉग इन करें और लॉग सबमिट करें",
+    "4": "ठीक है",
+    "5": "रद्द करना",
+    "6": "लॉग अपलोड करना",
+    "7": "अपलोड सफल हुआ",
+    "8": "अपलोड विफल रहा",
+    "9": "वर्ल्ड रनिंग एरर",
+    "10": "समस्या को हल करने के लिए लॉग फ़ाइल के साथ मॉड डेवलपर्स से संपर्क करें।",
+    "11": "त्रुटि लोड हो रही दुनिया",
+    "12": "एरर स्पॉनिंग प्लेयर",
+    "13": "इस लॉग की प्रतिलिपि बनाएँ"
   },
   "AddServerDialog": {
-    "1": "Server Name:",
-    "2": "Server Address:",
-    "3": "Both name and address are required"
+    "1": "सर्वर का नाम:",
+    "2": "सर्वर पता:",
+    "3": "नाम और पता दोनों आवश्यक हैं"
   },
   "FurnitureDesignWidget": [
-    "Front",
-    "Side"
+    "सामने",
+    "पक्ष"
   ],
   "FurnitureInventoryPanel": {
-    "1": "{0} design(s) added. ",
-    "2": "{0} design(s) were already present in the world and were skipped. ",
-    "3": "{0} design(s) were skipped because {1} designs limit is reached.",
-    "4": "Import Successful",
-    "5": "Import Failed",
-    "6": "New",
-    "7": "Import From Content",
-    "8": "Add Furniture Set",
-    "9": "Rename",
-    "10": "Delete",
-    "11": "Move Up",
-    "12": "Move Down",
-    "13": "Export To Content",
-    "14": "Furniture Set Action",
-    "15": "Furniture Set Name",
-    "16": "New Set",
-    "17": "Furniture Set Name",
-    "18": "No Furniture Packs",
-    "19": "No furniture packs found in your content. Download some from Community Content.",
-    "20": "Select Furniture Pack",
-    "21": "Exported",
-    "22": "Furniture pack [{0}] exported to content.",
-    "23": "Export Failed",
-    "24": "Too many furniture sets",
-    "25": "Delete some furniture sets before adding a new one.",
-    "26": "All furniture in the set will become uncategorized and will be deleted if not used in the world.",
-    "27": "Delete",
-    "28": "Cancel"
+    "1": "{0} डिज़ाइन जोड़ा गया। ",
+    "2": "{0} डिजाइन पहले से ही दुनिया में मौजूद थे और उन्हें छोड़ दिया गया था। ",
+    "3": "{0} डिज़ाइन को छोड़ दिया गया क्योंकि {1} डिजाइन की सीमा पूरी हो गई है।",
+    "4": "आयात सफल",
+    "5": "आयात विफल रहा",
+    "6": "नया",
+    "7": "सामग्री से आयात करें",
+    "8": "फर्नीचर सेट जोड़ें",
+    "9": "नाम बदलें",
+    "10": "मिटाना",
+    "11": "ऊपर ले जाएँ",
+    "12": "नीचे ले जाएँ",
+    "13": "सामग्री में निर्यात करें",
+    "14": "फर्नीचर सेट एक्शन",
+    "15": "फर्नीचर सेट का नाम",
+    "16": "नया सेट",
+    "17": "फर्नीचर सेट का नाम",
+    "18": "कोई फर्नीचर पैक नहीं",
+    "19": "आपकी सामग्री में कोई फर्नीचर पैक नहीं मिला। सामुदायिक सामग्री से कुछ डाउनलोड करें।",
+    "20": "फर्नीचर पैक का चयन करें",
+    "21": "निर्यात किया",
+    "22": "फर्नीचर पैक [{0}] सामग्री में निर्यात किया गया।",
+    "23": "निर्यात विफल रहा",
+    "24": "बहुत सारे फर्नीचर सेट",
+    "25": "नया फ़र्निचर सेट जोड़ने से पहले कुछ फ़र्निचर सेट हटा दें.",
+    "26": "सेट के सभी फर्नीचर अवर्गीकृत हो जाएंगे और दुनिया में उपयोग नहीं किए जाने पर हटा दिए जाएंगे।",
+    "27": "मिटाना",
+    "28": "रद्द करना"
   },
   "ExternalContentScreen": {
-    "1": "Enter",
-    "2": "Download",
-    "3": "Contents Of ",
-    "4": "Not logged in",
-    "5": "Logout",
-    "6": "Login",
-    "7": "Select Content Source",
-    "8": "Creating Link",
-    "9": "Retrieving Directory",
-    "10": "Downloading",
-    "11": " | (downloaded)",
-    "12": "Importing",
-    "13": "Failed to open file",
-    "14": "File type is not supported: "
+    "1": "दर्ज करें",
+    "2": "डाउनलोड",
+    "3": "की सामग्री ",
+    "4": "लॉग इन नहीं किया",
+    "5": "लॉगआउट",
+    "6": "लॉगिन करें",
+    "7": "सामग्री स्रोत का चयन करें",
+    "8": "लिंक बनाना",
+    "9": "निर्देशिका पुनर्प्राप्त करना",
+    "10": "डाउनलोड हो रहा है",
+    "11": " | (डाउनलोड किया गया)",
+    "12": "आयात करना",
+    "13": "फ़ाइल खोलने में विफल रहा",
+    "14": "फ़ाइल प्रकार समर्थित नहीं है: "
   },
   "FourLedBlock": {
-    "1": "Make colored 4-LEDs from copper, glass and paint"
+    "1": "तांबे, कांच और पेंट से रंगीन 4-एलईडी बनाएं"
   },
   "MulticoloredLedBlock": {
-    "1": "Make multicolored LEDs from copper, glass and wire"
+    "1": "तांबे, कांच और तार से बहुरंगी एल ई डी बनाएं"
   },
   "OneLedBlock": {
-    "1": "Make colored 1-LEDs from copper, glass and paint"
+    "1": "तांबे, कांच और पेंट से रंगीन 1-एलईडी बनाएं"
   },
   "LedBlock": {
-    "0": "White",
-    "1": "Cyan",
-    "2": "Red",
-    "3": "Blue",
-    "4": "Yellow",
-    "5": "Green",
-    "6": "Orange",
-    "7": "Purple",
+    "0": "श्‍वेतांश",
+    "1": "सियान",
+    "2": "ललौहा-भूरा",
+    "3": "खिन्‍नता",
+    "4": "पीला",
+    "5": "हरा",
+    "6": "नारंगी",
+    "7": "जामुनी",
     "Format": "{0} {1}",
-    "CRDescription": "Make colored leds from copper, glass and paint"
+    "CRDescription": "तांबे, कांच और पेंट से रंगीन एलईडी बनाएं"
   },
   "AirBlock": {
-    "1": "Unknown Block"
+    "1": "अज्ञात ब्लॉक"
   },
   "GameMenuDialog": {
-    "1": "Your device is fast",
-    "2": "Consider increasing visibility range or resolution for better graphics. To do so, go to performance settings.",
-    "3": "Your device is not fast enough",
-    "4": "Consider decreasing visibility range or resolution. To do so, go to performance settings.",
-    "5": "Game Statistics",
-    "6": "Game Mode",
-    "7": "Terrain Type",
-    "8": "World Seed",
-    "9": "(none)",
-    "10": "Sea Level",
-    "11": "Temperature",
-    "12": "Humidity",
-    "13": "Biome Size",
-    "14": "Furniture Designs In Use",
-    "15": "World Created In Version",
-    "16": "before 1.22",
-    "17": "Player Statistics",
-    "18": "Name",
-    "19": "Sex",
-    "20": " days ago",
-    "21": "Never spawned yet",
-    "22": "First Spawned",
-    "23": " days",
-    "24": "Never spawned yet",
-    "25": "Stayed Alive",
-    "26": "Respawned",
-    "27": " times",
-    "28": "Highest Level Attained",
-    "29": "Level {0}",
-    "30": "Location",
-    "31": "{0},{1} at altitude {2}",
-    "32": "(unavailable in {0})",
-    "33": "Combat Statistics",
-    "34": "Players Killed",
-    "35": "Land Creatures Killed",
-    "36": "Water Creatures Killed",
-    "37": "Air Creatures Killed",
-    "38": "Melee Attacks",
-    "39": "Melee Hits",
-    "40": "Ranged Attacks",
-    "41": "Ranged Hits",
-    "42": "Hits Received",
-    "43": "Work Statistics",
-    "44": "Blocks Dug",
-    "45": "Blocks Placed",
-    "46": "Blocks Interacted With",
-    "47": "Items Crafted/Smelted",
-    "48": "Furniture Made",
-    "49": "Movement Statistics",
-    "50": "Total Distance Travelled",
-    "51": "Distance Walked",
-    "52": "Distance Fallen",
-    "53": "Distance Climbed",
-    "54": "Distance Flown",
-    "55": "Distance Swum",
-    "56": "Distance Ridden",
-    "57": "Lowest Altitude",
-    "58": "Highest Altitude",
-    "59": "Deepest Dive",
-    "60": "Jumps",
-    "61": "Body Statistics",
-    "62": "Total Health Lost",
-    "63": "Food Eaten",
-    "64": " items",
-    "65": "Went To Sleep",
-    "66": " times",
-    "67": "Total Time Slept",
-    "68": " days",
-    "69": "Vomited",
-    "70": "Contracted Flu",
-    "71": "Became Sick",
-    "72": "Other Statistics",
-    "73": "Struck By Lightning",
-    "74": "Easiest Game Mode Used",
-    "75": "Death Record",
-    "76": "Morning of",
-    "77": "Afternoon of",
-    "78": "Evening of",
-    "79": "Night of",
-    "80": "{1} day {0:0}",
-    "81": "No player statistics available because world was started in an old version of the game.",
-    "82": "Restart Adventure",
-    "83": "Reset Adventure?",
-    "84": "The adventure will start from the beginning.",
-    "85": "Rate",
-    "86": "Select Content To Rate",
-    "87": "Edit Players",
-    "88": "Settings",
-    "89": "Help",
-    "90": "Keyboard Controls",
-    "91": "Gamepad Controls",
-    "92": "More Actions",
-    "93": "Male",
-    "94": "Female",
-    "95": "Run Javascript",
-    "96": "Length Of Year",
-    "97": "Current Season"
+    "1": "आपका डिवाइस तेज़ है",
+    "2": "बेहतर ग्राफिक्स के लिए दृश्यता सीमा या रिज़ॉल्यूशन बढ़ाने पर विचार करें। ऐसा करने के लिए, प्रदर्शन सेटिंग्स पर जाएं।",
+    "3": "आपका डिवाइस पर्याप्त तेज़ नहीं है",
+    "4": "दृश्यता सीमा या रिज़ॉल्यूशन को कम करने पर विचार करें। ऐसा करने के लिए, प्रदर्शन सेटिंग्स पर जाएं।",
+    "5": "खेल सांख्यिकी",
+    "6": "गेम मोड",
+    "7": "भू-भाग प्रकार",
+    "8": "विश्व बीज",
+    "9": "(कोई नहीं)",
+    "10": "समुद्र तल",
+    "11": "तापमान",
+    "12": "नमी",
+    "13": "बायोम का आकार",
+    "14": "उपयोग में फर्नीचर डिजाइन",
+    "15": "संस्करण में बनाई गई दुनिया",
+    "16": "1.22 से पहले",
+    "17": "खिलाड़ी सांख्यिकी",
+    "18": "नाम",
+    "19": "लिंग",
+    "20": " दिन पहले",
+    "21": "अभी तक कभी पैदा नहीं हुआ",
+    "22": "पहले पैदा हुआ",
+    "23": " दिन",
+    "24": "अभी तक कभी पैदा नहीं हुआ",
+    "25": "जिंदा रहा",
+    "26": "पुनर्जन्म",
+    "27": " टाइम्स",
+    "28": "उच्चतम स्तर प्राप्त किया",
+    "29": "स्तर {0}",
+    "30": "स्थान",
+    "31": "{0},{1} ऊंचाई पर {2}",
+    "32": "(में उपलब्ध नहीं है {0})",
+    "33": "लड़ाकू सांख्यिकी",
+    "34": "मारे गए खिलाड़ी",
+    "35": "भूमि जीव मारे गए",
+    "36": "जल जीवों को मार डाला गया",
+    "37": "वायु जीव मारे गए",
+    "38": "हाथापाई के हमले",
+    "39": "हाथापाई हिट्स",
+    "40": "दूर से हमले",
+    "41": "रंगे हिट्स",
+    "42": "प्राप्त हिट्स",
+    "43": "कार्य सांख्यिकी",
+    "44": "खोदे गए ब्लॉक",
+    "45": "रखे गए ब्लॉक",
+    "46": "ब्लॉक के साथ बातचीत की",
+    "47": "तैयार की गई/गलाई गई वस्तुएँ",
+    "48": "फर्नीचर बनाया",
+    "49": "आंदोलन के आंकड़े",
+    "50": "तय की गई कुल दूरी",
+    "51": "दूरी तय की गई",
+    "52": "गिरी हुई दूरी",
+    "53": "दूरी चढ़ी",
+    "54": "उड़ाई गई दूरी",
+    "55": "दूरी स्वम",
+    "56": "दूरी से भरी हुई",
+    "57": "सबसे कम ऊंचाई",
+    "58": "उच्चतम ऊंचाई",
+    "59": "सबसे गहरा गोता",
+    "60": "कूदता है",
+    "61": "शारीरिक सांख्यिकी",
+    "62": "कुल स्वास्थ्य खो गया",
+    "63": "खाया गया खाना",
+    "64": " आइटम",
+    "65": "सो गया",
+    "66": " टाइम्स",
+    "67": "कुल समय सोया",
+    "68": " दिन",
+    "69": "उल्टी",
+    "70": "अनुबंधित फ्लू",
+    "71": "बीमार हो गया",
+    "72": "अन्य आँकड़े",
+    "73": "बिजली से मारा गया",
+    "74": "सबसे आसान गेम मोड का उपयोग किया गया",
+    "75": "मृत्यु रिकॉर्ड",
+    "76": "की सुबह",
+    "77": "की दोपहर",
+    "78": "की शाम",
+    "79": "की रात",
+    "80": "{1} दिन {0:0}",
+    "81": "कोई खिलाड़ी आँकड़े उपलब्ध नहीं हैं क्योंकि दुनिया खेल के पुराने संस्करण में शुरू की गई थी।",
+    "82": "साहसिक कार्य पुनरारंभ करें",
+    "83": "साहसिक कार्य रीसेट करें?",
+    "84": "साहसिक कार्य शुरू से ही शुरू होगा।",
+    "85": "दर",
+    "86": "रेट करने के लिए सामग्री का चयन करें",
+    "87": "खिलाड़ियों को संपादित करें",
+    "88": "सेटिंग",
+    "89": "मदद",
+    "90": "कीबोर्ड नियंत्रण",
+    "91": "गेमपैड नियंत्रण",
+    "92": "अधिक कार्रवाइयां",
+    "93": "पुरुष",
+    "94": "महिला",
+    "95": "जावास्क्रिप्ट चलाएँ",
+    "96": "वर्ष की लंबाई",
+    "97": "वर्तमान सीज़न"
   },
   "BlocksManager": {
-    "1": "Block with type {0} not found.",
-    "2": "Not enough field values for block \"{0}\".",
-    "3": "Block \"{0}\" not found when loading block data.",
-    "4": "Data for block \"{0}\" specified more than once when loading block data.",
-    "5": "Field \"{0}\" not found or not accessible when loading block data.",
-    "6": "Reference block \"{0}\" not found when loading block data.",
-    "Terrain": "Terrain",
-    "Minerals": "Minerals",
-    "Plants": "Plants",
-    "Construction": "Construction",
-    "Items": "Items",
-    "Tools": "Tools",
-    "Weapons": "Weapons",
-    "Clothes": "Clothes",
-    "Electrics": "Electrics",
-    "Food": "Food",
-    "Spawner Eggs": "Spawner Eggs",
-    "Painted": "Painted",
-    "Dyed": "Dyed",
-    "Fireworks": "Fireworks",
-    "All Blocks": "All Blocks",
-    "Not Dyed": "Not Dyed"
+    "1": "प्रकार के साथ ब्लॉक {0} नहीं मिला।",
+    "2": "ब्लॉक के लिए पर्याप्त फ़ील्ड मान नहीं \"{0}\".",
+    "3": "ब्लॉक \"{0}\" ब्लॉक डेटा लोड करते समय नहीं मिला।",
+    "4": "ब्लॉक के लिए डेटा \"{0}\" ब्लॉक डेटा लोड करते समय एक से अधिक बार निर्दिष्ट किया गया है।",
+    "5": "क्षेत्र \"{0}\"ब्लॉक डेटा लोड करते समय नहीं मिला या पहुंच योग्य नहीं है।",
+    "6": "संदर्भ ब्लॉक \"{0}\" ब्लॉक डेटा लोड करते समय नहीं मिला।",
+    "Terrain": "भू-भाग",
+    "Minerals": "खनिज",
+    "Plants": "पौधे",
+    "Construction": "वाक्‍य-रचना",
+    "Items": "आइटम",
+    "Tools": "उपकरण",
+    "Weapons": "हथियार",
+    "Clothes": "कोट आदि",
+    "Electrics": "इलेक्ट्रिक्स",
+    "Food": "खाद्य पदार्थ",
+    "Spawner Eggs": "स्पॉनर अंडे",
+    "Painted": "चित्रित",
+    "Dyed": "रंगे हुए",
+    "Fireworks": "आतिशबाजी",
+    "All Blocks": "सभी ब्लॉक",
+    "Not Dyed": "रंगे नहीं"
   },
   "BestiaryDescriptionScreen": {
-    "1": "Can Be Ridden:\n",
-    "2": "({0}% of time)",
-    "resilience": "Resilience:\n",
-    "attack": "Attack Power:\n",
-    "herding": "Herding Behavior:\n",
-    "speed": "Speed:\n",
-    "jump height": "Jump Height:\n",
-    "length unit": "meters\n",
-    "speed unit": "km/h\n",
-    "weight unit": "kg\n",
-    "weight": "Weight:\n",
-    "range": "{0} to {1}"
+    "1": "सवारी की जा सकती है:\n",
+    "2": "({0}% समय)",
+    "resilience": "लचीलापन:\n",
+    "attack": "आक्रमण शक्ति:\n",
+    "herding": "चरवाहा व्यवहार:\n",
+    "speed": "रफ़्तार:\n",
+    "jump height": "कूदने की ऊंचाई:\n",
+    "length unit": "मीटर\n",
+    "speed unit": "किमी/घंटा\n",
+    "weight unit": "किलोग्राम\n",
+    "weight": "वजन:\n",
+    "range": "{0} सेवा मेरे {1}"
   },
   "CommunityContentScreen": {
-    "1": "Downloading {0}",
-    "2": "Retrieving Content",
-    "3": "Deleting {0}",
-    "4": "Are you sure?",
-    "5": "The link will be deleted from the server.",
-    "6": "Link Deleted",
-    "7": "It will stop appearing in the listings in a few minutes.",
-    "8": "Your Items Only",
-    "9": "All Items",
-    "10": "Invalid filter.",
-    "11": "Top Ranked",
-    "12": "Recently Added",
-    "13": "Invalid order.",
-    "14": "Star",
-    "15": "Add to Boutique",
-    "16": "Remove from Boutique",
-    "17": "Operation",
-    "18": "Please enter rating, the default value is 5.",
-    "19": "Add to Boutique Successfully:",
-    "20": "Operation Done",
-    "21": "Confirm Removing from Boutique?",
-    "22": "Remove from Boutique Successfully:",
-    "23": "Delete",
-    "24": "Publish",
-    "25": "Hide",
-    "26": "Confirm Deleting",
-    "27": "Delete Successfully:",
-    "28": "Publish Successfully:",
-    "29": "Hide Successfully:",
-    "30": "Not published",
-    "31": "ByRank",
-    "32": "ByTime",
-    "33": "ByBoutique",
-    "34": "ByHide",
-    "35": "Load more",
-    "Unknown": "Unknown",
-    "Directory": "Directory",
-    "World": "World",
-    "BlocksTexture": "BlocksTexture",
-    "CharacterSkin": "CharacterSkin",
-    "FurniturePack": "FurniturePack",
-    "ByRank": "ByRank",
-    "ByTime": "ByTime",
-    "Order Type": "Order Type",
-    "Filter": "Filter"
+    "1": "डाउनलोड हो रहा है {0}",
+    "2": "सामग्री पुनर्प्राप्त करना",
+    "3": "हटाना {0}",
+    "4": "क्या आपको यकीन है?",
+    "5": "लिंक सर्वर से हटा दिया जाएगा।",
+    "6": "लिंक हटा दिया गया",
+    "7": "यह कुछ ही मिनटों में लिस्टिंग में दिखना बंद हो जाएगा।",
+    "8": "केवल आपके आइटम",
+    "9": "सभी आइटम",
+    "10": "अमान्य फ़िल्टर।",
+    "11": "शीर्ष रैंक",
+    "12": "हाल ही में जोड़ा गया",
+    "13": "अमान्य आदेश।",
+    "14": "तारा",
+    "15": "बुटीक में जोड़ें",
+    "16": "बुटीक से निकालें",
+    "17": "परिचालन",
+    "18": "कृपया रेटिंग दर्ज करें, डिफ़ॉल्ट मान 5 है।",
+    "19": "बुटीक में सफलतापूर्वक जोड़ें:",
+    "20": "ऑपरेशन पूरा हो गया",
+    "21": "बुटीक से हटाने की पुष्टि करें?",
+    "22": "बुटीक से सफलतापूर्वक निकालें:",
+    "23": "मिटाना",
+    "24": "प्रकाशित करना",
+    "25": "छुपाना",
+    "26": "हटाने की पुष्टि करें",
+    "27": "सफलतापूर्वक हटाएँ:",
+    "28": "सफलतापूर्वक प्रकाशित करें:",
+    "29": "सफलतापूर्वक छुपाएं:",
+    "30": "प्रकाशित नहीं हुआ",
+    "31": "बायरैंक",
+    "32": "समय द्वारा",
+    "33": "द्वाराबुटीक",
+    "34": "द्वाराछिपाना",
+    "35": "अधिक लोड करें",
+    "Unknown": "अप्रसिद्घ व्यक्ति",
+    "Directory": "निर्देशिका",
+    "World": "दुनिया",
+    "BlocksTexture": "ब्लॉकबनावट",
+    "CharacterSkin": "चरित्र त्वचा",
+    "FurniturePack": "फर्नीचरपैक",
+    "ByRank": "बायरैंक",
+    "ByTime": "समय द्वारा",
+    "Order Type": "आदेश का प्रकार",
+    "Filter": "फ़िल्टर"
   },
   "OriginalCommunityContentScreen": {
-    "1": "Select Sort Order",
-    "2": "Select Items Filter",
-    "3": "Selected User's Items",
-    "4": "Top Ranked",
-    "5": "Most Recent",
-    "6": "Most Downloaded",
-    "7": "Largest",
-    "8": "Newest Version",
-    "9": "Oldest Version",
-    "10": "downloads"
+    "1": "सॉर्ट ऑर्डर का चयन करें",
+    "2": "आइटम फ़िल्टर का चयन करें",
+    "3": "चयनित उपयोगकर्ता के आइटम",
+    "4": "शीर्ष रैंक",
+    "5": "सबसे हाल ही में",
+    "6": "सबसे अधिक डाउनलोड किया गया",
+    "7": "सबसे बड़ा",
+    "8": "नवीनतम संस्करण",
+    "9": "सबसे पुराना संस्करण",
+    "10": "डाउनलोड"
   },
   "ComponentClothing": {
-    "1": "Must be level {0} to wear {1}",
-    "2": "Your clothing has worn out"
+    "1": "स्तर होना चाहिए {0} पहनने के लिए {1}",
+    "2": "आपके कपड़े खराब हो गए हैं"
   },
   "SkyRenderingMode": {
-    "Full": "Full",
-    "NoClouds": "NoClouds",
-    "Disabled": "Disabled"
+    "Full": "आमने-सामने",
+    "NoClouds": "नोक्लाउड्स",
+    "Disabled": "अक्षम"
   },
   "ViewAngleMode": {
-    "Normal": "Normal",
-    "Narrow": "Narrow",
-    "Wide": "Wide"
+    "Normal": "सामान्य",
+    "Narrow": "बाल-बाल",
+    "Wide": "पूर्णतया"
   },
   "ResolutionMode": {
-    "Low": "Low",
-    "Medium": "Medium",
-    "High": "High"
+    "Low": "संख्‍या आदि",
+    "Medium": "मध्यम",
+    "High": "उच्च"
   },
   "WindowMode": {
-    "Resizable": "Resizable",
-    "Fixed": "Fixed",
-    "Fullscreen": "Fullscreen",
-    "Borderless": "Borderless"
+    "Resizable": "आकार बदलने योग्य",
+    "Fixed": "स्‍थायी",
+    "Fullscreen": "फुलस्क्रीन",
+    "Borderless": "सीमा रहित"
   },
   "GuiSize": {
-    "Smallest": "Smallest",
-    "Smaller": "Smaller",
-    "Normal": "Normal",
-    "Large": "Large",
-    "Larger": "Larger"
+    "Smallest": "सबसे छोटा",
+    "Smaller": "छोटा",
+    "Normal": "सामान्य",
+    "Large": "बड़ा",
+    "Larger": "बड़ा"
   },
   "ScreenshotSize": {
-    "ScreenSize": "ScreenSize",
-    "FullHD": "FullHD"
+    "ScreenSize": "स्क्रीन का आकार",
+    "FullHD": "फुलएचडी"
   },
   "StartingPositionMode": {
-    "Easy": "Easy",
-    "Medium": "Medium",
-    "Hard": "Hard"
+    "Easy": "आसान",
+    "Medium": "मध्यम",
+    "Hard": "कठिन"
   },
   "CommunityContentMode": {
-    "Disabled": "Disabled",
-    "Strict": "Strict",
-    "Normal": "Normal",
-    "ShowAll": "ShowAll"
+    "Disabled": "अक्षम",
+    "Strict": "यथातथ्‍य",
+    "Normal": "सामान्य",
+    "ShowAll": "सभी दिखाओ"
   },
   "MoveControlMode": {
-    "Pad": "Pad",
-    "Buttons": "Buttons"
+    "Pad": "गत्ता",
+    "Buttons": "बटन"
   },
   "DigMethod": {
-    "Shovel": "Shovel",
-    "Quarry": "Quarry",
-    "Hack": "Hack",
-    "None": "None"
+    "Shovel": "बेलचा",
+    "Quarry": "उत्‍खनन करना",
+    "Hack": "हैक",
+    "None": "कोई नहीं"
   },
   "LookControlMode": {
-    "Pad": "Pad",
-    "EntireScreen": "EntireScreen",
-    "SplitTouch": "SplitTouch"
+    "Pad": "गत्ता",
+    "EntireScreen": "संपूर्ण स्क्रीन",
+    "SplitTouch": "स्प्लिटच"
   },
   "SettingsUiScreen": {
-    "1": "Message",
-    "2": "Do you want apply this setting?"
+    "1": "संदेश",
+    "2": "क्या आप इस सेटिंग को लागू करना चाहते हैं?"
   },
   "EnvironmentBehaviorMode": {
-    "Living": "Living",
-    "Static": "Static"
+    "Living": "रहन-सहन",
+    "Static": "स्थिर"
   },
   "TimeOfDayMode": {
-    "Changing": "Changing",
-    "Day": "Day",
-    "Night": "Night",
-    "Sunrise": "Sunrise",
-    "Sunset": "Sunset"
+    "Changing": "बदल रहा है",
+    "Day": "दिन",
+    "Night": "रात",
+    "Sunrise": "सूर्योदय",
+    "Sunset": "सूर्यास्त"
   },
   "GameMode": {
-    "Creative": "Creative",
-    "Harmless": "Harmless",
-    "Survival": "Survival",
-    "Challenging": "Challenging",
-    "Adventure": "Adventure",
-    "Cruel": "Cruel"
+    "Creative": "सृजनकारी",
+    "Harmless": "अनपकारी",
+    "Survival": "अस्तित्व बचाना",
+    "Challenging": "चुनौती-भरा",
+    "Adventure": "साहसिक कार्य",
+    "Cruel": "क्रूर"
   },
   "ComponentLocomotion": {
-    "1": "Running barefoot is slow, wear shoes"
+    "1": "नंगे पैर दौड़ना धीमा है, जूते पहनें"
   },
   "EggBlock": {
-    "1": "Cooked",
-    "2": "Laid",
-    "3": "spawn ",
-    "4": "Cook an egg to increase its nutritional value"
+    "1": "पका हुआ",
+    "2": "और रूप",
+    "3": "स्पॉन ",
+    "4": "एक अंडे को उसके पोषण मूल्य को बढ़ाने के लिए पकाएं"
   },
   "CreativeInventoryWidget": {
-    "1": "Furniture",
-    "2": "User"
+    "1": "फर्नीचर",
+    "2": "उपभोक्ता"
   },
   "SettingsControlsScreen": [
-    "{0} blocks",
-    "Pix",
-    "Primary",
-    "API"
+    "{0} ब्लॉक",
+    "पिक्स",
+    "प्राथमिक",
+    "एपीआई"
   ],
   "SettingsCompatibilityScreen": [
-    "Load Mod (Debug)",
-    "Adjust Device Compatibility",
-    "Use these settings only when you encounter game problems",
-    "Single-threaded Terrain Update",
-    "Use Audio Track Caching",
-    "Use Reduced Z-Range",
-    "View Game Log",
-    "View Log",
-    "Restore Default Settings",
-    "Reset",
-    "Allow LAN Connection",
-    "Bug Feedback",
-    "Report Online Issues",
-    "Changing audio engine requires restarting the game",
-    "Feedback link not configured",
-    "Default compatibility settings restored",
-    "Open Log Folder",
-    "Open",
-    "Opening: {0}",
-    "System download directory opened",
-    "Log folder path: {0}",
-    "Please open file manager manually",
-    "Open failed: {0}",
-    "Log Mode",
-    "Single File Log",
-    "Daily Log",
-    "Currently using single file log mode, all logs written to Game.log",
-    "Currently using daily log mode, a new log file is generated each day",
-    "Log mode switched, new log writing method has taken effect"
+    "लोड मॉड (डीबग)",
+    "डिवाइस संगतता समायोजित करें",
+    "इन सेटिंग्स का उपयोग केवल तभी करें जब आप गेम की समस्याओं का सामना करते हैं",
+    "सिंगल-थ्रेडेड टेरेन अपडेट",
+    "ऑडियो ट्रैक कैशिंग का उपयोग करें",
+    "कम Z-रेंज का उपयोग करें",
+    "गेम लॉग देखें",
+    "लॉग देखें",
+    "डिफ़ॉल्ट सेटिंग्स पुनर्स्थापित करें",
+    "रीसेट करें",
+    "LAN कनेक्शन की अनुमति दें",
+    "बग प्रतिक्रिया",
+    "ऑनलाइन समस्याओं की रिपोर्ट करें",
+    "ऑडियो इंजन बदलने के लिए गेम को पुनरारंभ करने की आवश्यकता होती है",
+    "प्रतिक्रिया लिंक कॉन्फ़िगर नहीं किया गया है",
+    "डिफ़ॉल्ट संगतता सेटिंग्स पुनर्स्थापित",
+    "लॉग फ़ोल्डर खोलें",
+    "खोलना",
+    "खोलना: {0}",
+    "सिस्टम डाउनलोड निर्देशिका खोली गई",
+    "लॉग फ़ोल्डर पथ: {0}",
+    "कृपया फ़ाइल प्रबंधक को मैन्युअल रूप से खोलें",
+    "ओपन विफल: {0}",
+    "लॉग मोड",
+    "एकल फ़ाइल लॉग",
+    "दैनिक लॉग",
+    "वर्तमान में एकल फ़ाइल लॉग मोड का उपयोग कर रहा है, सभी लॉग Game.log को लिखे गए हैं",
+    "वर्तमान में दैनिक लॉग मोड का उपयोग करते हुए, प्रत्येक दिन एक नई लॉग फ़ाइल उत्पन्न होती है",
+    "लॉग मोड स्विच किया गया है, नई लॉग लेखन विधि प्रभावी हो गई है"
   ],
   "SettingsPerformanceScreen": {
-    "1": "{0} blocks",
-    "2": "(good for slower devices)",
-    "3": "(1GB RAM recommended)",
-    "4": "(2GB RAM and a fast\ndevice recommended)",
-    "5": "(4GB RAM and a very fast\ndevice recommended)",
-    "6": "(8GB RAM and a very fast\ndevice recommended)",
-    "7": "(16GB RAM and an extremely fast\ndevice recommended)",
-    "8": "{0} vsync",
-    "9": "Unlimited",
-    "10": "Large Visibility Range",
-    "11": "The game may crash randomly if your device does not have enough memory to handle the visibility range you selected.",
-    "12": "API",
-    "13": "Primary",
-    "14": "1 VSYNC",
-    "15": "2 VSYNC"
+    "1": "{0} ब्लॉक",
+    "2": "(धीमे उपकरणों के लिए अच्छा)",
+    "3": "(1GB रैम अनुशंसित)",
+    "4": "(2GB रैम और तेज़\nडिवाइस की सिफारिश की)",
+    "5": "(4 जीबी रैम और बहुत तेज\nडिवाइस की सिफारिश की)",
+    "6": "(8 जीबी रैम और बहुत तेज\nडिवाइस की सिफारिश की)",
+    "7": "(16GB रैम और बेहद तेज़\nडिवाइस की सिफारिश की)",
+    "8": "{0} वीसिंक",
+    "9": "असीम",
+    "10": "बड़ी दृश्यता रेंज",
+    "11": "यदि आपके डिवाइस में आपके द्वारा चुनी गई दृश्यता सीमा को संभालने के लिए पर्याप्त मेमोरी नहीं है, तो गेम बेतरतीब ढंग से क्रैश हो सकता है।",
+    "12": "एपीआई",
+    "13": "प्राथमिक",
+    "14": "1 वीसिंक",
+    "15": "2 वीसिंक"
   },
   "RecipaediaDescriptionScreen": [
     "...",
-    "Luminosity",
-    "Fuel Value",
-    "Is Stackable",
-    "Is Flammable",
-    "Nutrition",
-    "Max Storage Time",
-    "Digging Method",
-    "Digging Resilience",
-    "Explosion Resilience",
-    "Explosive Power",
-    "Melee Power",
-    "Melee Hit Ratio",
-    "Projectile Power",
-    "Shoveling",
-    "Hacking",
-    "Quarrying",
-    "Durability",
-    "Experience Orbs",
-    "Can Be Dyed",
-    "Armor Protection",
-    "Armor Durability",
-    "Insulation",
-    "Movement Speed",
-    "Yes (up to {0})",
-    "{0} days"
+    "चमक",
+    "ईंधन मूल्य",
+    "स्टैकेबल है",
+    "ज्वलनशील है",
+    "पोषाहार",
+    "अधिकतम भंडारण समय",
+    "खुदाई की विधि",
+    "खुदाई लचीलापन",
+    "विस्फोट लचीलापन",
+    "विस्फोटक शक्ति",
+    "हाथापाई की शक्ति",
+    "हाथापाई हिट अनुपात",
+    "प्रक्षेप्य शक्ति",
+    "फावड़ा",
+    "हैकिंग",
+    "उत्खनन",
+    "सहनशीलता",
+    "अनुभव Orbs",
+    "रंगा जा सकता है",
+    "कवच सुरक्षा",
+    "कवच स्थायित्व",
+    "इन्सुलेशन",
+    "गति गति",
+    "हाँ (तक {0})",
+    "{0} दिन"
   ],
   "ComponentVitalStats": {
-    "1": "You feel too sick to eat this",
-    "2": "You are full, no more food!",
-    "3": "It tastes horrible, no more!",
-    "4": "It tastes odd, no more",
-    "5": "Eat something else, you will get sick!",
-    "6": "You eat this too often",
-    "7": "You have eaten well",
-    "8": "Good, but you want more",
-    "9": "Starved to death",
-    "10": "You are starving, find food!",
-    "11": "You are close to starvation",
-    "12": "Time to eat something",
-    "13": "You are slightly hungry",
-    "14": "You are panting, slow down",
-    "15": "You are panting, get out of the water",
-    "16": "Drowned",
-    "17": "You are drowning!",
-    "18": "Rest a while!",
-    "19": "You will faint, go to sleep!",
-    "20": "You are falling over, sleep",
-    "21": "You are very tired, sleep",
-    "22": "You are tired, take a nap",
-    "23": "Can't go no more",
-    "24": "Aaa...",
-    "25": "Froze to death",
-    "26": "Hypothermia",
-    "27": "Your {0} freezing, dry your clothes!",
-    "28": "Your {0} freezing, seek shelter!",
-    "29": "Your {0} freezing, get clothed!",
-    "30": "Your {0} getting cold, dry your clothes",
-    "31": "Your {0} getting cold, seek shelter",
-    "32": "Your {0} getting cold, get clothed",
-    "33": "You feel a bit chilly",
-    "34": "It's too hot, run away!",
-    "35": "Overheated",
-    "36": "You feel hot",
-    "37": "Ugh...",
-    "38": "You are completely wet",
-    "39": "You are getting wet",
-    "40": "You are no longer wet",
-    "41": "head is",
-    "42": "chest is",
-    "43": "legs are",
-    "44": "feet are"
+    "1": "आप इसे खाने के लिए बहुत बीमार महसूस करते हैं",
+    "2": "आपका पेट भर गया है, अब भोजन नहीं!",
+    "3": "इसका स्वाद भयानक है, अब और नहीं!",
+    "4": "इसका स्वाद अजीब है, अब और नहीं",
+    "5": "कुछ और खाओ, तुम बीमार हो जाओगे!",
+    "6": "आप इसे बहुत बार खाते हैं",
+    "7": "तुमने अच्छा खाया है",
+    "8": "अच्छा है, लेकिन आप और अधिक चाहते हैं",
+    "9": "भूख से मर गया",
+    "10": "तुम भूखे मर रहे हो, भोजन ढूंढो!",
+    "11": "आप भुखमरी के करीब हैं",
+    "12": "कुछ खाने का समय",
+    "13": "आपको थोड़ी भूख लगी है",
+    "14": "तुम हांफ रहे हो, धीरे करो",
+    "15": "तुम हांफ रहे हो, पानी से बाहर निकलो",
+    "16": "डूब गया",
+    "17": "तुम डूब रहे हो!",
+    "18": "थोड़ा आराम करो!",
+    "19": "तुम बेहोश हो जाओगे, सो जाओ!",
+    "20": "तुम गिर रहे हो, सो जाओ",
+    "21": "तुम बहुत थके हुए हो, सो जाओ",
+    "22": "आप थके हुए हैं, एक झपकी ले लो",
+    "23": "अब और नहीं जा सकता",
+    "24": "आआ...",
+    "25": "जमकर मौत हो गई",
+    "26": "अपताप",
+    "27": "आपका {0} ठंड, अपने कपड़े सुखाएं!",
+    "28": "आपका {0} ठंड, आश्रय की तलाश करें!",
+    "29": "आपका {0} ठंड, कपड़े पहनो!",
+    "30": "आपका {0} ठंड लगना, अपने कपड़े सुखाना",
+    "31": "आपका {0} ठंड लगना, आश्रय लेना",
+    "32": "आपका {0} ठंडा हो रहा है, कपड़े पहन लो",
+    "33": "आपको थोड़ी ठंड लगती है",
+    "34": "यह बहुत गर्म है, भाग जाओ!",
+    "35": "ज़्यादा गरम",
+    "36": "आपको गर्मी महसूस होती है",
+    "37": "तौबा-तौबा।।।",
+    "38": "तुम पूरी तरह से गीले हो",
+    "39": "आप भीग रहे हैं",
+    "40": "अब आप गीले नहीं हैं",
+    "41": "सिर है",
+    "42": "छाती है",
+    "43": "पैर हैं",
+    "44": "पैर हैं"
   },
   "RecipaediaScreen": {
-    "1": "recipe",
-    "2": "recipes",
-    "3": "No recipes"
+    "1": "नुस्खा",
+    "2": "व्यंजनों",
+    "3": "कोई व्यंजन नहीं"
   },
   "ComponentMiner": {
-    "1": "Level {0} required to use {1}",
-    "2": "Missed",
-    "3": "Player attack disabled",
-    "4": "{1} by {0}",
-    "5": "Force majeure",
-    "6": "Accident",
-    "7": "Bad luck",
-    "8": "Unknown attacker",
-    "9": "Wrong time and place",
-    "10": "Misfortune",
-    "11": "Digging with bare hands is slow, stick is recommended",
-    "12": "It would be faster to use your {0}",
-    "killed": "killed",
-    "kicked": "kicked",
-    "stung": "stung",
-    "crushed": "crushed",
-    "dismembered": "dismembered",
-    "hunted": "hunted",
-    "eaten": "eaten",
-    "mauled": "mauled",
-    "trampled": "trampled",
-    "bitten": "bitten",
-    "massacred": "massacred",
-    "ripped open": "ripped open",
-    "murdered": "defeated",
-    "NoDigPermission": "You do not have permission to dig blocks here",
-    "NoPlacePermission": "You do not have permission to place blocks here",
-    "NoUsePermission": "You do not have permission to use blocks here",
-    "NoInteractPermission": "You do not have permission to interact with blocks here",
-    "BlockDisabled": "This item has been disabled",
-    "NeedRemoveOldBedrock": "You need to remove the original territory stone before placing a new one",
-    "OnlyOwnerCanDigBedrock": "Only the territory owner can dig this stone"
+    "1": "स्तर {0} उपयोग करने के लिए आवश्यक {1}",
+    "2": "याद किया",
+    "3": "खिलाड़ी का हमला अक्षम",
+    "4": "{1} द्वारा {0}",
+    "5": "अप्रत्याशित घटना",
+    "6": "घटना",
+    "7": "दुर्भाग्य",
+    "8": "अज्ञात हमलावर",
+    "9": "गलत समय और स्थान",
+    "10": "दुर्भाग्य",
+    "11": "नंगे हाथों से खुदाई धीमी है, छड़ी की सिफारिश की जाती है",
+    "12": "आपका उपयोग करना तेज़ होगा {0}",
+    "killed": "मारा गया",
+    "kicked": "लात मारी",
+    "stung": "और रूप",
+    "crushed": "कुचला हुआ",
+    "dismembered": "विघटित",
+    "hunted": "शिकार किया",
+    "eaten": "खाया",
+    "mauled": "मौलेड",
+    "trampled": "रौंद दिया गया",
+    "bitten": "रूप",
+    "massacred": "नरसंहार",
+    "ripped open": "फट गया खुला",
+    "murdered": "पराजित",
+    "NoDigPermission": "आपको यहां ब्लॉक खोदने की अनुमति नहीं है",
+    "NoPlacePermission": "आपको यहां ब्लॉक रखने की अनुमति नहीं है",
+    "NoUsePermission": "आपको यहां ब्लॉक का उपयोग करने की अनुमति नहीं है",
+    "NoInteractPermission": "आपको यहां ब्लॉकों के साथ इंटरैक्ट करने की अनुमति नहीं है",
+    "BlockDisabled": "यह आइटम अक्षम कर दिया गया है",
+    "NeedRemoveOldBedrock": "नया रखने से पहले आपको मूल क्षेत्र के पत्थर को हटाने की जरूरत है",
+    "OnlyOwnerCanDigBedrock": "केवल क्षेत्र का मालिक ही इस पत्थर को खोद सकता है"
   },
   "ComponentIntro": {
-    "1": "Cast away, boys.",
-    "2": "Hey you, in the boat!",
-    "3": "Hey you, on the shore!",
-    "4": "We're leaving you here for good!"
+    "1": "दूर फेंक दो, लड़कों।",
+    "2": "अरे, नाव में!",
+    "3": "अरे तुम, किनारे पर!",
+    "4": "हम आपको हमेशा के लिए यहां छोड़ रहे हैं!"
   },
   "ComponentLevel": {
-    "1": "You've gained a level!",
-    "2": "Level {0}",
-    "3": "{0}% Stamina",
-    "4": "Sickness",
-    "5": "No Sickness",
-    "6": "Vomiting",
-    "7": "Not Vomiting",
-    "8": "Flu",
-    "9": "No Flu",
-    "10": "Coughing",
-    "11": "Not Coughing",
-    "12": "{0} Mode"
+    "1": "आपने एक स्तर प्राप्त कर लिया है!",
+    "2": "स्तर {0}",
+    "3": "{0}% सहनशक्ति",
+    "4": "बीमारी",
+    "5": "कोई बीमारी नहीं",
+    "6": "उल्टी",
+    "7": "उल्टी नहीं होना",
+    "8": "फ़्लू",
+    "9": "कोई फ्लू नहीं",
+    "10": "खाँसी",
+    "11": "खांसी नहीं",
+    "12": "{0} मोड समूह"
   },
   "ComponentSleep": {
-    "1": "You must be on dry land",
-    "2": "Too uncomfortable to sleep",
-    "3": "You are not tired enough",
-    "4": "You are too wet",
-    "5": "You need a better shelter",
-    "6": "Brrr, wet!",
-    "7": "Ehh... what time is it?",
-    "8": "Tap to wake up early",
-    "9": "You fell unconscious from lack of sleep",
-    "10": "Zzz..."
+    "1": "आपको सूखी जमीन पर होना चाहिए",
+    "2": "सोने के लिए बहुत असहज",
+    "3": "आप पर्याप्त थके हुए नहीं हैं",
+    "4": "तुम बहुत गीले हो",
+    "5": "आपको एक बेहतर आश्रय की आवश्यकता है",
+    "6": "ब्रर, गीला!",
+    "7": "एह ... क्या समय हुआ है?",
+    "8": "जल्दी उठने के लिए टैप करें",
+    "9": "नींद की कमी से आप बेहोश हो गए",
+    "10": "ज़ज़्ज़..."
   },
   "WorldOptionsScreen": {
-    "1": "Select World Type",
-    "2": "Select Block",
-    "3": "Select Blocks Texture",
-    "4": "Unavailable",
-    "5": "Flat terrain is only available in Creative Mode",
-    "6": "Normal",
-    "7": "Time Of Day:",
-    "8": " days"
+    "1": "विश्व प्रकार का चयन करें",
+    "2": "ब्लॉक का चयन करें",
+    "3": "ब्लॉक बनावट का चयन करें",
+    "4": "अनुपलब्ध",
+    "5": "समतल भूभाग केवल क्रिएटिव मोड में उपलब्ध है",
+    "6": "सामान्य",
+    "7": "दिन का समय:",
+    "8": " दिन"
   },
   "ComponentSickness": {
-    "1": "Sickness",
-    "2": "You feel nauseous"
+    "1": "बीमारी",
+    "2": "आपको मिचली महसूस होती है"
   },
   "ComponentPlayer": {
-    "1": "Sneak to improve your aim"
+    "1": "अपने लक्ष्य को बेहतर बनाने के लिए चुपके से"
   },
   "ComponentGui": {
-    "1": "Press H for keyboard controls\n(or see HELP)",
-    "2": "Press START/PAUSE for gamepad controls\n(or see HELP)",
-    "3": "Sneak mode off",
-    "4": "Sneak mode on",
-    "5": "Mounted",
-    "6": "Dismounted",
-    "7": "Fly mode on",
-    "8": "Fly mode off",
-    "9": "Third person camera",
-    "10": "Orbit camera",
-    "11": "Fixed camera",
-    "12": "First person camera",
-    "13": "Photo saved in pictures library",
-    "14": "Error capturing photo, check game log",
-    "15": "Dawn",
-    "16": "Noon",
-    "17": "Dusk",
-    "18": "Midnight",
-    "19": "Debug camera",
-    "20": "Precipitation Off",
-    "21": "Precipitation On",
-    "22": "Fog Off",
-    "23": "Fog On",
-    "LateNight": "Late Night",
-    "Morning": "Morning",
-    "Afternoon": "Afternoon",
-    "Evening": "Evening"
+    "1": "कुंजीपटल नियंत्रण के लिए H दबाएँ\n(या मदद देखें)",
+    "2": "गेमपैड नियंत्रणों के लिए START/PAUSE दबाएँ\n(या मदद देखें)",
+    "3": "चुपके मोड बंद",
+    "4": "चुपके मोड चालू",
+    "5": "घुड़सवार",
+    "6": "उतरा हुआ",
+    "7": "फ्लाई मोड चालू",
+    "8": "फ्लाई मोड बंद",
+    "9": "तीसरे व्यक्ति का कैमरा",
+    "10": "ऑर्बिट कैमरा",
+    "11": "फिक्स्ड कैमरा",
+    "12": "प्रथम व्यक्ती कॅमेरा",
+    "13": "फ़ोटो फ़ोटो लाइब्रेरी में सहेजा गया",
+    "14": "फोटो कैप्चर करने में त्रुटि, गेम लॉग की जांच करें",
+    "15": "स्पष्ट होना",
+    "16": "दोपहर",
+    "17": "गोधूलि वेला",
+    "18": "आधी रात",
+    "19": "डीबग कैमरा",
+    "20": "वर्षा बंद",
+    "21": "वर्षा चालू",
+    "22": "कोहरा बंद",
+    "23": "कोहरा चालू",
+    "LateNight": "देर रात",
+    "Morning": "सुबह",
+    "Afternoon": "दोपहर",
+    "Evening": "शाम"
   },
   "ComponentFlu": {
-    "1": "Get warm, you will get flu!",
-    "2": "Get to warmth, you have flu!",
-    "3": "You have flu, warmth is healing",
-    "4": "Flu"
+    "1": "गर्म हो जाओ, तुम्हें फ्लू हो जाएगा!",
+    "2": "गर्मी प्राप्त करें, आपको फ्लू है!",
+    "3": "आपको फ्लू है, गर्मी उपचार है",
+    "4": "फ़्लू"
   },
   "SubsystemBoatBlockBehavior": {
-    "1": "Too many boats"
+    "1": "बहुत सारी नावें"
   },
   "SubsystemEggBlockBehavior": {
-    "1": "Too many creatures"
+    "1": "बहुत सारे जीव"
   },
   "Block": {
-    "1": "Block {0} has ToolDurability < -1 or > 65535."
+    "1": "ब्लॉक {0} टूलड्यूरेबिलिटी < -1 or > 65535 है।"
   },
   "SoilBlock": {
-    "1": "Moist Compost",
-    "2": "Compost",
-    "3": "Moist soil",
-    "4": "Soil"
+    "1": "नम खाद",
+    "2": "वानस्‍पतिक खाद",
+    "3": "नम मिट्टी",
+    "4": "धब्‍बे डालना"
   },
   "LightbulbBlock": {
-    "1": "Lightbulb"
+    "1": "लाइटबल्ब"
   },
   "PlayerScreen": {
-    "Male": "Male",
-    "Female": "Female",
-    "1": "Select Character Skin",
-    "2": "Select Input Device",
-    "3": "The player will be irrecoverably removed from the world. All items in inventory and stats will be lost.",
-    "4": "Mouse & Keyboard",
-    "5": "Gamepad 1",
-    "6": "Gamepad 2",
-    "7": "Gamepad 3",
-    "8": "Gamepad 4",
-    "9": "(not found)",
-    "10": "Touchscreen",
-    "11": "Virtual Reality",
-    "12": "Invalid player name. Only letters, digits and spaces allowed. Not too short, not too long either."
+    "Male": "पुरुष",
+    "Female": "महिला",
+    "1": "चरित्र त्वचा का चयन करें",
+    "2": "इनपुट डिवाइस का चयन करें",
+    "3": "खिलाड़ी को दुनिया से अपरिवर्तनीय रूप से हटा दिया जाएगा। इन्वेंट्री और आँकड़ों में सभी आइटम खो जाएंगे।",
+    "4": "माउस और कीबोर्ड",
+    "5": "गेमपैड 1",
+    "6": "गेमपैड 2",
+    "7": "गेमपैड 3",
+    "8": "गेमपैड 4",
+    "9": "(नहीं मिला)",
+    "10": "टचस्क्रीन",
+    "11": "आभासी वास्तविकता",
+    "12": "अमान्य खिलाड़ी का नाम. केवल अक्षरों, अंकों और रिक्त स्थान की अनुमति है। बहुत छोटा भी नहीं, बहुत लंबा भी नहीं।"
   },
   "ModifyWorldScreen": {
-    "1": "Are you sure?",
-    "2": "The world will be irrecoverably deleted.",
-    "3": "Abandon changes?",
-    "4": "You changed some of the world properties, but they were not applied yet.",
-    "5": "Enter \"yes\" to continue"
+    "1": "क्या आपको यकीन है?",
+    "2": "दुनिया अपरिवर्तनीय रूप से हटा दी जाएगी।",
+    "3": "परिवर्तनों को छोड़ दें?",
+    "4": "आपने दुनिया की कुछ संपत्तियों को बदल दिया, लेकिन उन्हें अभी तक लागू नहीं किया गया था।",
+    "5": "जारी रखने के लिए \"हां\" दर्ज करें"
   },
   "Usual": {
-    "unknown": "Unknown",
-    "yes": "Yes",
-    "no": "No",
-    "exist": "Exist",
-    "none": "None",
-    "nothing": "Nothing",
-    "ok": "Ok",
-    "error": "Error",
-    "on": "On",
-    "off": "Off",
-    "enable": "Enable",
-    "disable": "Disable",
-    "back": "Back",
-    "warning": "Warning",
-    "cancel": "Cancel",
-    "allowed": "Allowed",
-    "not allowed": "Not Allowed",
-    "success": "Success",
-    "Unavailable": "Unavailable",
-    "delete": "Delete",
-    "gameName": "Survivalcraft",
-    "debug": "DEBUG",
-    "api": "API"
+    "unknown": "अप्रसिद्घ व्यक्ति",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "exist": "गुज़र-बसर करना",
+    "none": "कोई नहीं",
+    "nothing": "कुछ नहीं",
+    "ok": "ठीक है",
+    "error": "चूक",
+    "on": "पर",
+    "off": "बंद",
+    "enable": "सक्षम करें",
+    "disable": "अक्षम करें",
+    "back": "शर्त लगाना",
+    "warning": "चेतावनी",
+    "cancel": "रद्द करना",
+    "allowed": "अनुमति है",
+    "not allowed": "अनुमति नहीं है",
+    "success": "सफलता",
+    "Unavailable": "अनुपलब्ध",
+    "delete": "मिटाना",
+    "gameName": "उत्तरजीविता शिल्प",
+    "debug": "डिबग",
+    "api": "एपीआई"
   },
   "CRMessage": {
-    "0": "Make a stone axe instead",
-    "1": "Make a wooden rake instead"
+    "0": "इसके बजाय पत्थर की कुल्हाड़ी बनाएं",
+    "1": "इसके बजाय लकड़ी का रेक बनाएं"
   },
   "BasePumpkinBlock": {
-    "1": "Pumpkin",
-    "2": "{0} Pumpkin",
-    "3": "{0} {1} Pumpkin",
-    "4": "Rotten",
-    "5": "Unripe"
+    "1": "सीताफल",
+    "2": "{0} सीताफल",
+    "3": "{0} {1} सीताफल",
+    "4": "सड़ा हुआ",
+    "5": "अपक्व"
   },
   "BaseSeedBlock": {
-    "1": "Tall Grass Seeds",
-    "2": "Red Flower Seeds",
-    "3": "Purple Flower",
-    "4": "White Flower Seeds",
-    "5": "Wild Wheat Seeds",
-    "6": "Wheat Seeds",
-    "7": "Cotton Seeds",
-    "8": "Pumpkin Seeds"
+    "1": "लंबी घास के बीज",
+    "2": "लाल फूल के बीज",
+    "3": "बैंगनी फूल",
+    "4": "सफेद फूल के बीज",
+    "5": "जंगली गेहूं के बीज",
+    "6": "गेहूं के बीज",
+    "7": "कपास के बीज",
+    "8": "कद्दू के बीज"
   },
   "BaseSaplingBlock": {
-    "1": "Oak Sapling",
-    "2": "Birch Sapling",
-    "3": "Spruce Sapling",
-    "4": "Tall Spruce Sapling",
-    "5": "Acacia Sapling",
-    "6": "Poplar Sapling"
+    "1": "ओक सैपलिंग",
+    "2": "बिर्च सैपलिंग",
+    "3": "स्प्रूस सैपलिंग",
+    "4": "लंबा स्प्रूस पौधा",
+    "5": "बबूल का पौधा",
+    "6": "चिनार का पौधा"
   },
   "BaseCottonBlock": {
-    "1": "Cotton",
-    "2": "Wild Cotton"
+    "1": "कपास",
+    "2": "जंगली कपास"
   },
   "BasePaintBucketBlock": {
-    "1": "Paint Bucket"
+    "1": "पेंट बाल्टी"
   },
   "BaseArrowBlock": {
-    "1": "Wooden Arrow",
-    "2": "Stone Arrow",
-    "3": "Iron Arrow",
-    "4": "Diamond Arrow",
-    "5": "Fire Arrow",
-    "6": "Iron Bolt",
-    "7": "Diamond Bolt",
-    "8": "Explosive Bolt",
-    "9": "Copper Arrow"
+    "1": "लकड़ी का तीर",
+    "2": "पत्थर का तीर",
+    "3": "लौह तीर",
+    "4": "डायमंड एरो",
+    "5": "आग तीर",
+    "6": "लोहे का बोल्ट",
+    "7": "डायमंड बोल्ट",
+    "8": "विस्फोटक बोल्ट",
+    "9": "तांबे का तीर"
   },
   "BaseBulletBlock": {
-    "1": "Bullet",
-    "2": "Lead Bullet",
-    "3": "Lead Pellet"
+    "1": "गोली",
+    "2": "लीड बुलेट",
+    "3": "सीसा गोली"
   },
   "NetPlayScreen": {
-    "1": "Community",
-    "2": "Featured",
-    "3": "Personal",
-    "4": "Favorite",
-    "5": "Server List",
-    "6": "[Searching for Local Games...]",
-    "7": "Add Server",
-    "8": "Delete Server",
-    "9": "Favorite",
-    "10": "Refresh",
-    "11": "Added to Favorites",
-    "12": "Server Added to Custom List",
-    "13": "Players",
-    "14": "Mode",
-    "15": "(Failed)",
-    "16": "Community Login Required",
-    "17": "Loading...",
-    "18": "Expiration time",
-    "19": "Season",
-    "20": "Time",
-    "21": "Edit",
-    "22": "Add",
-    "23": "Local",
-    "TabRecommend": "Recommended",
-    "TabHall": "Lobby",
-    "TabCollect": "Favorites",
-    "TabLocal": "Local",
-    "NeedLoginShort": "Login Required",
-    "LocalNetwork": "LAN",
-    "AskForPassword": "Enter room password",
-    "ServerName": "Server Name:",
-    "ServerIP": "Server IP:",
-    "DeleteDialog": "Confirm Delete",
-    "DeleteMessage": "Are you sure you want to delete server {0}?",
-    "Notice": "Notice",
-    "NameIPEmpty": "Name and IP cannot be empty",
-    "IPFormatError": "Invalid IP address format",
-    "DeleteServerError": "Failed to delete: Server not found",
-    "ConnectToServerError": "Failed to connect to server",
-    "EditNotFound": "Server to edit not found in any list",
-    "SaveFailed": "Save failed: "
+    "1": "समुदाय-भावना",
+    "2": "विशेष रुप से प्रदर्शित",
+    "3": "शारीरिक",
+    "4": "पसंदीदा",
+    "5": "सर्वर सूची",
+    "6": "[स्थानीय खेलों की खोज ...]",
+    "7": "सर्वर जोड़ें",
+    "8": "सर्वर हटाएं",
+    "9": "पसंदीदा",
+    "10": "ताज़ा करना",
+    "11": "पसंदीदा में जोड़ा गया",
+    "12": "सर्वर कस्टम सूची में जोड़ा गया",
+    "13": "खिलाड़ी",
+    "14": "मोड समूह",
+    "15": "(विफल)",
+    "16": "सामुदायिक लॉगिन आवश्यक है",
+    "17": "लोड हो रहा है...",
+    "18": "समाप्ति समय",
+    "19": "बघारना",
+    "20": "समय",
+    "21": "संपादित करें",
+    "22": "आगे कहना",
+    "23": "स्थानीय",
+    "TabRecommend": "अधिक:",
+    "TabHall": "लॉबी करना",
+    "TabCollect": "पसंदीदा",
+    "TabLocal": "स्थानीय",
+    "NeedLoginShort": "लॉगिन आवश्यक",
+    "LocalNetwork": "लैन",
+    "AskForPassword": "कमरे का पासवर्ड दर्ज करें",
+    "ServerName": "सर्वर का नाम:",
+    "ServerIP": "सर्वर आईपी:",
+    "DeleteDialog": "हटाने की पुष्टि करें",
+    "DeleteMessage": "क्या आप वाकई सर्वर को हटाना चाहते हैं {0}?",
+    "Notice": "सूचना",
+    "NameIPEmpty": "नाम और IP रिक्त नहीं हो सकते",
+    "IPFormatError": "अमान्य IP पता स्वरूप",
+    "DeleteServerError": "हटाने में विफल: सर्वर नहीं मिला",
+    "ConnectToServerError": "सर्वर से कनेक्ट करने में विफल रहा",
+    "EditNotFound": "संपादित करने के लिए सर्वर किसी भी सूची में नहीं मिला",
+    "SaveFailed": "सहेजना विफल: "
   },
   "AccountScreen": {
-    "Title": "Account Management",
-    "StatusGuest": "Current status: Guest Mode",
-    "StatusLoggedIn": "Current status: Logged In",
-    "UserInfoGuest": "Select login method: Email/Phone verification login or QQ quick login",
-    "UserInfoLoggedIn": "LoggedIn: {0}",
-    "UserInfoLoggedInWithMessage": "LoggedIn: {0}\n{1}",
-    "LoginButton": "Email/Phone verification login",
-    "QQLoginButton": "QQ quick login",
-    "RoleCreateButton": "Create Role",
-    "RoleSelectButton": "Select Role",
-    "RoleDetailButton": "Role Details",
-    "LogoutButton": "Logout",
-    "LoginSuccess": "Login successful: {0}",
-    "QQLoginSuccess": "QQ login successful: {0}",
-    "LogoutSuccess": "Logged out",
-    "LogoutFailed": "Logout failed: {0}",
-    "RoleListTitle": "Role List",
-    "RoleListEmpty": "No roles available",
-    "RoleListSuccess": "Role list refreshed successfully, total {0}",
-    "CreateRoleTitle": "Enter role name",
-    "CreateRoleSuccess": "Creation successful: {0}",
-    "SelectRoleTitle": "Select role to switch",
-    "SelectRoleSuccess": "Current role has been switched to: {0}",
-    "NoRoles": "No roles available for operation",
-    "CurrentRoleTitle": "Current Role",
-    "CurrentRoleEmpty": "No role selected",
-    "CurrentRoleFormat": "Current role: {0} ({1})",
-    "TokenExpired": "Login status has expired, please login again",
-    "NetworkUnavailable": "Network unavailable",
-    "ErrorTitle": "Error",
+    "Title": "खाता प्रबंधन",
+    "StatusGuest": "वर्तमान स्थिति: अतिथि मोड",
+    "StatusLoggedIn": "वर्तमान स्थिति: लॉग इन",
+    "UserInfoGuest": "लॉगिन विधि का चयन करें: ईमेल/फोन सत्यापन लॉगिन या QQ त्वरित लॉगिन",
+    "UserInfoLoggedIn": "लॉग इन करें: {0}",
+    "UserInfoLoggedInWithMessage": "लॉग इन करें: {0}\n{1}",
+    "LoginButton": "ईमेल/फ़ोन सत्यापन लॉगिन",
+    "QQLoginButton": "QQ त्वरित लॉगिन",
+    "RoleCreateButton": "भूमिका बनाएं",
+    "RoleSelectButton": "भूमिका का चयन करें",
+    "RoleDetailButton": "भूमिका विवरण",
+    "LogoutButton": "लॉगआउट",
+    "LoginSuccess": "लॉगिन सफल: {0}",
+    "QQLoginSuccess": "QQ लॉगिन सफल: {0}",
+    "LogoutSuccess": "लॉग आउट",
+    "LogoutFailed": "लॉगआउट विफल: {0}",
+    "RoleListTitle": "भूमिका सूची",
+    "RoleListEmpty": "कोई भूमिका उपलब्ध नहीं है",
+    "RoleListSuccess": "भूमिका सूची सफलतापूर्वक ताज़ा की गई, कुल {0}",
+    "CreateRoleTitle": "भूमिका का नाम दर्ज करें",
+    "CreateRoleSuccess": "निर्माण सफल: {0}",
+    "SelectRoleTitle": "स्विच करने के लिए भूमिका का चयन करें",
+    "SelectRoleSuccess": "वर्तमान भूमिका को स्विच किया गया है: {0}",
+    "NoRoles": "ऑपरेशन के लिए कोई भूमिका उपलब्ध नहीं है",
+    "CurrentRoleTitle": "वर्तमान भूमिका",
+    "CurrentRoleEmpty": "कोई भूमिका नहीं चुनी गई",
+    "CurrentRoleFormat": "वर्तमान भूमिका: {0} ({1})",
+    "TokenExpired": "लॉगिन स्थिति समाप्त हो गई है, कृपया फिर से लॉगिन करें",
+    "NetworkUnavailable": "नेटवर्क अनुपलब्ध",
+    "ErrorTitle": "चूक",
     "ErrorFormat": "{0}: {1}",
-    "CurrentRoleLoading": "Loading current role...",
-    "UnknownAccount": "Unknown Account",
-    "UnnamedRole": "Unnamed Role",
-    "UnknownError": "Unknown error",
-    "RoleErrorListFailed": "Failed to get role list",
-    "RoleErrorCreateFailed": "Failed to create role",
-    "RoleErrorGetCurrentFailed": "Failed to get current role",
-    "RoleErrorSelectFailed": "Failed to select role",
-    "RoleErrorReadListFailed": "Failed to read role list",
-    "HelpTitle": "Account Features",
-    "HelpLine1": "New SC multiplayer supports SCKey auth / guest mode. Client-hosted servers default to no SCKey auth.",
-    "HelpLine2": "Servers with SCKey auth enabled get better management and anti-cheat through the SCKey platform.",
-    "HelpLine3": "When joining servers, you'll use role ID or guest ID based on the server's auth settings.",
-    "HelpLine4": "Use email/SMS verification or QQ login to access your SCKey account and manage roles/servers securely.",
-    "HelpLine5": "Cherish your role ID. Players can only have 3 roles. Created roles require a waiting period before deletion."
+    "CurrentRoleLoading": "वर्तमान भूमिका लोड हो रहा है...",
+    "UnknownAccount": "अज्ञात खाता",
+    "UnnamedRole": "अनाम भूमिका",
+    "UnknownError": "अज्ञात त्रुटि",
+    "RoleErrorListFailed": "भूमिका सूची प्राप्त करने में विफल रहा",
+    "RoleErrorCreateFailed": "भूमिका बनाने में विफल रहा",
+    "RoleErrorGetCurrentFailed": "वर्तमान भूमिका प्राप्त करने में विफल रहा",
+    "RoleErrorSelectFailed": "भूमिका का चयन करने में विफल रहा",
+    "RoleErrorReadListFailed": "भूमिका सूची पढ़ने में विफल",
+    "HelpTitle": "खाता सुविधाएँ",
+    "HelpLine1": "नया SC मल्टीप्लेयर SCKey ऑथ/गेस्ट मोड को सपोर्ट करता है। क्लाइंट-होस्ट किए गए सर्वर डिफ़ॉल्ट रूप से कोई SCKey प्रमाणीकरण नहीं है।",
+    "HelpLine2": "SCKey प्रमाणीकरण सक्षम सर्वर SCKey प्लेटफॉर्म के माध्यम से बेहतर प्रबंधन और एंटी-चीट प्राप्त करते हैं।",
+    "HelpLine3": "सर्वर से जुड़ते समय, आप सर्वर की प्रमाणीकरण सेटिंग्स के आधार पर रोल आईडी या अतिथि आईडी का उपयोग करेंगे।",
+    "HelpLine4": "अपने SCKey खाते तक पहुंचने और भूमिकाओं/सर्वरों को सुरक्षित रूप से प्रबंधित करने के लिए ईमेल/एसएमएस सत्यापन या QQ लॉगिन का उपयोग करें।",
+    "HelpLine5": "अपनी भूमिका आईडी को संजोएं। खिलाड़ियों की केवल 3 भूमिकाएँ हो सकती हैं। बनाई गई भूमिकाओं को हटाने से पहले प्रतीक्षा अवधि की आवश्यकता होती है।"
   },
   "CottonBlock": [
-    "Cotton",
-    "Wild Cotton"
+    "कपास",
+    "जंगली कपास"
   ],
   "ArrowBlock": [
-    "Wooden Tip Arrow",
-    "Stone Tip Arrow",
-    "Iron Tip Arrow",
-    "Diamond Tip Arrow",
-    "Fire Arrow",
-    "Iron Bolt",
-    "Diamond Tip Iron Bolt",
-    "Explosive Bolt",
-    "Copper Tip Arrow"
+    "लकड़ी की नोक तीर",
+    "स्टोन टिप एरो",
+    "आयरन टिप एरो",
+    "डायमंड टिप एरो",
+    "आग तीर",
+    "लोहे का बोल्ट",
+    "डायमंड टिप आयरन बोल्ट",
+    "विस्फोटक बोल्ट",
+    "कॉपर टिप एरो"
   ],
   "BulletBlock": [
-    "Musket Ball",
-    "Buckshot",
-    "Buckshot Ball"
+    "मस्कट बॉल",
+    "बकशॉट",
+    "बकशॉट बॉल"
   ],
   "PressurePlateBlock": [
-    "Wooden Pressure Plate",
-    "Stone Pressure Plate"
+    "लकड़ी की दबाव प्लेट",
+    "स्टोन प्रेशर प्लेट"
   ],
   "PistonBlock": [
-    "Piston",
-    "Pulling Piston",
-    "Strict Pulling Piston"
+    "पिस्‍टन",
+    "पिस्टन खींचना",
+    "सख्त खींचने वाला पिस्टन"
   ],
   "DeciduousLeavesBlock": [
-    "Summer ",
-    "Autumn ",
-    "Winter ",
-    "Spring "
+    "गर्मियां ",
+    "पतझड़ ",
+    "सरदी ",
+    "वसंत "
   ],
   "SubsystemSeasons": [
-    "Early Summer",
-    "Summer",
-    "Late Summer",
-    "Early Autumn",
-    "Autumn",
-    "Late Autumn",
-    "Early Winter",
-    "Winter",
-    "Late Winter",
-    "Early Spring",
-    "Spring",
-    "Late Spring"
+    "गर्मियों की शुरुआत",
+    "गर्मियां",
+    "देर से गर्मियों",
+    "शुरुआती शरद ऋतु",
+    "पतझड़",
+    "देर से शरद ऋतु",
+    "शुरुआती सर्दी",
+    "सरदी",
+    "देर से सर्दी",
+    "शुरुआती वसंत",
+    "वसंत",
+    "देर से वसंत"
   ],
   "Blocks": {
     "AirBlock:0": {
-      "DisplayName": "Air",
+      "DisplayName": "वायु",
       "Description": ""
     },
     "BedrockBlock:0": {
-      "DisplayName": "Bedrock",
+      "DisplayName": "आधार-शैल",
       "Description": ""
     },
     "BedrockBlock:1": {
-      "DisplayName": "Territory Stone",
-      "Description": "Placed Territory Stone allows you to limit the interaction of other players with blocks within a 2x2 chunks (32x32 blocks) area. Each player can only have one Territory Stone. If multiple stones are placed, the last one placed will take effect."
+      "DisplayName": "क्षेत्र पत्थर",
+      "Description": "प्लेस्ड टेरिटरी स्टोन आपको 2x2 चंक्स (32x32 ब्लॉक) क्षेत्र के भीतर ब्लॉक के साथ अन्य खिलाड़ियों की बातचीत को सीमित करने की अनुमति देता है। प्रत्येक खिलाड़ी के पास केवल एक टेरिटरी स्टोन हो सकता है। यदि कई पत्थर रखे जाते हैं, तो अंतिम रखा गया पत्थर प्रभावी होगा।"
     },
     "DirtBlock:0": {
-      "DisplayName": "Dirt",
-      "Description": "Dirt is a very common block found near the surface in most environments. It can be easily dug even with bare hands, but is best dug with a shovel. When exposed to direct sunlight, grass and flowers will spread to it from nearby blocks, if present."
+      "DisplayName": "नीचतापूर्ण बात",
+      "Description": "गंदगी एक बहुत ही सामान्य ब्लॉक है जो अधिकांश वातावरणों में सतह के पास पाया जाता है। इसे नंगे हाथों से भी आसानी से खोदा जा सकता है, लेकिन फावड़े से सबसे अच्छा खोदा जाता है। सीधी धूप के संपर्क में आने पर, घास और फूल आस-पास के ब्लॉकों से फैल जाएंगे, यदि मौजूद हैं।"
     },
     "SoilBlock:0": {
-      "DisplayName": "Soil",
-      "Description": "Soil is dirt that has been made suitable for cultivation by using a rake. It can be easily damaged by walking or jumping on it. Soil can be fertilized by sprinkling saltpeter on it, plants will grow faster and slowly use up the fertilizer. Soil that is near water will become moist, making plants grow even faster."
+      "DisplayName": "धब्‍बे डालना",
+      "Description": "मिट्टी वह गंदगी है जिसे रेक का उपयोग करके खेती के लिए उपयुक्त बनाया गया है। इस पर चलने या कूदने से इसे आसानी से नुकसान पहुंचा सकता है। उस पर साल्टपीटर छिड़ककर मिट्टी को निषेचित किया जा सकता है, पौधे तेजी से बढ़ेंगे और धीरे-धीरे उर्वरक का उपयोग करेंगे। पानी के पास की मिट्टी नम हो जाएगी, जिससे पौधे और भी तेजी से बढ़ेंगी।"
     },
     "LimestoneBlock:0": {
-      "DisplayName": "Limestone",
-      "Description": "Limestone is a brittle whitish stone occasionally found near the surface close to water bodies. It can be easily quarried with a pickaxe, and because of its brittleness even with bare hands. It can be used for making pigments and marble."
+      "DisplayName": "चूना-पत्‍थर",
+      "Description": "चूना पत्थर एक भंगुर सफेद पत्थर है जो कभी-कभी जल निकायों के करीब सतह के पास पाया जाता है। इसे आसानी से कुदाल से खोदा जा सकता है, और इसकी भंगुरता के कारण नंगे हाथों से भी। इसका उपयोग पिगमेंट और संगमरमर बनाने के लिए किया जा सकता है।"
     },
     "GraniteBlock:0": {
-      "DisplayName": "Granite",
-      "Description": "Granite is a tough grey stone that fills the majority of underground world and makes mountains stand tall. Sometimes contains veins of coal, and, often deeper, copper. When harvested, turns into cobblestone, which can in turn be smelted back into pure granite. Can be painted.",
-      "CRDescription:0": "Turn cobblestone into granite by smelting"
+      "DisplayName": "ग्रेनाइट",
+      "Description": "ग्रेनाइट एक सख्त ग्रे पत्थर है जो अधिकांश भूमिगत दुनिया को भर देता है और पहाड़ों को ऊंचा खड़ा करता है। कभी-कभी कोयले की नसें होती हैं, और, अक्सर गहरी, तांबा। जब काटा जाता है, तो कोबलस्टोन में बदल जाता है, जिसे बदले में शुद्ध ग्रेनाइट में वापस गलाया जा सकता है। चित्रित किया जा सकता है।",
+      "CRDescription:0": "गलाकर कोबलस्टोन को ग्रेनाइट में बदल दें"
     },
     "BasaltBlock:0": {
-      "DisplayName": "Basalt",
-      "Description": "Basalt is a very tough dark stone of volcanic origin. To mine it effectively it's best to use a strong pickaxe. Basalt is tougher than granite, and forms the majority of deep underground world. Occasionally has pools of magma embedded in it, so be careful when tunnelling. Veins of sulphur and iron ore might sometimes be found when you are deep enough. Even more rarely, you will find the elusive diamond shining brightly from between the rocks. Can be painted."
+      "DisplayName": "बैसाल्ट",
+      "Description": "बेसाल्ट ज्वालामुखी मूल का एक बहुत ही कठोर काला पत्थर है। इसे प्रभावी ढंग से माइन करने के लिए एक मजबूत कुदाल का उपयोग करना सबसे अच्छा है। बेसाल्ट ग्रेनाइट की तुलना में कठिन है, और गहरी भूमिगत दुनिया का बहुमत बनाता है। कभी-कभी इसमें मैग्मा के पूल लगे होते हैं, इसलिए सुरंग बनाते समय सावधान रहें। सल्फर और लौह अयस्क की नसें कभी-कभी तब पाई जा सकती हैं जब आप काफी गहरे होते हैं। इससे भी अधिक दुर्लभ रूप से, आप मायावी हीरा चट्टानों के बीच से चमकता हुआ पाएंगे। चित्रित किया जा सकता है।"
     },
     "SandstoneBlock:0": {
-      "DisplayName": "Sandstone",
-      "Description": "A brittle yellow stone often found under dry, sandy areas. It can be easily quarried with a pickaxe, and because of its brittleness even with bare hands. It may contain saltpeter, which is found in shallow, flat veins in places where in the ancient times birds nested and covered the ground with their nitrogen rich droppings. Can be painted."
+      "DisplayName": "बलुआ पत्‍थर",
+      "Description": "एक भंगुर पीला पत्थर जो अक्सर सूखे, रेतीले क्षेत्रों के नीचे पाया जाता है। इसे आसानी से कुदाल से खोदा जा सकता है, और इसकी भंगुरता के कारण नंगे हाथों से भी। इसमें साल्टपीटर हो सकता है, जो उन जगहों पर उथली, सपाट नसों में पाया जाता है जहां प्राचीन काल में पक्षी घोंसला बनाते थे और अपनी नाइट्रोजन युक्त बूंदों से जमीन को ढक देते थे। चित्रित किया जा सकता है।"
     },
     "GravelBlock:0": {
-      "DisplayName": "Gravel",
-      "Description": "Gravel is an aggregate of fine stones. Caches of gravel are often found underground, and it sometimes covers beaches. It is then known under the name of shingle. Gravel is a loose material that will collapse when tunnelled under, and may easily bury the unwary, so be careful. It is the best source of rocks for throwing."
+      "DisplayName": "रोड़ी",
+      "Description": "बजरी महीन पत्थरों का एक समुच्चय है। बजरी के कैश अक्सर भूमिगत पाए जाते हैं, और यह कभी-कभी समुद्र तटों को कवर करता है। फिर इसे शिंगल के नाम से जाना जाता है। बजरी एक ढीली सामग्री है जो सुरंग के नीचे ढह जाएगी, और आसानी से अनजान को दफन कर सकती है, इसलिए सावधान रहें। यह फेंकने के लिए चट्टानों का सबसे अच्छा स्रोत है।"
     },
     "ClayBlock:0": {
-      "DisplayName": "Clay",
-      "Description": "Clay is a heavy, densely packed soil made of very small grains. From time immemorial it was known that by firing it in a furnace one can obtain bricks, which are the most versatile building material. Clay is often found on the bottoms of shallow lakes. Can be painted."
+      "DisplayName": "मिट्टी",
+      "Description": "मिट्टी एक भारी, घनी मिट्टी है जो बहुत छोटे दानों से बनी होती है। प्राचीन काल से यह ज्ञात था कि इसे भट्टी में जलाकर कोई ईंटें प्राप्त कर सकता है, जो सबसे बहुमुखी निर्माण सामग्री हैं। मिट्टी अक्सर उथली झीलों के तल पर पाई जाती है। चित्रित किया जा सकता है।"
     },
     "SandBlock:0": {
-      "DisplayName": "Sand",
-      "Description": "Sand is a yellowish loose material that covers desert areas and beaches. Be careful because sand will collapse when tunnelled under. It is most commonly used to make glass. Cacti will often grow on it in dry and hot climates."
+      "DisplayName": "रेत",
+      "Description": "रेत एक पीले रंग की ढीली सामग्री है जो रेगिस्तानी क्षेत्रों और समुद्र तटों को कवर करती है। सावधान रहें क्योंकि सुरंग बनाने पर रेत ढह जाएगी। इसका उपयोग आमतौर पर कांच बनाने के लिए किया जाता है। कैक्टि अक्सर शुष्क और गर्म जलवायु में उस पर उगेगा।"
     },
     "GrassBlock:0": {
-      "DisplayName": "Grass",
-      "Description": "Grass grows on dirt blocks when there is enough sunlight available. When conditions are right, various flowers, tall grass blades and vegetables will grow on it. Grass is easily destroyed by covering it with something heavy and takes a long time to regrow."
+      "DisplayName": "घास",
+      "Description": "पर्याप्त धूप उपलब्ध होने पर घास गंदगी के ब्लॉकों पर बढ़ती है। जब परिस्थितियाँ सही होंगी, तो उस पर विभिन्न फूल, लंबे घास के ब्लेड और सब्जियां उग आएंगी। घास को किसी भारी चीज से ढककर आसानी से नष्ट कर दिया जाता है और इसे दोबारा उगने में काफी समय लगता है।"
     },
     "WaterBlock:0": {
-      "DisplayName": "Water",
-      "Description": "Water is a fluid that easily flows from place to place and fills low-lying areas. A bucket can be used to transport it from a source to a dry area. When placed in a cold area, water will freeze into ice."
+      "DisplayName": "पानी",
+      "Description": "पानी एक तरल पदार्थ है जो आसानी से एक स्थान से दूसरे स्थान पर बहता है और निचले इलाकों को भर देता है। इसे स्रोत से शुष्क क्षेत्र तक ले जाने के लिए एक बाल्टी का उपयोग किया जा सकता है। ठंडे क्षेत्र में रखे जाने पर पानी बर्फ में जम जाएगा।"
     },
     "MagmaBlock:0": {
-      "DisplayName": "Magma",
-      "Description": "Hot molten rock occasionally found in pools, deep underground in basalt. It is extremely hot and will set anything flammable on fire as soon as it touches it. It will also very quickly kill any living thing that happens to fall into it. A bucket can be used to transport it away from its source."
+      "DisplayName": "मैग्मा",
+      "Description": "गर्म पिघली हुई चट्टान कभी-कभी तालाबों में पाई जाती है, बेसाल्ट में गहरे भूमिगत। यह बेहद गर्म है और इसे छूते ही ज्वलनशील किसी भी चीज में आग लगा देगा। यह किसी भी जीवित चीज को भी बहुत जल्दी मार देगा जो इसमें गिरता है। इसे इसके स्रोत से दूर ले जाने के लिए एक बाल्टी का उपयोग किया जा सकता है।"
     },
     "SnowBlock:0": {
-      "DisplayName": "Snow",
-      "Description": "A form of frozen water, covers ground in cold biomes. During cold weather, it may fall from the sky as snowfall and cover any area exposed directly to the sky."
+      "DisplayName": "हिमपात होना",
+      "Description": "जमे हुए पानी का एक रूप, ठंडे बायोम में जमीन को कवर करता है। ठंड के मौसम के दौरान, यह बर्फबारी के रूप में आसमान से गिर सकता है और सीधे आकाश के संपर्क में आने वाले किसी भी क्षेत्र को कवर कर सकता है।"
     },
     "IceBlock:0": {
-      "DisplayName": "Ice",
-      "Description": "A block of water which has frozen solid. Whenever water is exposed to low temperatures, it will turn into ice. Ice can in turn be melted back into water by using fire or magma as a heat source. It has a slippery surface that makes walking difficult."
+      "DisplayName": "बर्फ",
+      "Description": "पानी का एक खंड जो ठोस रूप से जम गया हो। जब भी पानी कम तापमान के संपर्क में आएगा, तो यह बर्फ में बदल जाएगा। बर्फ को बदले में गर्मी स्रोत के रूप में आग या मैग्मा का उपयोग करके पानी में पिघलाया जा सकता है। इसकी सतह फिसलन भरी होती है जिससे चलना मुश्किल हो जाता है।"
     },
     "FireBlock:0": {
-      "DisplayName": "Fire",
+      "DisplayName": "अग्‍नि",
       "Description": ""
     },
     "CoalOreBlock:0": {
-      "DisplayName": "Coal Ore",
-      "Description": "Coal ore is a vein of coal embedded in granite rock. Gains coal chunks when mined. Be careful, because certain ores require special tools for successful mining of the mineral. If improper tools are used, the mineral is lost."
+      "DisplayName": "कोयला अयस्क",
+      "Description": "कोयला अयस्क ग्रेनाइट चट्टान में एम्बेडेड कोयले की एक नस है। खनन होने पर कोयले के टुकड़े प्राप्त होते हैं। सावधान रहें, क्योंकि कुछ अयस्कों को खनिज के सफल खनन के लिए विशेष उपकरणों की आवश्यकता होती है। यदि अनुचित उपकरणों का उपयोग किया जाता है, तो खनिज खो जाता है।"
     },
     "CopperOreBlock:0": {
-      "DisplayName": "Copper Ore",
+      "DisplayName": "तांबा अयस्क",
       "Description": "Copper ore is a vein of green copper carbonate embedded in granite rock. Gains malachite chunks when mined. Be careful, because certain ores require special tools for successful mining of the mineral. If improper tools are used, the mineral is lost. Further processing in the furnace is required to extract pure copper from the carbonate."
     },
     "IronOreBlock:0": {
@@ -1442,7 +1442,7 @@
       "Description": "Red flowers randomly grow on well lit and humid grass blocks. Can be used as a decorative plant."
     },
     "PurpleFlowerBlock:0": {
-      "DisplayName": "Purple Flower",
+      "DisplayName": "बैंगनी फूल",
       "Description": "Purple flowers randomly grow on well lit and humid grass blocks. Can be used as a decorative plant and contains purple pigment that makes magenta paint"
     },
     "WhiteFlowerBlock:0": {
@@ -1458,7 +1458,7 @@
       "Description": "Dry bushes are commonly found on the edges of deserts or in cold places. Whenever a plant does not have enough humidity or sunlight to sustain itself, it will turn into a dry bush. "
     },
     "SaplingBlock:0": {
-      "DisplayName": "Oak Sapling",
+      "DisplayName": "ओक सैपलिंग",
       "Description": "Saplings are used to plant trees. You can obtain them by crafting from the leaves of trees. When planting, be careful to place the saplings in a well lit place, full of moisture and of correct temperature. Use hygrometer and thermometer to measure these quantities. Oaks like it warm, birches moderately cool and spruces cold. All trees need a lot of humidity. If you plant a sapling in a wrong spot, it will wilt into a dry bush.",
       "CRDescription:0": "Cut saplings from oak leaves"
     },
@@ -1475,7 +1475,7 @@
       "Description": "Pumpkins are large, orange vegetables that grow in groups of 5 to 10 plants. When collected, they can be eaten, cooked into pumpkin soup or crafted into Jack O'Lanterns."
     },
     "PumpkinBlock:1": {
-      "DisplayName": "Pumpkin",
+      "DisplayName": "सीताफल",
       "Description": "Pumpkins are large, orange vegetables that grow in groups of 5 to 10 plants. When collected, they can be eaten, cooked into pumpkin soup or crafted into Jack O'Lanterns."
     },
     "RottenPumpkinBlock:0": {
@@ -1487,16 +1487,16 @@
       "Description": "Rotten pumpkin, do not eat."
     },
     "SeedsBlock:0": {
-      "DisplayName": "Tall Grass Seeds",
+      "DisplayName": "लंबी घास के बीज",
       "Description": "Seeds are used to plant various types of plants, such as grass, flowers and rye. Some plants need well tilled, moist and fertilized soil to grow properly. Otherwise their growth will be stunted and they will not reach full size.",
       "CRDescription:0": "Extract seeds from tall grass"
     },
     "CottonBlock:0": {
-      "DisplayName": "Cotton",
+      "DisplayName": "कपास",
       "Description": "Cotton is a plant that grows in warm areas. When harvested, provides a number of cotton wads which can be further processed into cotton products."
     },
     "CottonBlock:1": {
-      "DisplayName": "Wild Cotton",
+      "DisplayName": "जंगली कपास",
       "Description": "Cotton is a plant that grows in warm areas. When harvested, provides a number of cotton wads which can be further processed into cotton products."
     },
     "CottonWadBlock:0": {
@@ -1889,7 +1889,7 @@
       "DisplayName": "Carpet",
       "Description": "Carpet is a decorative material laid on the floor. Can be dyed by bathing in a paint bucket in a heated furnace.",
       "CRDescription:0": "Make carpet from canvas",
-      "DyeRecipeDescription": "Dye carpet {0}",
+      "DyeRecipeDescription": "डाई कालीन {0}",
       "UndyeRecipeDescription": "Undye carpet"
     },
     "CampfireBlock:0": {
@@ -1936,7 +1936,7 @@
       "CRDescription:0": "Make a Christmas Tree from spruce cuttings"
     },
     "FurnitureBlock:0": {
-      "DisplayName": "Furniture",
+      "DisplayName": "फर्नीचर",
       "Description": "Furniture blocks consist of small sub-blocks that can be made of different materials. Create new furniture by using hammer on a design created in the world from full size blocks. Furniture can be made interactive or work with electricity by combining it with other items on the crafting table."
     },
     "TreasureGeneratorBlock:0": {
@@ -2051,10 +2051,10 @@
       "CRDescription:0": "Dissolve saltpeter in water to make paint stripper"
     },
     "PaintBucketBlock:0": {
-      "DisplayName": "Paint Bucket",
+      "DisplayName": "पेंट बाल्टी",
       "Description": "A bucket full of paint. Can be used to paint surfaces for decorative purposes. Different colors of paint are obtained by dissolving colored ingredients, such as malachite or purple flowers into white paint.",
       "CRDescription:0": "Dissolve white pigment in water to make white paint",
-      "CRDescription": "Make {0} Paint"
+      "CRDescription": "बनाना {0} पेंट"
     },
     "MatchBlock:0": {
       "DisplayName": "Match",
@@ -2152,12 +2152,12 @@
       "CRDescription:0": "Make a musket from iron and planks"
     },
     "ArrowBlock:0": {
-      "DisplayName": "Wooden Tip Arrow",
+      "DisplayName": "लकड़ी की नोक तीर",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make wooden-tipped arrow from stick and feathers"
     },
     "BulletBlock:0": {
-      "DisplayName": "Musket Ball",
+      "DisplayName": "मस्कट बॉल",
       "Description": "Bullets are fired from firearms.",
       "CRDescription:0": "Make musket balls from iron rods"
     },
@@ -2172,7 +2172,7 @@
       "CRDescription:0": "Make throwable incendiary bomb by adding sulphur to a bomb"
     },
     "FireworksBlock:0": {
-      "DisplayName": "Fireworks",
+      "DisplayName": "आतिशबाजी",
       "Description": "Fireworks burst in the sky creating beautiful patterns. They can be launched by hand, but it's better to launch them en masse using the dispenser. And better still to wire multiple dispensers with electricity and create a beautiful, programmed fireworks display. Fireworks come in 8 colors, 8 shapes, 2 altitude modes (low and high). Additionally each firework can be made to flicker. Color and shape of the head determines color and shape of the burst. Thick shafts burst high, narrow shafts burst low. Red stabilizers indicate flickering.",
       "CRDescription": "Make fireworks"
     },
@@ -2355,7 +2355,7 @@
       "CRDescription:0": "Craft batteries from copper and coal"
     },
     "LightbulbBlock:0": {
-      "DisplayName": "Lightbulb",
+      "DisplayName": "लाइटबल्ब",
       "Description": "Electric lightbulb, emits a lot of light when connected to a source of electricity. Can be placed on any surface.",
       "CRDescription:0": "Craft lightbulbs from copper and glass"
     },
@@ -2370,7 +2370,7 @@
       "CRDescription:0": "Craft electric buttons from copper and planks"
     },
     "PressurePlateBlock:0": {
-      "DisplayName": "Wooden Pressure Plate",
+      "DisplayName": "लकड़ी की दबाव प्लेट",
       "Description": "Electric pressure plate. The pressure plate generates a signal when it is pressed, for example by something heavy resting on it, or by a projectile striking it. The voltage generated depends on the weight of item and is between 0.8V (lightest) and 1.5V (heaviest), therefore the pressure plate can be used as a weight. As soon as the pressure is removed, the output signal returns to 0V. The plate has outputs on all sides for easy connection. It can be placed on any surface.",
       "CRDescription:0": "Craft electric pressure plates from copper and planks"
     },
@@ -2380,7 +2380,7 @@
       "CRDescription:0": "Craft motion detectors from copper, glass and marble"
     },
     "PistonBlock:0": {
-      "DisplayName": "Piston",
+      "DisplayName": "पिस्‍टन",
       "Description": "Pistons can be used to push and pull blocks. The extension of piston is controlled by voltage applied to it. 0.8V will make piston extend to one block, 0.9V to two etc. 1.5V will extend a piston to a maximum of 8 blocks. Pistons can also be edited to limit the maximum extension to lower values. If the piston is a pull piston, it will also pull blocks back when retracting. If the piston is a strict pull piston, it will not retract unless it is pulling back enough blocks. Number of pulled blocks can be adjusted by editing up to a maximum of 8."
     },
     "PistonHeadBlock:0": {
@@ -2630,17 +2630,17 @@
       "CRDescription:0": "Make diamond boots from iron boots and diamonds"
     },
     "SaplingBlock:1": {
-      "DisplayName": "Birch Sapling",
+      "DisplayName": "बिर्च सैपलिंग",
       "Description": "Saplings are used to plant trees. You can obtain them by crafting from the leaves of trees. When planting, be careful to place the saplings in a well lit place, full of moisture and of correct temperature. Use hygrometer and thermometer to measure these quantities. Oaks like it warm, birches moderately cool and spruces cold. All trees need a lot of humidity. If you plant a sapling in a wrong spot, it will wilt into a dry bush.",
       "CRDescription:0": "Cut saplings from birch leaves"
     },
     "SaplingBlock:2": {
-      "DisplayName": "Spruce Sapling",
+      "DisplayName": "स्प्रूस सैपलिंग",
       "Description": "Saplings are used to plant trees. You can obtain them by crafting from the leaves of trees. When planting, be careful to place the saplings in a well lit place, full of moisture and of correct temperature. Use hygrometer and thermometer to measure these quantities. Oaks like it warm, birches moderately cool and spruces cold. All trees need a lot of humidity. If you plant a sapling in a wrong spot, it will wilt into a dry bush.",
       "CRDescription:0": "Cut saplings from spruce leaves"
     },
     "SaplingBlock:3": {
-      "DisplayName": "Tall Spruce Sapling",
+      "DisplayName": "लंबा स्प्रूस पौधा",
       "Description": "Saplings are used to plant trees. You can obtain them by crafting from the leaves of trees. When planting, be careful to place the saplings in a well lit place, full of moisture and of correct temperature. Use hygrometer and thermometer to measure these quantities. Oaks like it warm, birches moderately cool and spruces cold. All trees need a lot of humidity. If you plant a sapling in a wrong spot, it will wilt into a dry bush.",
       "CRDescription:0": "Cut saplings from tall spruce leaves"
     },
@@ -2650,11 +2650,11 @@
       "CRDescription:0": "Cut saplings from mimosa leaves"
     },
     "SaplingBlock:5": {
-      "DisplayName": "Poplar Sapling",
+      "DisplayName": "चिनार का पौधा",
       "CRDescription:0": "Cut saplings from poplar leaves"
     },
     "SeedsBlock:1": {
-      "DisplayName": "Red Flower Seeds",
+      "DisplayName": "लाल फूल के बीज",
       "Description": "Seeds are used to plant various types of plants, such as grass, flowers and rye. Some plants need well tilled, moist and fertilized soil to grow properly. Otherwise their growth will be stunted and they will not reach full size.",
       "CRDescription:0": "Extract seeds from red flower"
     },
@@ -2664,7 +2664,7 @@
       "CRDescription:0": "Extract seeds from purple flower"
     },
     "SeedsBlock:3": {
-      "DisplayName": "White Flower Seeds",
+      "DisplayName": "सफेद फूल के बीज",
       "Description": "Seeds are used to plant various types of plants, such as grass, flowers and rye. Some plants need well tilled, moist and fertilized soil to grow properly. Otherwise their growth will be stunted and they will not reach full size.",
       "CRDescription:0": "Extract seeds from white flower"
     },
@@ -2677,63 +2677,63 @@
       "Description": "Seeds are used to plant various types of plants, such as grass, flowers and rye. Some plants need well tilled, moist and fertilized soil to grow properly. Otherwise their growth will be stunted and they will not reach full size."
     },
     "SeedsBlock:6": {
-      "DisplayName": "Cotton Seeds",
+      "DisplayName": "कपास के बीज",
       "Description": "Seeds are used to plant various types of plants, such as grass, flowers and rye. Some plants need well tilled, moist and fertilized soil to grow properly. Otherwise their growth will be stunted and they will not reach full size."
     },
     "SeedsBlock:7": {
-      "DisplayName": "Pumpkin Seeds",
+      "DisplayName": "कद्दू के बीज",
       "Description": "Seeds are used to plant various types of plants, such as grass, flowers and rye. Some plants need well tilled, moist and fertilized soil to grow properly. Otherwise their growth will be stunted and they will not reach full size.",
       "CRDescription:0": "Extract seeds from a fully grown pumpkin",
       "CRDescription:1": "Extract seeds from a fully grown pumpkin"
     },
     "ArrowBlock:1": {
-      "DisplayName": "Stone Tip Arrow",
+      "DisplayName": "स्टोन टिप एरो",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make stone-tipped arrow from stick, feathers and stone"
     },
     "ArrowBlock:2": {
-      "DisplayName": "Iron Tip Arrow",
+      "DisplayName": "आयरन टिप एरो",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make iron-tipped arrow from stick, feathers and iron"
     },
     "ArrowBlock:3": {
-      "DisplayName": "Diamond Tip Arrow",
+      "DisplayName": "डायमंड टिप एरो",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make diamond-tipped arrow from iron arrow and a diamond"
     },
     "ArrowBlock:4": {
-      "DisplayName": "Fire Arrow",
+      "DisplayName": "आग तीर",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make fire arrow from wooden arrow and sulphur"
     },
     "ArrowBlock:5": {
-      "DisplayName": "Iron Bolt",
+      "DisplayName": "लोहे का बोल्ट",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make iron bolt from rod and feather"
     },
     "ArrowBlock:6": {
-      "DisplayName": "Diamond Tip Iron Bolt",
+      "DisplayName": "डायमंड टिप आयरन बोल्ट",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make diamond-tipped bolt from iron bolt and a diamond"
     },
     "ArrowBlock:7": {
-      "DisplayName": "Explosive Bolt",
+      "DisplayName": "विस्फोटक बोल्ट",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make explosive bolt from iron bolt and gunpowder"
     },
     "ArrowBlock:8": {
-      "DisplayName": "Copper Tip Arrow",
+      "DisplayName": "कॉपर टिप एरो",
       "Description": "Arrows and bolts are fired from projectile weapons.",
       "CRDescription:0": "Make copper-tipped arrow from stick, feathers and copper"
     },
     "BulletBlock:1": {
-      "DisplayName": "Buckshot",
+      "DisplayName": "बकशॉट",
       "Description": "Bullets are fired from firearms.",
       "CRDescription:0": "Make buckshot from musket balls",
       "CRDescription:1": "Make buckshot from buckshot balls"
     },
     "BulletBlock:2": {
-      "DisplayName": "Buckshot Ball",
+      "DisplayName": "बकशॉट बॉल",
       "Description": "Bullets are fired from firearms.",
       "CRDescription:0": "Extract buckshot balls from buckshot"
     },
@@ -2759,22 +2759,22 @@
       "CRDescription:0": "Craft gravestone from granite"
     },
     "PressurePlateBlock:1": {
-      "DisplayName": "Stone Pressure Plate",
+      "DisplayName": "स्टोन प्रेशर प्लेट",
       "Description": "Electric pressure plate. The pressure plate generates a signal when it is pressed, for example by something heavy resting on it, or by a projectile striking it. The voltage generated depends on the weight of item and is between 0.8V (lightest) and 1.5V (heaviest), therefore the pressure plate can be used as a weight. As soon as the pressure is removed, the output signal returns to 0V. The plate has outputs on all sides for easy connection. It can be placed on any surface.",
       "CRDescription:0": "Craft electric pressure plates from copper and stone"
     },
     "PistonBlock:448": {
-      "DisplayName": "Piston",
+      "DisplayName": "पिस्‍टन",
       "Description": "Pistons can be used to push and pull blocks. The extension of piston is controlled by voltage applied to it. 0.8V will make piston extend to one block, 0.9V to two etc. 1.5V will extend a piston to a maximum of 8 blocks. Pistons can also be edited to limit the maximum extension to lower values. If the piston is a pull piston, it will also pull blocks back when retracting. If the piston is a strict pull piston, it will not retract unless it is pulling back enough blocks. Number of pulled blocks can be adjusted by editing up to a maximum of 8.",
       "CRDescription:0": "Use planks, semiconductor and copper to make a piston"
     },
     "PistonBlock:450": {
-      "DisplayName": "Pulling Piston",
+      "DisplayName": "पिस्टन खींचना",
       "Description": "Pistons can be used to push and pull blocks. The extension of piston is controlled by voltage applied to it. 0.8V will make piston extend to one block, 0.9V to two etc. 1.5V will extend a piston to a maximum of 8 blocks. Pistons can also be edited to limit the maximum extension to lower values. If the piston is a pull piston, it will also pull blocks back when retracting. If the piston is a strict pull piston, it will not retract unless it is pulling back enough blocks. Number of pulled blocks can be adjusted by editing up to a maximum of 8.",
       "CRDescription:0": "Add iron hooks to piston to make a pulling piston"
     },
     "PistonBlock:452": {
-      "DisplayName": "Strict Pulling Piston",
+      "DisplayName": "सख्त खींचने वाला पिस्टन",
       "Description": "Pistons can be used to push and pull blocks. The extension of piston is controlled by voltage applied to it. 0.8V will make piston extend to one block, 0.9V to two etc. 1.5V will extend a piston to a maximum of 8 blocks. Pistons can also be edited to limit the maximum extension to lower values. If the piston is a pull piston, it will also pull blocks back when retracting. If the piston is a strict pull piston, it will not retract unless it is pulling back enough blocks. Number of pulled blocks can be adjusted by editing up to a maximum of 8.",
       "CRDescription:0": "Add copper hooks to piston to make a strict pulling piston"
     },
@@ -2800,133 +2800,133 @@
     "1": {
       "value": "",
       "Name": "Gamepad",
-      "Title": "Gamepad Controls"
+      "Title": "गेमपैड नियंत्रण"
     },
     "2": {
       "value": "",
       "Name": "Keyboard",
-      "Title": "Keyboard Controls"
+      "Title": "कीबोर्ड नियंत्रण"
     },
     "3": {
-      "value": "\\n Use the touchpad at the bottom left side of the screen to move.\\n Tap it once to jump.\\n This can also be configured to use directional buttons instead of the pad.\\n \\n\\n\\n Use the touchpad at the bottom right side of the screen to look around.\\n Tap it once to jump.\\n You can also drag your finger across any area of the screen to look.\\n \\n\\n\\n You can tweak control scheme of the game in the Controls and Sensitivity settings.\\n Experiment with various options, for example you may find you prefer buttons to touchpads, or split touch with crosshair to regular controls.\\n Controlling a first person game on a small touchscreen may look difficult, but once you get the hang of it, it is no different than using a gamepad or a mouse.\\n Because you can touch any part of the screen at any time, some actions like block digging or placement may even be easier.\\n \\n\\n\\n Some cheap or old devices have low quality touch screens or buggy touch drivers.\\n They might intermittently drop active touch points, or mix them up if touched in more than one point at once.\\n These are best avoided as playing on them is extremely frustrating.\\n ",
+      "value": "\\n स्थानांतरित करने के लिए स्क्रीन के नीचे बाईं ओर टचपैड का उपयोग करें।\\n कूदने के लिए इसे एक बार टैप करें।\\n इसे पैड के बजाय दिशात्मक बटन का उपयोग करने के लिए भी कॉन्फ़िगर किया जा सकता है।\\n \\n\\n\\n चारों ओर देखने के लिए स्क्रीन के नीचे दाईं ओर टचपैड का उपयोग करें।\\n कूदने के लिए इसे एक बार टैप करें।\\n आप देखने के लिए अपनी उंगली को स्क्रीन के किसी भी क्षेत्र में भी खींच सकते हैं।\\n \\n\\n\\n आप नियंत्रण और संवेदनशीलता सेटिंग्स में गेम की नियंत्रण योजना में बदलाव कर सकते हैं।\\n विभिन्न विकल्पों के साथ प्रयोग करें, उदाहरण के लिए आप पा सकते हैं कि आप टचपैड के लिए बटन पसंद करते हैं, या नियमित नियंत्रण के लिए क्रॉसहेयर के साथ स्प्लिट टच पसंद करते हैं।\\n एक छोटे टचस्क्रीन पर पहले व्यक्ति के खेल को नियंत्रित करना मुश्किल लग सकता है, लेकिन एक बार जब आप इसे समझ लेते हैं, तो यह गेमपैड या माउस का उपयोग करने से अलग नहीं होता है।\\n क्योंकि आप किसी भी समय स्क्रीन के किसी भी हिस्से को छू सकते हैं, ब्लॉक खुदाई या प्लेसमेंट जैसी कुछ क्रियाएं और भी आसान हो सकती हैं।\\n \\n\\n\\n कुछ सस्ते या पुराने उपकरणों में कम गुणवत्ता वाली टच स्क्रीन या छोटी गाड़ी टच ड्राइवर होते हैं।\\n वे रुक-रुक कर सक्रिय स्पर्श बिंदुओं को छोड़ सकते हैं, या एक बार में एक से अधिक बिंदुओं में छूने पर उन्हें मिला सकते हैं।\\n इनसे बचना सबसे अच्छा है क्योंकि इन पर खेलना बेहद निराशाजनक है।\\n ",
       "Title": "Touch Screen Controls"
     },
     "4": {
-      "value": "\\n Sneaking is useful if you want to move slowly and carefully, for example to avoid falling near the edge of a tall crevice.\\n \\n\\n\\n To toggle sneak mode, press the sneak button on the right side of the screen.\\n When sneak mode is enabled, your movement will be restricted at edges to prevent you from falling.\\n \\n\\n\\n Sneaking also makes your movements much quieter, allowing you to come closer to certain animals without scaring them away. \\n For example, you can use sneak to get close to a bird without scaring it away. \\n Just make sure you don't approach it from the front, because it will see you and fly away. \\n ",
+      "value": "\\n यदि आप धीरे-धीरे और सावधानी से चलना चाहते हैं तो चुपके से काम करना उपयोगी है, उदाहरण के लिए एक लंबी दरार के किनारे के पास गिरने से बचने के लिए।\\n \\n\\n\\n स्नीक मोड को टॉगल करने के लिए, स्क्रीन के दाईं ओर स्नीक बटन दबाएं।\\n जब चुपके मोड सक्षम होता है, तो आपको गिरने से रोकने के लिए किनारों पर आपकी गति प्रतिबंधित हो जाएगी।\\n \\n\\n\\n चुपके से आपकी हरकतें भी बहुत शांत हो जाती हैं, जिससे आप कुछ जानवरों को डराए बिना उनके करीब आ सकते हैं। \\n उदाहरण के लिए, आप किसी पक्षी को डराए बिना उसके करीब जाने के लिए चुपके का उपयोग कर सकते हैं। \\n बस सुनिश्चित करें कि आप इसे सामने से नहीं देखते हैं, क्योंकि यह आपको देखेगा और उड़ जाएगा। \\n ",
       "Title": "Sneaking"
     },
     "5": {
-      "value": "\\n Flight is only available in Creative Mode.\\n To toggle fly mode, tap the flight button on the right side of the screen. \\n Jumping twice in quick succession will also toggle fly mode.\\n \\n\\n\\n Flying is much faster than walking and allows you to quickly get to otherwise inaccessible areas.\\n ",
+      "value": "\\n उड़ान केवल क्रिएटिव मोड में उपलब्ध है।\\n फ्लाई मोड को टॉगल करने के लिए, स्क्रीन के दाईं ओर फ़्लाइट बटन पर टैप करें। \\n एक के बाद एक दो बार कूदने से फ्लाई मोड भी टॉगल हो जाएगा।\\n \\n\\n\\n उड़ान चलने की तुलना में बहुत तेज है और आपको अन्यथा दुर्गम क्षेत्रों में जल्दी से पहुंचने की अनुमति देती है।\\n ",
       "Title": "Flying"
     },
     "6": {
-      "value": "\\n Ladders can be crafted from wooden sticks.\\n Once placed on a vertical wall, they allow you to climb the wall easily.\\n \\n\\n\\n It's safest to climb the ladder when facing it.\\n This is true both for climbing upwards and downwards.\\n \\n\\n\\n Consequently, the best way to climb down a ladder is to approach it backwards, as you would do in real life.\\n \\n\\n\\n You can jump off the ladder at any time\\n ",
+      "value": "\\n सीढ़ी को लकड़ी की छड़ियों से तैयार किया जा सकता है।\\n एक बार एक ऊर्ध्वाधर दीवार पर रखने के बाद, वे आपको आसानी से दीवार पर चढ़ने की अनुमति देते हैं।\\n \\n\\n\\n सीढ़ी का सामना करते समय उस पर चढ़ना सबसे सुरक्षित है।\\n यह ऊपर और नीचे दोनों पर चढ़ने के लिए सच है।\\n \\n\\n\\n नतीजतन, सीढ़ी से नीचे उतरने का सबसे अच्छा तरीका यह है कि आप इसे पीछे की ओर ले जाएं, जैसा कि आप वास्तविक जीवन में करते हैं।\\n \\n\\n\\n आप किसी भी समय सीढ़ी से कूद सकते हैं\\n ",
       "Title": "Climbing Ladders"
     },
     "7": {
-      "value": "\\n Health bar is displayed in the game screen as little hearts.\\n It is the amount of life left in the player.\\n When it drops to zero, the player dies.\\n \\n\\n\\n It slowly replenishes when player is not hungry, it replenishes faster when sleeping.\\n Be careful when your health is low, even a slight injury may kill you.\\n \\n\\n\\n When the player is sick, the hearts become dirty green.\\n Do not eat dodgy food to avoid sickness.\\n When the player has flu, the hearts become blue.\\n Do not get cold for prolonged periods to avoid getting flu.\\n ",
+      "value": "\\n स्वास्थ्य पट्टी खेल स्क्रीन में छोटे दिलों के रूप में प्रदर्शित किया जाता है।\\n यह खिलाड़ी में बचे जीवन की मात्रा है।\\n जब यह शून्य पर गिर जाता है, तो खिलाड़ी मर जाता है।\\n \\n\\n\\n जब खिलाड़ी भूखा नहीं होता है तो यह धीरे-धीरे फिर से भर जाता है, सोते समय यह तेजी से भर जाता है।\\n जब आपका स्वास्थ्य खराब हो तो सावधान रहें, थोड़ी सी चोट भी आपकी जान ले सकती है।\\n \\n\\n\\n जब खिलाड़ी बीमार होता है, तो दिल गंदे हरे हो जाते हैं।\\n बीमारी से बचने के लिए डोडी फूड न खाएं।\\n जब खिलाड़ी को फ्लू होता है, तो दिल नीले हो जाते हैं।\\n फ्लू से बचने के लिए लंबे समय तक सर्दी न लगे।\\n ",
       "Name": "Health",
       "Title": "Health"
     },
     "8": {
-      "value": "\\n When you eat raw meat, uncooked eggs or any food that has been allowed to rot, the player may become sick.\\n \\n\\n\\n Sickness is an unpleasant condition. \\n You health will slowly drop down to a single heart, making you very vulnerable.\\n Your activities will be constantly interrupted by vomiting and nausea attacks.\\n You will move slowly, be weak and tire easily.\\n You will not be able to eat certain food types.\\n \\n\\n\\n It is best to sleep it off, maybe in the morning your stomach will get better.\\n ",
-      "Name": "Sickness",
-      "Title": "Sickness"
+      "value": "\\n जब आप कच्चा मांस, बिना पके अंडे या कोई ऐसा भोजन खाते हैं जिसे सड़ने दिया गया है, तो खिलाड़ी बीमार हो सकता है।\\n \\n\\n\\n बीमारी एक अप्रिय स्थिति है। \\n आपका स्वास्थ्य धीरे-धीरे एक दिल तक गिर जाएगा, जिससे आप बहुत कमजोर हो जाएंगे।\\n उल्टी और मतली के हमलों से आपकी गतिविधियाँ लगातार बाधित होंगी।\\n आप धीरे-धीरे चलेंगे, कमजोर होंगे और आसानी से थक जाएंगे।\\n आप कुछ प्रकार के खाद्य पदार्थ नहीं खा पाएंगे।\\n \\n\\n\\n इसे बंद करना सबसे अच्छा है, शायद सुबह आपका पेट ठीक हो जाएगा।\\n ",
+      "Name": "बीमारी",
+      "Title": "बीमारी"
     },
     "9": {
-      "value": "\\n When your body temperature stays low for a long period, the player will start to sneeze.\\n This is a warning sign that you may get flu soon.\\n Warm yourself up quickly.\\n \\n\\n\\n Flu is a dangerous condition.\\n You health will slowly drop down to two hearts, making you very vulnerable.\\n Your activities will be frequently interrupted by coughing attacks.\\n You will move slowly, be weak and tire easily.\\n You will also become very sleepy.\\n \\n\\n\\n It is best to get to a warm place and sleep the flu off, maybe in the morning you will get better.\\n Flu is very difficult to cure when you are cold.\\n ",
-      "Name": "Flu",
-      "Title": "Flu"
+      "value": "\\n जब आपके शरीर का तापमान लंबे समय तक कम रहता है, तो खिलाड़ी को छींकने लगेगा।\\n यह एक चेतावनी संकेत है कि आपको जल्द ही फ्लू हो सकता है।\\n अपने आप को जल्दी से गर्म करें।\\n \\n\\n\\n फ्लू एक खतरनाक स्थिति है।\\n आपका स्वास्थ्य धीरे-धीरे दो दिलों तक गिर जाएगा, जिससे आप बहुत कमजोर हो जाएंगे।\\n खांसी के दौरे से आपकी गतिविधियाँ अक्सर बाधित होंगी।\\n आप धीरे-धीरे चलेंगे, कमजोर होंगे और आसानी से थक जाएंगे।\\n नींद भी बहुत आने लगेगी।\\n \\n\\n\\n गर्म स्थान पर जाना और फ्लू को दूर करना सबसे अच्छा है, शायद सुबह आप बेहतर हो जाएंगे।\\n सर्दी लगने पर फ्लू का इलाज करना बहुत मुश्किल होता है।\\n ",
+      "Name": "फ़्लू",
+      "Title": "फ़्लू"
     },
     "10": {
-      "value": "\\n Hunger bar is displayed in the game screen as little fishes.\\n If you don't eat for a long time, your character will start complaining about it and eventually losing health, until you die.\\n In addition to that, if you're hungry, you don't regenerate health.\\n \\n\\n\\n To eat, drag an edible item onto the player in the body panel.\\n Your character will inform you whether you are still hungry.\\n \\n\\n\\n Food can be obtained from many sources in the game.\\n The obvious one is hunting edible animals, such as cows, birds and wildboars.\\n Keep in mind that hunting may be dangerous, and the supply of animals will quickly dry up in nearby areas, forcing you to search further.\\n \\n\\n\\n An alternative to hunting is farming.\\n Farming lets you create a sustainable source of food, although it may require lots of preparatory work and further maintenance.\\n ",
+      "value": "\\n हंगर बार को गेम स्क्रीन में छोटी मछलियों के रूप में प्रदर्शित किया जाता है।\\n यदि आप लंबे समय तक नहीं खाते हैं, तो आपका चरित्र इसके बारे में शिकायत करना शुरू कर देगा और अंततः स्वास्थ्य खो देगा, जब तक कि आप मर नहीं जाते।\\n इसके अलावा, यदि आप भूखे हैं, तो आप स्वास्थ्य को पुन: उत्पन्न नहीं करते हैं।\\n \\n\\n\\n खाने के लिए, बॉडी पैनल में खिलाड़ी पर एक खाद्य वस्तु खींचें।\\n आपका चरित्र आपको सूचित करेगा कि क्या आप अभी भी भूखे हैं।\\n \\n\\n\\n खेल में कई स्रोतों से भोजन प्राप्त किया जा सकता है।\\n स्पष्ट रूप से गाय, पक्षी और जंगली सूअर जैसे खाद्य जानवरों का शिकार कर रहा है।\\n ध्यान रखें कि शिकार खतरनाक हो सकता है, और आस-पास के क्षेत्रों में जानवरों की आपूर्ति जल्दी ही सूख जाएगी, जिससे आपको आगे की खोज करने के लिए मजबूर होना पड़ेगा।\\n \\n\\n\\n शिकार का एक विकल्प खेती है।\\n खेती आपको भोजन का एक स्थायी स्रोत बनाने देती है, हालांकि इसके लिए बहुत सारे प्रारंभिक कार्य और आगे के रखरखाव की आवश्यकता हो सकती है।\\n ",
       "Name": "Hunger",
       "Title": "Hunger"
     },
     "11": {
-      "value": "\\n Stamina is the measure of tiredness of your character.\\n When you perform a tiring action for a long time without break, you will tire and start panting.\\n \\n\\n\\n When you are panting, your performance is lower than when you are rested.\\n You will move and dig slower, and you will not be able to perform jumps.\\n \\n\\n\\n Some of the actions that are tiring: running, jumping, swimming, digging, fighting.\\n \\n\\n\\n It is very dangerous to get tired when you are in water, because you can't rest while swimming.\\n Watch for early signs of panting, and get out of water immediately.\\n When you get exhausted while in water, you will start drowning and die unless the shore is very near.\\n \\n\\n\\n Be careful, it's easy to get tired when running away from dangerous animals.\\n ",
+      "value": "\\n सहनशक्ति आपके चरित्र की थकान का पैमाना है।\\n जब आप बिना ब्रेक के लंबे समय तक थका देने वाली क्रिया करते हैं, तो आप थक जाएंगे और हांफने लगेंगे।\\n \\n\\n\\n जब आप हांफ रहे होते हैं, तो आपका प्रदर्शन आराम करने की तुलना में कम होता है।\\n आप धीमी गति से चलेंगे और खुदेंगे, और आप छलांग लगाने में सक्षम नहीं होंगे।\\n \\n\\n\\n कुछ क्रियाएं जो थका देने वाली हैं: दौड़ना, कूदना, तैरना, खुदाई, लड़ना।\\n \\n\\n\\n जब आप पानी में होते हैं तो थकना बहुत खतरनाक होता है, क्योंकि आप तैरते समय आराम नहीं कर सकते।\\n पुताई के शुरुआती लक्षणों पर नज़र रखें और तुरंत पानी से बाहर निकलें।\\n जब आप पानी में रहते हुए थक जाते हैं, तो आप डूबने लगेंगे और मर जाएंगे जब तक कि किनारा बहुत करीब न हो।\\n \\n\\n\\n सावधान रहें, खतरनाक जानवरों से भागते समय थकना आसान होता है।\\n ",
       "Name": "Stamina",
       "Title": "Stamina"
     },
     "12": {
-      "value": "\\n Sleeping will help restore your health and pass the boring night hours when it's too dark or dangerous to work.\\n \\n\\n\\n Even if you are not hurt, you still need to sleep from time to time.\\n If you neglect it, your character will start to have short blackouts.\\n If you keep active despite this warning, the blackouts will get longer and eventually you will lose consciousness.\\n Losing consciousness is very dangerous, because predatory animals will quickly smell you and feast on your unguarded flesh.\\n \\n\\n\\n Although you don't need a bed, you can only sleep in a cosy and comfortable place.\\n The ground cannot be too hard and the area cannot be too exposed to the elements, or wet.\\n \\n\\n\\n Your respawn point is set to a place where you last slept.\\n To sleep, open the body screen and press a little sleeping button.\\n \\n\\n\\n Note: Sleeping is disabled in the demo.\\n ",
+      "value": "\\n सोने से आपके स्वास्थ्य को बहाल करने में मदद मिलेगी और उबाऊ रात के घंटे गुजरेंगे जब यह बहुत अंधेरा या काम करने के लिए खतरनाक हो।\\n \\n\\n\\n यहां तक कि अगर आपको चोट नहीं लगी है, तब भी आपको समय-समय पर सोने की जरूरत है।\\n यदि आप इसकी उपेक्षा करते हैं, तो आपके चरित्र में छोटे ब्लैकआउट होने लगेंगे।\\n यदि आप इस चेतावनी के बावजूद सक्रिय रहते हैं, तो ब्लैकआउट लंबा हो जाएगा और अंततः आप होश खो देंगे।\\n चेतना खोना बहुत खतरनाक है, क्योंकि शिकारी जानवर जल्दी से आपको सूंघेंगे और आपके असुरक्षित मांस पर दावत देंगे।\\n \\n\\n\\n हालाँकि आपको बिस्तर की आवश्यकता नहीं है, आप केवल आरामदायक और आरामदायक जगह पर ही सो सकते हैं।\\n जमीन बहुत कठोर नहीं हो सकती है और क्षेत्र तत्वों के संपर्क में नहीं आ सकता है, या गीला नहीं हो सकता है।\\n \\n\\n\\n आपका रिस्पॉन पॉइंट उस स्थान पर सेट है जहां आप आखिरी बार सोए थे।\\n सोने के लिए, बॉडी स्क्रीन खोलें और थोड़ा स्लीपिंग बटन दबाएं।\\n \\n\\n\\n नोट: डेमो में नींद अक्षम है।\\n ",
       "Name": "Sleep",
       "Title": "Sleeping"
     },
     "13": {
-      "value": "\\n When you are out in the cold without proper clothes, your body temperature will drop.\\n Your view will start to freeze over and you will start losing health.\\n Find a warmer place or get near fire to warm and dry yourself.\\n If you stay cold for a long time, you will start sneezing and may get flu.\\n \\n\\n\\n Too much warmth will do you no good either, standing too close to a large fire will cause you to overheat.\\n \\n\\n\\n Sheltered areas are warmer than outside.\\n Plugging all the holes and locking doors will make a shelter warmer still.\\n Even a small hole open to the elements will admit draughts and make a large difference to temperature.\\n Make a fire inside your shelter to make it homely warm and allow you to take your clothes off.\\n \\n\\n\\n Being wet dramatically increases your susceptibility to cold, find a warm place to dry yourself faster.\\n \\n\\n\\n The best way to deal with cold is to wear multiple layers of thick, dry clothes.\\n You need to cover your entire body, leaving feet or head unclothed will defeat most of the warming effect other clothes have.\\n Clothes made of animal fur are best for keeping cold out.\\n ",
-      "Name": "Temperature",
+      "value": "\\n जब आप बिना उचित कपड़ों के ठंड में बाहर निकलेंगे, तो आपके शरीर का तापमान गिर जाएगा।\\n आपका दृश्य जमने लगेगा और आपका स्वास्थ्य खोना शुरू हो जाएगा।\\n अपने आप को गर्म करने और सुखाने के लिए एक गर्म जगह ढूंढें या आग के पास जाएं।\\n अगर आप लंबे समय तक ठंडे रहते हैं तो आपको छींकने लगेगी और आपको फ्लू हो सकता है।\\n \\n\\n\\n बहुत अधिक गर्मी भी आपको कोई फायदा नहीं करेगी, एक बड़ी आग के बहुत करीब खड़े होने से आप ज़्यादा गरम हो जाएंगे।\\n \\n\\n\\n आश्रय वाले क्षेत्र बाहर की तुलना में गर्म होते हैं।\\n सभी छेदों को बंद करने और दरवाजों को बंद करने से आश्रय अभी भी गर्म हो जाएगा।\\n यहां तक कि तत्वों के लिए खुला एक छोटा सा छेद भी ड्राफ्ट को स्वीकार करेगा और तापमान में बड़ा अंतर लाएगा।\\n अपने आश्रय को घर की तरह गर्म करने के लिए उसके अंदर आग लगाएं और आपको अपने कपड़े उतारने की अनुमति दें।\\n \\n\\n\\n गीला होने से ठंड के प्रति आपकी संवेदनशीलता बढ़ जाती है, अपने आप को तेजी से सुखाने के लिए एक गर्म जगह खोजें।\\n \\n\\n\\n ठंड से निपटने का सबसे अच्छा तरीका है कि आप मोटे, सूखे कपड़ों की कई परतें पहनें।\\n आपको अपने पूरे शरीर को ढकने की जरूरत है, पैरों या सिर को बिना कपड़ों के छोड़ने से अन्य कपड़ों के अधिकांश वार्मिंग प्रभाव को हरा दिया जाएगा।\\n ठंड को बाहर रखने के लिए जानवरों के फर से बने कपड़े सबसे अच्छे होते हैं।\\n ",
+      "Name": "तापमान",
       "Title": "Body Temperature"
     },
     "14": {
-      "value": "\\n Your character can get wet by being outside in the rain or by falling into water.\\n Wetness heavily reduces insulation provided by clothing, so it's very easy to freeze in colder climates.\\n Your character will dry faster in a warm place.\\n ",
+      "value": "\\n आपका चरित्र बारिश में बाहर रहने या पानी में गिरने से भीग सकता है।\\n गीलापन कपड़ों द्वारा प्रदान किए गए इन्सुलेशन को बहुत कम करता है, इसलिए ठंडी जलवायु में जमना बहुत आसान है।\\n आपका चरित्र गर्म स्थान पर तेजी से सूखेगा।\\n ",
       "Name": "Wetness",
       "Title": "Wetness"
     },
     "15": {
-      "value": "\\n All food items will turn rotten after some time.\\n The little white fish icon next to the item will turn brown to indicate that the rot process is starting.\\n Some time after that, the food item will rot.\\n \\n\\n\\n Raw food will rot very quickly.\\n Cooking food will prolong its life.\\n \\n\\n\\n Rotten food is still attractive to animals and can even be eaten by the player, but has a high chance of causing sickness.\\n \\n\\n\\n When the player is sick, he is very slow, weak and will stop to vomit periodically.\\n It's best to go to sleep and wait for the sickness to pass.\\n \\n\\n\\n Most rotten food will eventually turn into compost, a valuable farming resource which can be used instead of soil to grow plants more quickly.\\n This will let you utilize valuable saltpeter for making explosives, instead of sprinkling it as fertilizer. \\n ",
+      "value": "\\n कुछ समय बाद सभी खाद्य पदार्थ सड़ जाएंगे।\\n आइटम के बगल में छोटी सफेद मछली का आइकन भूरा हो जाएगा ताकि यह इंगित किया जा सके कि सड़ांध प्रक्रिया शुरू हो रही है।\\n उसके कुछ समय बाद, खाद्य पदार्थ सड़ जाएगा।\\n \\n\\n\\n कच्चा भोजन बहुत जल्दी सड़ जाएगा।\\n खाना पकाने से उसका जीवन लम्बा हो जाएगा।\\n \\n\\n\\n सड़ा हुआ भोजन अभी भी जानवरों के लिए आकर्षक है और खिलाड़ी द्वारा भी खाया जा सकता है, लेकिन बीमारी पैदा होने की उच्च संभावना है।\\n \\n\\n\\n जब खिलाड़ी बीमार होता है, तो वह बहुत धीमा, कमजोर होता है और समय-समय पर उल्टी करना बंद कर देता है।\\n सो जाना और बीमारी के गुजरने का इंतजार करना सबसे अच्छा है।\\n \\n\\n\\n अधिकांश सड़ा हुआ भोजन अंततः खाद में बदल जाएगा, एक मूल्यवान कृषि संसाधन जिसका उपयोग पौधों को अधिक तेज़ी से उगाने के लिए मिट्टी के बजाय किया जा सकता है।\\n यह आपको उर्वरक के रूप में छिड़कने के बजाय विस्फोटक बनाने के लिए मूल्यवान साल्टपीटर का उपयोग करने देगा। \\n ",
       "Name": "FoodRot",
       "Title": "Food Rot"
     },
     "16": {
-      "value": "\\n Your character becomes more experienced over time.\\n Experience is represented by little golden orbs that can be picked up.\\n They appear when you mine minerals, harvest crops or hunt animals.\\n Collect them.\\n \\n\\n\\n If you gather enough experience, your character will advance to the next level.\\n Your strength, speed and resilience will increase and your food needs will decrease.\\n You will also be able to use more advanced tools, weapons and armor.\\n \\n\\n\\n When you die and respawn, your level is reduced to a much lower value.\\n It will take a lot of time to regain the lost experience.\\n ",
+      "value": "\\n आपका चरित्र समय के साथ अधिक अनुभवी हो जाता है।\\n अनुभव को छोटे सुनहरे आभूषणों द्वारा दर्शाया जाता है जिन्हें उठाया जा सकता है।\\n वे तब दिखाई देते हैं जब आप खनिजों का खनन करते हैं, फसलों की कटाई करते हैं या जानवरों का शिकार करते हैं।\\n उन्हें इकट्ठा करो।\\n \\n\\n\\n यदि आप पर्याप्त अनुभव इकट्ठा करते हैं, तो आपका चरित्र अगले स्तर तक आगे बढ़ेगा।\\n आपकी ताकत, गति और लचीलापन बढ़ेगा और आपकी भोजन की जरूरतें कम हो जाएंगी।\\n आप अधिक उन्नत उपकरण, हथियार और कवच का भी उपयोग करने में सक्षम होंगे।\\n \\n\\n\\n जब आप मर जाते हैं और फिर से पैदा होते हैं, तो आपका स्तर बहुत कम मान तक कम हो जाता है।\\n खोए हुए अनुभव को पुनः प्राप्त करने में बहुत समय लगेगा।\\n ",
       "Name": "Levels",
       "Title": "Levels and Experience"
     },
     "17": {
-      "value": "\\n You can ride certain animals, such as horses or camels.\\n Riding an animal lets you move more quickly and view the world from a higher vantage point.\\n \\n\\n\\n To mount an animal, get close to it and wait for it to stop.\\n The sneak button will turn into mount button.\\n Press it to mount/dismount.\\n You can also mount boats in the same way as animals.\\n \\n\\n\\n To successfully ride an animal, you need a saddle, which can be crafted from leather and wooden sticks.\\n When the animal is saddled, its behavior changes and it becomes more friendly towards you.\\n Do not mount an unsaddled animal, it will not like it, and may even hurt you.\\n \\n\\n\\n A whistle will summon any saddled animals that are nearby.\\n It is a good idea to carry a whistle with you when you are riding.\\n ",
+      "value": "\\n आप कुछ जानवरों, जैसे घोड़ों या ऊंटों की सवारी कर सकते हैं।\\n एक जानवर की सवारी करने से आप अधिक तेज़ी से आगे बढ़ सकते हैं और दुनिया को उच्च सुविधाजनक बिंदु से देख सकते हैं।\\n \\n\\n\\n किसी जानवर को माउंट करने के लिए, उसके करीब जाएं और उसके रुकने का इंतजार करें।\\n चुपके बटन माउंट बटन में बदल जाएगा।\\n माउंट/डिसमाउंट करने के लिए इसे दबाएं।\\n आप जानवरों की तरह ही नावों को भी माउंट कर सकते हैं।\\n \\n\\n\\n किसी जानवर की सफलतापूर्वक सवारी करने के लिए, आपको एक काठी की आवश्यकता होती है, जिसे चमड़े और लकड़ी की छड़ियों से तैयार किया जा सकता है।\\n जब जानवर को काठी पर बांधा जाता है, तो उसका व्यवहार बदल जाता है और वह आपके प्रति अधिक मित्रवत हो जाता है।\\n एक बिना काठी वाले जानवर को माउंट न करें, यह इसे पसंद नहीं करेगा, और आपको चोट भी पहुंचा सकता है।\\n \\n\\n\\n एक सीटी आस-पास के किसी भी काठी वाले जानवर को बुलाएगी।\\n जब आप सवारी कर रहे हों तो अपने साथ सीटी ले जाना एक अच्छा विचार है।\\n ",
       "Title": "Riding Animals"
     },
     "18": {
-      "value": "\\n In Survivalcraft, the entire world is destructible.\\n \\n\\n\\n To dig a block, press it and hold your finger.\\n Digging cracks will appear as the block is being dug.\\n \\n\\n\\n Some blocks take a very long time to dig without proper tools.\\n Digging some blocks, such as glass, will destroy them.\\n ",
+      "value": "\\n सर्वाइवलक्राफ्ट में, पूरी दुनिया विनाशकारी है।\\n \\n\\n\\n एक ब्लॉक खोदने के लिए, इसे दबाएं और अपनी उंगली पकड़ें।\\n ब्लॉक खोदने के रूप में दरारें दिखाई देंगी।\\n \\n\\n\\n कुछ ब्लॉकों को उचित उपकरणों के बिना खोदने में बहुत लंबा समय लगता है।\\n कांच जैसे कुछ ब्लॉक खोदने से वे नष्ट हो जाएंगे।\\n ",
       "Title": "Digging Blocks"
     },
     "19": {
-      "value": "\\n To place a block, select it from your inventory so that you are holding it in your hand.\\n Then tap the face of an existing block, where you want the new block to be attached.\\n The block will be placed there immediately, unless it is impossible for some reason.\\n \\n\\n\\n Certain items behave differently if attached to different parts of an existing block.\\n For example, trapdoors can be attached to the top or bottom parts with different results.\\n ",
+      "value": "\\n ब्लॉक लगाने के लिए, इसे अपनी इन्वेंट्री से चुनें ताकि आप इसे अपने हाथ में पकड़ सकें।\\n फिर किसी मौजूदा ब्लॉक के चेहरे पर टैप करें, जहां आप चाहते हैं कि नया ब्लॉक संलग्न हो।\\n ब्लॉक को तुरंत वहां रखा जाएगा, जब तक कि किसी कारण से यह असंभव न हो।\\n \\n\\n\\n कुछ आइटम अलग-अलग व्यवहार करते हैं यदि किसी मौजूदा ब्लॉक के विभिन्न हिस्सों से जुड़े हों।\\n उदाहरण के लिए, ट्रैपडोर को अलग-अलग परिणामों के साथ ऊपर या नीचे के हिस्सों से जोड़ा जा सकता है।\\n ",
       "Title": "Placing Blocks"
     },
     "20": {
-      "value": "\\n Certain blocks are interactive.\\n Some examples of interactive blocks: doors, chests, workbenches, furnaces, buttons.\\n \\n\\n\\n To interact with a block, tap on it.\\n This will invoke the action associated with the block.\\n \\n\\n\\n For example, if you tap on a closed door, it will open.\\n ",
+      "value": "\\n कुछ ब्लॉक इंटरैक्टिव हैं।\\n इंटरैक्टिव ब्लॉकों के कुछ उदाहरण: दरवाजे, चेस्ट, कार्यक्षेत्र, भट्टियां, बटन।\\n \\n\\n\\n किसी ब्लॉक के साथ इंटरैक्ट करने के लिए, उस पर टैप करें।\\n यह ब्लॉक से जुड़ी कार्रवाई को लागू करेगा।\\n \\n\\n\\n उदाहरण के लिए, यदि आप एक बंद दरवाजे पर टैप करते हैं, तो यह खुल जाएगा।\\n ",
       "Title": "Interacting With Blocks"
     },
     "21": {
-      "value": "\\n Some blocks are editable.\\n Examples of editable blocks: crossbow, memory bank, musket, truth table.\\n \\n\\n\\n Editable blocks are marked with an edit icon in your inventory.\\n \\n\\n\\n To edit a block in the inventory, select it so that you hold it in your hand.\\n If the selected block is editable, sneak button will turn into edit button.\\n \\n\\n\\n To edit a block which is placed on the ground, stand close to it and point center of the screen at the block.\\n If the block in front of you is editable, it will be highlighted and sneak button will turn into edit button.\\n \\n\\n\\n Editing lets you change advanced properties of blocks.\\n For example editing a crossbow will let you draw it and load a bolt.\\n Editing a truth table lets you see and set the binary values.\\n To discover which items are editable, watch out for the edit icon on inventory items.\\n \\n\\n\\n If you both hold an editable item in your hand and look at an editable block in the terrain, the item in the terrain will take precedence.\\n ",
+      "value": "\\n कुछ ब्लॉक संपादन योग्य हैं।\\n संपादन योग्य ब्लॉकों के उदाहरण: क्रॉसबो, मेमोरी बैंक, मस्कट, ट्रुथ टेबल।\\n \\n\\n\\n संपादन योग्य ब्लॉक को आपकी इन्वेंट्री में एक संपादन आइकन के साथ चिह्नित किया जाता है।\\n \\n\\n\\n इन्वेंट्री में किसी ब्लॉक को संपादित करने के लिए, उसका चयन करें ताकि आप उसे अपने हाथ में पकड़ सकें.\\n यदि चयनित ब्लॉक संपादन योग्य है, तो चुपके बटन संपादन बटन में बदल जाएगा।\\n \\n\\n\\n जमीन पर रखे गए ब्लॉक को संपादित करने के लिए, उसके करीब खड़े हो जाएं और ब्लॉक पर स्क्रीन के केंद्र को इंगित करें।\\n यदि आपके सामने का ब्लॉक संपादन योग्य है, तो इसे हाइलाइट किया जाएगा और चुपके बटन एडिट बटन में बदल जाएगा।\\n \\n\\n\\n संपादन से आप ब्लॉक के उन्नत गुणों को बदल सकते हैं।\\n उदाहरण के लिए, एक क्रॉसबो को संपादित करने से आप इसे खींच सकेंगे और एक बोल्ट लोड कर सकेंगे।\\n सत्य तालिका संपादित करने से आप बाइनरी मान देख सकते हैं और सेट कर सकते हैं।\\n यह पता लगाने के लिए कि कौन से आइटम संपादन योग्य हैं, इन्वेंट्री आइटम पर संपादन आइकन देखें।\\n \\n\\n\\n यदि आप दोनों अपने हाथ में एक संपादन योग्य वस्तु रखते हैं और इलाके में एक संपादन योग्य ब्लॉक को देखते हैं, तो इलाके में आइटम को प्राथमिकता दी जाएगी।\\n ",
       "Title": "Editing Blocks"
     },
     "22": {
-      "value": "\\n Certain items can be thrown.\\n Some examples of throwable items: stone chunks, spears, bricks, snowballs.\\n \\n\\n\\n To throw an item, select it in your inventory, so that you are holding it in your hand.\\n Press and hold a point on the screen where you want to throw.\\n A throwing sights will appear.\\n \\n\\n\\n You can move the sights to refine your aim.\\n Once you release your finger, the item will be thrown.\\n To cancel a throw, move the sights to the edge of the screen.\\n \\n\\n\\n Spears are powerful thrown weapons that do a lot of damage when they hit the target.\\n ",
+      "value": "\\n कुछ वस्तुओं को फेंका जा सकता है।\\n फेंकने योग्य वस्तुओं के कुछ उदाहरण: पत्थर के टुकड़े, भाले, ईंटें, स्नोबॉल।\\n \\n\\n\\n किसी वस्तु को फेंकने के लिए, उसे अपनी सूची में चुनें, ताकि आप उसे अपने हाथ में पकड़ रहे हों।\\n स्क्रीन पर उस बिंदु को दबाकर रखें जहां आप फेंकना चाहते हैं।\\n एक फेंकने वाली जगहें दिखाई देंगी।\\n \\n\\n\\n आप अपने लक्ष्य को परिष्कृत करने के लिए दर्शनीय स्थलों को स्थानांतरित कर सकते हैं।\\n एक बार जब आप अपनी उंगली छोड़ देंगे, तो आइटम फेंक दिया जाएगा।\\n थ्रो रद्द करने के लिए, स्थलों को स्क्रीन के किनारे पर ले जाएं।\\n \\n\\n\\n भाले शक्तिशाली फेंके गए हथियार हैं जो लक्ष्य को मारने पर बहुत नुकसान करते हैं।\\n ",
       "Title": "Throwing Items"
     },
     "23": {
-      "value": "\\n All items and blocks can be dropped if you no longer need them.\\n \\n\\n\\n To drop an item or block, drag it from the inventory slot and drop it on the screen.\\n The item will fly a short distance away and fall to the ground.\\n \\n\\n\\n Watch out, if you're standing too close you will immediately pick up the dropped item again.\\n \\n\\n\\n Dropping items into fire or magma will destroy them.\\n ",
+      "value": "\\n यदि आपको अब उनकी आवश्यकता नहीं है तो सभी वस्तुओं और ब्लॉकों को गिराया जा सकता है।\\n \\n\\n\\n किसी आइटम या ब्लॉक को छोड़ने के लिए, उसे इन्वेंट्री स्लॉट से खींचें और स्क्रीन पर छोड़ दें।\\n वस्तु थोड़ी दूरी पर उड़ जाएगी और जमीन पर गिर जाएगी।\\n \\n\\n\\n सावधान रहें, यदि आप बहुत करीब खड़े हैं तो आप तुरंत गिराई गई वस्तु को फिर से उठा लेंगे।\\n \\n\\n\\n वस्तुओं को आग या मैग्मा में गिराने से वे नष्ट हो जाएंगे।\\n ",
       "Title": "Dropping Items"
     },
     "24": {
-      "value": "\\n Crafting is a process of making more complicated items out of simpler ones, using a workbench or the crafting area.\\n \\n\\n\\n To craft, you need to place ingredients in the crafting slots in a pattern specific to the item being crafted.\\n All crafting recipes are available in RECIPAEDIA.\\n \\n\\n\\n There are two sizes of crafting areas: 2x2 and 3x3.\\n The smaller area is always available and can be accessed by pressing the crafting button.\\n To craft more complicated items on a 3x3 area you need to make a workbench, place it somewhere in the world and click on it.\\n ",
+      "value": "\\n क्राफ्टिंग एक कार्यक्षेत्र या क्राफ्टिंग क्षेत्र का उपयोग करके सरल वस्तुओं से अधिक जटिल वस्तुओं को बनाने की एक प्रक्रिया है।\\n \\n\\n\\n शिल्प करने के लिए, आपको क्राफ्टिंग स्लॉट में सामग्री को तैयार की जा रही वस्तु के लिए विशिष्ट पैटर्न में रखना होगा।\\n सभी क्राफ्टिंग रेसिपी RECIPAEDIA में उपलब्ध हैं।\\n \\n\\n\\n क्राफ्टिंग क्षेत्रों के दो आकार हैं: 2x2 और 3x3।\\n छोटा क्षेत्र हमेशा उपलब्ध रहता है और क्राफ्टिंग बटन दबाकर पहुंचा जा सकता है।\\n 3x3 क्षेत्र पर अधिक जटिल वस्तुओं को तैयार करने के लिए आपको एक कार्यक्षेत्र बनाने की आवश्यकता है, इसे दुनिया में कहीं रखें और उस पर क्लिक करें।\\n ",
       "Title": "Crafting"
     },
     "25": {
-      "value": "\\n Smelting is thermal processing of substances in a furnace.\\n Up to 2 substances can be placed in the furnace at the same time.\\n \\n\\n\\n Furnace requires fuel to work.\\n You can use anything that is combustible as a fuel, but some fuels are better (longer lasting) than others.\\n The best fuel is coal.\\n \\n\\n\\n You can leave the furnace while it is smelting. The smelting process will continue while you are away.\\n All smelting recipes are available in RECIPAEDIA.\\n ",
+      "value": "\\n गलाना एक भट्टी में पदार्थों का थर्मल प्रसंस्करण है।\\n एक ही समय में भट्ठी में 2 पदार्थों तक रखा जा सकता है।\\n \\n\\n\\n भट्ठी को काम करने के लिए ईंधन की आवश्यकता होती है।\\n आप ईंधन के रूप में दहनशील किसी भी चीज़ का उपयोग कर सकते हैं, लेकिन कुछ ईंधन दूसरों की तुलना में बेहतर (लंबे समय तक चलने वाले) होते हैं।\\n सबसे अच्छा ईंधन कोयला है।\\n \\n\\n\\n आप भट्ठी को गलाते समय छोड़ सकते हैं। जब आप दूर रहेंगे तब भी गलाने की प्रक्रिया जारी रहेगी।\\n सभी गलाने की रेसिपी RECIPAEDIA में उपलब्ध हैं।\\n ",
       "Title": "Smelting"
     },
     "26": {
-      "value": "\\n Press and hold the slot containing the stack you want to split for about 1 second.\\n A red border will appear around it.\\n The slot is now in splitting mode.\\n Tap any other empty slot, and one item will be taken from the highlighted slot and placed into the tapped slot.\\n \\n\\n\\n This technique can also be used to quickly spread items from one stack to multiple slots, e.g. in a workbench.\\n ",
+      "value": "\\n उस स्टैक को दबाकर रखें जिसे आप लगभग 1 सेकंड के लिए विभाजित करना चाहते हैं।\\n इसके चारों ओर एक लाल बॉर्डर दिखाई देगा।\\n स्लॉट अब स्प्लिटिंग मोड में है।\\n किसी अन्य खाली स्लॉट पर टैप करें, और एक आइटम हाइलाइट किए गए स्लॉट से लिया जाएगा और टैप किए गए स्लॉट में रखा जाएगा।\\n \\n\\n\\n इस तकनीक का उपयोग वस्तुओं को एक स्टैक से कई स्लॉट तक जल्दी से फैलाने के लिए भी किया जा सकता है, उदाहरण के लिए कार्यक्षेत्र में।\\n ",
       "Title": "Splitting stacks of items"
     },
     "27": {
-      "value": "\\n You need to mine to obtain resources needed for crafting and smelting.\\n Mining can be as simple as digging in a random place with your bare hands.\\n You will however soon discover that it is not an effective way to mine, because digging hard rock by hand takes a very long time.\\n \\n\\n\\n You need to craft mining tools, such as a shovel and pickaxe first.\\n You also need to dig in different places to find specific resources.\\n Caves are a good starting point, because they show you a large cross section through the terrain for free.\\n \\n\\n\\n Be aware that some resources, such as diamonds or malachite, require tools made of strong materials to be mined.\\n ",
+      "value": "\\n क्राफ्टिंग और गलाने के लिए आवश्यक संसाधन प्राप्त करने के लिए आपको खनन करने की आवश्यकता है।\\n खनन अपने नंगे हाथों से एक यादृच्छिक स्थान पर खुदाई करने जितना सरल हो सकता है।\\n हालांकि आपको जल्द ही पता चल जाएगा कि यह मेरा एक प्रभावी तरीका नहीं है, क्योंकि हाथ से कठोर चट्टान खोदने में बहुत लंबा समय लगता है।\\n \\n\\n\\n आपको पहले खनन उपकरण तैयार करने की आवश्यकता है, जैसे फावड़ा और कुदाल।\\n विशिष्ट संसाधनों को खोजने के लिए आपको विभिन्न स्थानों पर खुदाई करने की भी आवश्यकता है।\\n गुफाएं एक अच्छा प्रारंभिक बिंदु हैं, क्योंकि वे आपको मुफ्त में इलाके के माध्यम से एक बड़ा क्रॉस सेक्शन दिखाते हैं।\\n \\n\\n\\n ध्यान रखें कि कुछ संसाधनों, जैसे हीरे या मैलाकाइट, को खनन के लिए मजबूत सामग्री से बने उपकरणों की आवश्यकता होती है।\\n ",
       "Title": "Mining"
     },
     "28": {
-      "value": "\\n Farming allows you to grow a variety of plants for decorative or consumption purposes.\\n To grow a plant, you need to obtain its seeds, usually from a fully grown plant specimen.\\n \\n\\n\\n Some plants will drop seeds immediately when they are harvested, some will require crafting to extract seeds.\\n Some seeds will tolerate poor soil, like dirt or grass.\\n Others, like rye or pumpkins, require high quality tilled and moist soil, which has been fertilized with saltpeter.\\n To make sure the soil is moist, use bucket to create water channels no further than several blocks away.\\n Moist soil is darker than a dry one.\\n To further enhance soil quality, sprinkle it with saltpeter (which is a source of nitrogen).\\n \\n\\n\\n Plants may take a long time to grow, be patient.\\n ",
+      "value": "\\n खेती आपको सजावटी या उपभोग उद्देश्यों के लिए विभिन्न प्रकार के पौधे उगाने की अनुमति देती है।\\n एक पौधे को उगाने के लिए, आपको इसके बीज प्राप्त करने की आवश्यकता होती है, आमतौर पर पूरी तरह से विकसित पौधे के नमूने से।\\n \\n\\n\\n कुछ पौधे कटाई के तुरंत बाद बीज गिरा देंगे, कुछ को बीज निकालने के लिए क्राफ्टिंग की आवश्यकता होगी।\\n कुछ बीज खराब मिट्टी, जैसे गंदगी या घास को सहन करेंगे।\\n राई या कद्दू जैसे अन्य लोगों को उच्च गुणवत्ता वाली जुताई और नम मिट्टी की आवश्यकता होती है, जिसे साल्टपीटर के साथ निषेचित किया गया है।\\n यह सुनिश्चित करने के लिए कि मिट्टी नम है, कई ब्लॉक दूर पानी के चैनल बनाने के लिए बाल्टी का उपयोग करें।\\n नम मिट्टी सूखी मिट्टी की तुलना में अधिक गहरी होती है।\\n मिट्टी की गुणवत्ता को और बढ़ाने के लिए, इसे साल्टपीटर (जो नाइट्रोजन का एक स्रोत है) के साथ छिड़कें।\\n \\n\\n\\n पौधों को बढ़ने में लंबा समय लग सकता है, धैर्य रखें।\\n ",
       "Title": "Farming"
     },
     "29": {
-      "value": "\\n Buckets are used for transporting fluids, such as water or magma.\\n To fill empty bucket with a fluid, you need to find a source block of the fluid.\\n For example, all ocean blocks are source blocks of water.\\n \\n\\n\\n Holding the empty bucket in your hand, tap the source block to collect it.\\n The block will be removed from the world and placed inside the bucket.\\n \\n\\n\\n To pour the fluid from the bucket, tap on terrain.\\n A new source block of fluid will be created, and the fluid will spread out from there.\\n You can collect the placed source block again with the empty bucket.\\n ",
+      "value": "\\n बाल्टी का उपयोग पानी या मैग्मा जैसे तरल पदार्थों के परिवहन के लिए किया जाता है।\\n खाली बाल्टी को तरल पदार्थ से भरने के लिए, आपको तरल पदार्थ का एक स्रोत ब्लॉक ढूंढना होगा।\\n उदाहरण के लिए, सभी महासागरीय ब्लॉक पानी के स्रोत ब्लॉक हैं।\\n \\n\\n\\n खाली बाल्टी को अपने हाथ में पकड़कर, इसे इकट्ठा करने के लिए स्रोत ब्लॉक पर टैप करें।\\n ब्लॉक को दुनिया से हटा दिया जाएगा और बाल्टी के अंदर रखा जाएगा।\\n \\n\\n\\n बाल्टी से तरल पदार्थ डालने के लिए, इलाके पर टैप करें।\\n तरल पदार्थ का एक नया स्रोत ब्लॉक बनाया जाएगा, और द्रव वहां से फैल जाएगा।\\n आप खाली बाल्टी के साथ रखे गए स्रोत ब्लॉक को फिर से एकत्र कर सकते हैं।\\n ",
       "Title": "Buckets"
     },
     "30": {
-      "value": "\\n Some blocks and items can be dyed or painted.\\n \\n\\n\\n To paint bricks, stone, wood or other blocks, make a paint bucket of appropriate color and use it on the item you want to paint.\\n One bucket is good for painting several dozen blocks, after that it runs out.\\n \\n\\n\\n Paint stripper can be used to remove paint and restore blocks to their original appearance.\\n \\n\\n\\n To dye clothing, place a piece of clothing with a bucket full of paint in a furnace.\\n You can dye clothing multiple times, combining colors.\\n \\n\\n\\n You can also dye carpets in a similar way.\\n \\n\\n\\n Available colors of the paint (palette) can be customized in the world options screen.\\n You can also customize the names of colors.\\n The total number of colors is always 16, so to make a new color you need to sacrifice one of the existing ones.\\n Customized colors also affect clothing, dyeing and furniture.\\n ",
+      "value": "\\n कुछ ब्लॉकों और वस्तुओं को रंगा या पेंट किया जा सकता है।\\n \\n\\n\\n ईंटों, पत्थर, लकड़ी या अन्य ब्लॉकों को पेंट करने के लिए, उपयुक्त रंग की एक पेंट बाल्टी बनाएं और इसे उस वस्तु पर उपयोग करें जिसे आप पेंट करना चाहते हैं।\\n एक बाल्टी कई दर्जन ब्लॉकों को पेंट करने के लिए अच्छी है, उसके बाद यह खत्म हो जाती है।\\n \\n\\n\\n पेंट स्ट्रिपर का उपयोग पेंट को हटाने और ब्लॉकों को उनके मूल स्वरूप में बहाल करने के लिए किया जा सकता है।\\n \\n\\n\\n कपड़ों को रंगने के लिए, कपड़ों का एक टुकड़ा भट्टी में पेंट से भरी बाल्टी के साथ रखें।\\n आप रंगों को मिलाकर कपड़ों को कई बार डाई कर सकते हैं।\\n \\n\\n\\n आप इसी तरह कालीनों को भी डाई कर सकते हैं।\\n \\n\\n\\n पेंट (पैलेट) के उपलब्ध रंगों को विश्व विकल्प स्क्रीन में अनुकूलित किया जा सकता है।\\n आप रंगों के नाम भी कस्टमाइज़ कर सकते हैं।\\n रंगों की कुल संख्या हमेशा 16 होती है, इसलिए एक नया रंग बनाने के लिए आपको मौजूदा रंगों में से एक का त्याग करना होगा।\\n अनुकूलित रंग कपड़े, रंगाई और फर्नीचर को भी प्रभावित करते हैं।\\n ",
       "Title": "Dyeing and Painting"
     },
     "31": {
@@ -2935,7 +2935,7 @@
     },
     "32": {
       "value": "\\n In Survivalcraft you can design and use custom furniture blocks.\\n \\n\\n\\n Furniture blocks are sculpted from up to 16x16x16 smaller sub-blocks.\\n Sub-blocks within a single furniture block can be made of different materials and painted to different colors.\\n Through crafting, furniture blocks can be combined, made interactive or made to work with electricity.\\n Furniture designs can be combined into packs, shared between worlds and uploaded to Community Content.\\n \\n\\n\\n To design and create furniture use the hammer tool.\\n You need to build the design from regular blocks in the world and then use the hammer on the resulting structure to shrink it down.\\n Furniture design window will appear where you can tweak the design by moving it, rotating it and changing resolution (between 2x2x2 and 16x16x16).\\n Once you are happy with the design, you can commit it.\\n \\n\\n\\n In creative mode, the design will be turned into a single furniture block, and the source blocks from which the design was created will remain in the world.\\n In survival modes, the design will be turned into several copies of the furniture block (with number depending on resolution) and the source blocks will be consumed.\\n Furniture blocks can be placed in the world in 4 orientations, similar to e.g. a furnace or a ladder.\\n \\n\\n\\n Not every block can be used for furniture design.\\n For example, dirt or grass are ignored by the hammer tool.\\n Allowed materials include: planks, granite, basalt, sand, clay, cobblestone, stone bricks, sandstone, marble, bricks, coal, malachite, diamond, copper, iron, glass, carpet, torches, wicker lamps, water, magma.\\n Source blocks of the design can be painted or dyed to make the design more colorful.\\n Finished furniture can also be painted, this will cover any colors of the source blocks.\\n \\n\\n\\n Certain source blocks have special functions.\\n For example a torch/lamp block will cause the furniture to have a fire attached to it in the place of the block.\\n The design will also emit light.\\n \\n\\n\\n You have to be careful when constructing furniture to avoid placing the design on a base made of allowed material (for example sand).\\n The hammer tool will not be able to distinguish between the blocks you placed and the base, and will try to incorporate base into the design.\\n This will likely cause \"design too large\" error, because the maximum size of a design in any dimension is 16 blocks.\\n \\n\\n\\n Once the furniture block has been created, you can use workbench to combine it with other blocks in various ways.\\n The following combinations are possible:\\n \\n\\n\\n * Combine multiple pieces of furniture into one to create interactive furniture.\\n Interactive furniture toggles between its constituing designs on click or on electric signal.\\n You can create opening doors, switchable lights, raising platforms etc.\\n Up to 9 pieces of furniture can be combined (max capacity of workbench).\\n \\n\\n\\n * Combine exactly one furniture design with an electric button to create a custom button.\\n The resulting furniture will act as a button.\\n \\n\\n\\n * Combine exactly two furniture designs with an electric switch to create a custom switch.\\n The resulting furniture will act as a switch, with two furniture pieces acting as two states of the switch.\\n \\n\\n\\n * Combine multiple pieces of furniture with an electric wire to create connected interactive furniture.\\n The furniture will work in the same way as interactive furniture, but toggling it will also toggle all neighboring pieces of connected interactive furniture.\\n You can create multi-block toggleable structures, for example large doors.\\n \\n\\n\\n In the furniture panel in creative inventory you can view and organize your furniture designs.\\n Create named furniture sets to categorize the designs.\\n The newly created designs are placed in \"Uncategorized\" set, which has a special function.\\n Any design in this set, which does not otherwise exist in the world (no items or placed blocks) will be automatically recycled.\\n Be careful and move valuable designs to named furniture sets to avoid accidentally losing them.\\n Each named furniture set can be turned into a furniture pack and exported from the world.\\n You can later import it to other worlds or upload to Dropbox/SDcard and share with others.\\n Furniture packs can also be uploaded to community content.\\n \\n\\n\\n There are certain limitations to the furniture system:\\n \\n\\n\\n * A furniture block can be made from up to 16x16x16 sub-blocks.\\n \\n\\n\\n * The amount of geometry used for a single design cannot exceed 300 triangles (too complex designs with many nooks and crannies are not possible).\\n The game uses an intelligent tesselation algorithm that optimizes the geometry, so 300 triangles is plenty for even fairly complex designs, unless you really go over the top.\\n To reduce number of triangles, you can reduce number of small details, reduce number of painted blocks and fill up any internal holes in the design.\\n \\n\\n\\n * You can only have up to 1024 unique furniture designs in the world.\\n Every time you paint a furniture or combine it with others, you are creating new designs that count towards the total.\\n Unused designs (that do not exist in the world either as items or blocks, and are in the \"uncategorized\" set in the inventory) are automatically recycled.\\n ",
-      "Title": "Furniture"
+      "Title": "फर्नीचर"
     },
     "33": {
       "value": "\\n Pistons are blocks that can push or pull other blocks. \\n Pistons will extend or retract based on voltage applied to them.\\n They can be placed facing any direction.\\n \\n\\n\\n There are 3 types of pistons: push pistons, pull pistons and strict pull pistons.\\n \\n\\n\\n Push pistons push up to 8 blocks as they extend, but they do not pull them back when they retract.\\n \\n\\n\\n Pull pistons act like push pistons, but additionally they pull up to 8 blocks back when they retract.\\n \\n\\n\\n Strict pull pistons act like normal pull pistons, but they will not retract unless they are pulling enough blocks.\\n \\n\\n\\n Voltage applied to a piston determines the extension length.\\n Anthing below 0.8V is retracted. 0.8V is one block extension, 0.9V is two blocks etc.\\n 1.5V equals full extension of 8 blocks.\\n The piston will only react to voltage changes when it is not moving.\\n It will always complete the current move before starting another.\\n \\n\\n\\n Pistons can be edited.\\n You can adjust maximum extension, number of pulled blocks and speed of movement.\\n \\n\\n\\n Certain blocks cannot be moved by pistons.\\n These include any block that contains inventory (chest, workbench, furnace etc.), diamond block and any piston that is extended.\\n Retracted pistons however can be moved by other pistons.\\n This opens up a world of possibilities, with complicated machines where pistons move other pistons.\\n Pistons will also block fluids when extended, so you can use them to make valves.\\n \\n\\n\\n Use pistons to make doors, elevators, moving platforms and all kinds of ingenious machines.\\n ",
@@ -2968,7 +2968,7 @@
     },
     "40": {
       "value": "\\n The game allows you to import and export worlds to SD Card for sharing and backup purposes.\\n \\n\\n\\n If your device does not have an SD Card, generic external storage folder will be used.\\n The location of the data on the device is normally /sdcard/Survivalcraft\\n ",
-      "Title": "SD Card",
+      "Title": "एसडी कार्ड",
       "DisabledPlatforms": "Ios, Windows81, WindowsPhone81, Desktop"
     },
     "41": {
@@ -2978,7 +2978,7 @@
   },
   "Strings": {
     "MoveControlMode.Pad": "Touchpad",
-    "MoveControlMode.Buttons": "Buttons",
+    "MoveControlMode.Buttons": "बटन",
     "LookControlMode.Pad": "Touchpad Only",
     "LookControlMode.EntireScreen": "Entire Screen",
     "LookControlMode.SplitTouch": "Split Touch",
@@ -3089,8 +3089,8 @@
       "3": "...",
       "4": "-",
       "5": "...",
-      "6": "Download",
-      "7": "Delete",
+      "6": "डाउनलोड",
+      "7": "मिटाना",
       "8": "...",
       "9": "Input Keywords",
       "10": "Search"
@@ -3099,8 +3099,8 @@
       "1": "Original Community Content",
       "2": "-",
       "3": "...",
-      "4": "Download",
-      "5": "Delete",
+      "4": "डाउनलोड",
+      "5": "मिटाना",
       "6": "Search",
       "7": "x"
     },
@@ -3109,11 +3109,11 @@
       "2": "Access content previously uploaded to one of your public storage spaces",
       "3": "Private",
       "4": "Access content created by other community members and registered for public access",
-      "5": "Community",
+      "5": "समुदाय-भावना",
       "6": "Download a file directly from a web link, if you know it (it's best to use copy/paste to enter links)",
       "7": "From Link",
       "8": "Manage downloaded content",
-      "9": "Manage",
+      "9": "प्रबंध",
       "10": "Access content created by other Original community members and registered for public access",
       "11": "Original Community"
     },
@@ -3141,8 +3141,8 @@
       "1": "",
       "2": "Game",
       "3": "Multiplayer",
-      "4": "Settings",
-      "5": "Help",
+      "4": "सेटिंग",
+      "5": "मदद",
       "6": "Buy Full Version",
       "7": "Copyright © 2011-2026 Candy Rufus Games.",
       "8": "Official Website:",
@@ -3166,7 +3166,7 @@
     "ManageContentScreen": {
       "1": "Manage Content",
       "2": "(Download more using Community Content)",
-      "3": "Delete",
+      "3": "मिटाना",
       "4": "Upload",
       "5": "..."
     },
@@ -3177,9 +3177,9 @@
       "4": "Change Sort",
       "5": "Search Type",
       "6": "Search",
-      "7": "Filter",
+      "7": "फ़िल्टर",
       "8": "Change Filter",
-      "9": "Unlock",
+      "9": "अनलॉक",
       "10": "All Users",
       "11": "Admin Users",
       "12": "Blacklisted Users",
@@ -3196,12 +3196,12 @@
     "ModifyWorldScreen": [
       "Change World",
       "Rename World",
-      "World Seed",
-      "Game Mode",
+      "विश्व बीज",
+      "गेम मोड",
       "World Options",
       "Options...",
       "Invalid World Name",
-      "Delete",
+      "मिटाना",
       "Upload",
       "Apply Changes",
       "Create Server",
@@ -3268,9 +3268,9 @@
       "Disabled Blocks (separated by ;)",
       "Keyword Blocking",
       "Keyword Blocking (separated by ;)",
-      "Reset",
-      "Cancel",
-      "OK"
+      "रीसेट करें",
+      "रद्द करना",
+      "ठीक है"
     ],
     "PlayScreen": {
       "1": "Existing Worlds",
@@ -3285,7 +3285,7 @@
       "10": "{0} player",
       "WhetherCreateServer": "Create a server?",
       "ServerIP": "Server IP Address",
-      "Notice": "Notice",
+      "Notice": "सूचना",
       "CreateServerFailed": "Failed to create server: Port already in use"
     },
     "PlayerScreen": {
@@ -3302,7 +3302,7 @@
       "11": "Add Another"
     },
     "PlayersScreen": [
-      "Edit Players",
+      "खिलाड़ियों को संपादित करें",
       "Screen Layout",
       "New Player",
       "Cannot add players in cruel mode.",
@@ -3332,35 +3332,35 @@
       "3": "Music Volume:"
     },
     "SettingsCompatibilityScreen": [
-      "Load Mod (Debug)",
-      "Adjust Device Compatibility",
-      "Use these settings only when you encounter game problems",
-      "Single-threaded Terrain Update",
-      "Use Audio Track Caching",
-      "Use Reduced Z-Range",
-      "View Game Log",
-      "View Log",
-      "Restore Default Settings",
-      "Reset",
-      "Allow LAN Connection",
-      "Bug Feedback",
-      "Report Online Issues",
-      "Changing audio engine requires restarting the game",
-      "Feedback link not configured",
-      "Default compatibility settings restored",
-      "Open Log Folder",
-      "Open",
+      "लोड मॉड (डीबग)",
+      "डिवाइस संगतता समायोजित करें",
+      "इन सेटिंग्स का उपयोग केवल तभी करें जब आप गेम की समस्याओं का सामना करते हैं",
+      "सिंगल-थ्रेडेड टेरेन अपडेट",
+      "ऑडियो ट्रैक कैशिंग का उपयोग करें",
+      "कम Z-रेंज का उपयोग करें",
+      "गेम लॉग देखें",
+      "लॉग देखें",
+      "डिफ़ॉल्ट सेटिंग्स पुनर्स्थापित करें",
+      "रीसेट करें",
+      "LAN कनेक्शन की अनुमति दें",
+      "बग प्रतिक्रिया",
+      "ऑनलाइन समस्याओं की रिपोर्ट करें",
+      "ऑडियो इंजन बदलने के लिए गेम को पुनरारंभ करने की आवश्यकता होती है",
+      "प्रतिक्रिया लिंक कॉन्फ़िगर नहीं किया गया है",
+      "डिफ़ॉल्ट संगतता सेटिंग्स पुनर्स्थापित",
+      "लॉग फ़ोल्डर खोलें",
+      "खोलना",
       "Opening: {0}",
-      "System download directory opened",
+      "सिस्टम डाउनलोड निर्देशिका खोली गई",
       "Log folder path: {0}",
-      "Please open file manager manually",
+      "कृपया फ़ाइल प्रबंधक को मैन्युअल रूप से खोलें",
       "Open failed: {0}",
-      "Log Mode",
-      "Single File Log",
-      "Daily Log",
-      "Currently using single file log mode, all logs written to Game.log",
-      "Currently using daily log mode, a new log file is generated each day",
-      "Log mode switched, new log writing method has taken effect"
+      "लॉग मोड",
+      "एकल फ़ाइल लॉग",
+      "दैनिक लॉग",
+      "वर्तमान में एकल फ़ाइल लॉग मोड का उपयोग कर रहा है, सभी लॉग Game.log को लिखे गए हैं",
+      "वर्तमान में दैनिक लॉग मोड का उपयोग करते हुए, प्रत्येक दिन एक नई लॉग फ़ाइल उत्पन्न होती है",
+      "लॉग मोड स्विच किया गया है, नई लॉग लेखन विधि प्रभावी हो गई है"
     ],
     "SettingsControlsScreen": [
       "Adjust Controls Settings",
@@ -3378,7 +3378,7 @@
       "Creative Mode Reach:",
       "Minimum Hold Duration:",
       "Minimum Drag Distance:",
-      "Introduction:",
+      "परिचय:",
       "MemoryBank Style:",
       "Creative Mode Drag Max Stack Of Blocks:",
       "Drag Half Stack Of Blocks In Split:",
@@ -3463,7 +3463,7 @@
       "17": "Customize Paint Colors:",
       "18": "...",
       "19": "Environment Behavior:",
-      "20": "Time Of Day:",
+      "20": "दिन का समय:",
       "21": "Weather Effects:",
       "22": "Adventure Respawn:",
       "23": "Adventure Survival Mechanics:",
@@ -3515,7 +3515,7 @@
       "3": "Inventory"
     },
     "CreativeInventoryWidget": {
-      "1": "Weapons",
+      "1": "हथियार",
       "2": "",
       "3": ""
     },
@@ -3548,7 +3548,7 @@
       "5": "Inventory"
     },
     "FurnitureInventoryPanel": {
-      "1": "Add",
+      "1": "आगे कहना",
       "2": "..."
     },
     "FurniturePackItem": {
@@ -3603,7 +3603,7 @@
       "3": "Health",
       "4": "Stamina",
       "5": "Sleep",
-      "6": "Food",
+      "6": "खाद्य पदार्थ",
       "7": "Wetness",
       "8": "Body Heat",
       "9": "Experience",
@@ -3611,7 +3611,7 @@
       "11": "Resilience",
       "12": "Speed",
       "13": "Hunger",
-      "14": "Insulation",
+      "14": "इन्सुलेशन",
       "15": "",
       "16": "Affects melee attack power, digging speed, throwing range, and bow range.",
       "17": "Affects damage received from attacks, falls, fire, and asphyxiation.",
@@ -3630,7 +3630,7 @@
     "NetMessageWidget": {
       "HintString": "Type here...",
       "System": "System",
-      "Global": "All",
+      "Global": "सभी",
       "Team": "Team",
       "PM": "PM",
       "Emoji": "Emoji",
@@ -3642,7 +3642,7 @@
       "MessageCopyResult": "Copied to clipboard",
       "MessageMode1": "Sound + Text",
       "MessageMode2": "Text Only",
-      "MessageMode3": "None",
+      "MessageMode3": "कोई नहीं",
       "MessageSettingPrefix": "Chat Notification: ",
       "ModeSettingDialog": "More Settings",
       "NoSelectedPlayer": "Please select a player from the list to private message",
@@ -3669,11 +3669,11 @@
     },
     "EditMemoryBankDialogAPI": [
       "Edit MemoryBank",
-      "Clear",
+      "साफ़ करें",
       "Transposition",
       "Input All:",
       "Save",
-      "Cancel"
+      "रद्द करना"
     ],
     "ManipulateOfflineTokenDialog": {
       "1": "Player ID",
@@ -3683,22 +3683,22 @@
       "5": "Copy",
       "6": "Paste",
       "7": "Save",
-      "8": "Cancel",
+      "8": "रद्द करना",
       "9": "For local single-player, or joining non-SCKey servers as guest ID",
-      "10": "Tip",
+      "10": "टिप",
       "11": "Guest ID changed. Use your previous ID to access existing player data."
     },
     "BuildFurnitureDialog": {
       "1": "...",
       "2": "Build",
-      "3": "Cancel"
+      "3": "रद्द करना"
     },
     "EditVoltageLevelDialog": {
       "1": "Adjust Voltage"
     },
     "CancellableBusyDialog": {
-      "1": "Cancel",
-      "2": "Hide"
+      "1": "रद्द करना",
+      "2": "छुपाना"
     },
     "DownloadContentFromLinkDialog": {
       "1": "Enter Link To A File",
@@ -3707,18 +3707,18 @@
       "4": "Name:",
       "5": "Content Type:",
       "6": "...",
-      "7": "Download",
-      "8": "Cancel"
+      "7": "डाउनलोड",
+      "8": "रद्द करना"
     },
     "EditAdjustableDelayGateDialog": {
       "1": "Adjust Delay",
-      "2": "OK",
-      "3": "Cancel"
+      "2": "ठीक है",
+      "3": "रद्द करना"
     },
     "EditBatteryDialog": {
       "1": "Adjust Battery Voltage",
-      "2": "OK",
-      "3": "Cancel"
+      "2": "ठीक है",
+      "3": "रद्द करना"
     },
     "EditMemoryBankDialog": {
       "1": "Edit Memory Bank",
@@ -3741,21 +3741,21 @@
       "18": "E",
       "19": "F",
       "20": "Enter up to 256 hexadecimal characters",
-      "21": "OK",
-      "22": "Cancel"
+      "21": "ठीक है",
+      "22": "रद्द करना"
     },
     "EditPaletteDialog": {
       "1": "Edit Palette",
       "2": "Define custom colors for the world",
-      "3": "OK",
-      "4": "Cancel"
+      "3": "ठीक है",
+      "4": "रद्द करना"
     },
     "EditPistonDialog": {
       "1": "Max Extension",
       "2": "Pull Count",
       "3": "Speed Setting",
-      "4": "OK",
-      "5": "Cancel"
+      "4": "ठीक है",
+      "5": "रद्द करना"
     },
     "EditSignDialog": {
       "1": "Enter Sign Text Lines",
@@ -3767,10 +3767,10 @@
       "7": "When playing in adventure mode only, tapping",
       "8": "the sign will open this URL in the browser",
       "9": "Try",
-      "10": "OK",
+      "10": "ठीक है",
       "11": "URL",
       "12": "Lines",
-      "13": "Cancel"
+      "13": "रद्द करना"
     },
     "EditTruthTableDialog": {
       "1": "Edit Truth Table",
@@ -3793,12 +3793,12 @@
       "18": " 1 1 1 0",
       "19": " 1 1 1 1",
       "20": "Enter up to 16 binary characters (0 and 1)",
-      "21": "OK",
-      "22": "Cancel"
+      "21": "ठीक है",
+      "22": "रद्द करना"
     },
     "ExternalContentLinkDialog": {
       "1": "Link Copied To Clipboard",
-      "2": "OK"
+      "2": "ठीक है"
     },
     "GameMenuDialog": {
       "1": "Resume",
@@ -3806,7 +3806,7 @@
       "3": "..."
     },
     "GamepadHelpDialog": {
-      "1": "Gamepad Controls",
+      "1": "गेमपैड नियंत्रण",
       "2": "Left Stick",
       "3": "Right Stick",
       "4": "Left Trigger",
@@ -3847,11 +3847,11 @@
       "39": "auto move inventory item",
       "40": "toggle fly mode (creative)",
       "41": "fly up/down (creative)",
-      "42": "OK",
-      "43": "Help"
+      "42": "ठीक है",
+      "43": "मदद"
     },
     "KeyboardHelpDialog": {
-      "1": "Keyboard Controls",
+      "1": "कीबोर्ड नियंत्रण",
       "2": "W/A/S/D",
       "3": "Mouse Move",
       "4": "Space",
@@ -3900,8 +3900,8 @@
       "47": "auto move inventory item",
       "48": "scroll, change inventory slot",
       "49": "show game menu",
-      "50": "OK",
-      "51": "Help",
+      "50": "ठीक है",
+      "51": "मदद",
       "52": "J",
       "53": "Join team",
       "54": "N",
@@ -3917,7 +3917,7 @@
     },
     "LevelFactorDialog": {
       "1": "Current multipliers:",
-      "2": "OK"
+      "2": "ठीक है"
     },
     "MoreCommunityLinkDialog": {
       "1": "Community Content",
@@ -3938,28 +3938,28 @@
       "4": "Name:",
       "5": "Content Type:",
       "6": "...",
-      "7": "Publish",
-      "8": "Cancel"
+      "7": "प्रकाशित करना",
+      "8": "रद्द करना"
     },
     "RateCommunityContentDialog": {
       "1": "Rate Community Content",
       "2": "Offensive content?",
       "3": "Report",
-      "4": "Rate",
-      "5": "Cancel"
+      "4": "दर",
+      "5": "रद्द करना"
     },
     "ReportCommunityContentDialog": {
       "1": "Report Community Content",
       "2": "Please tick one that applies most:",
       "3": "Report",
-      "4": "Cancel"
+      "4": "रद्द करना"
     },
     "TextBoxDialog": {
-      "1": "OK",
-      "2": "Cancel"
+      "1": "ठीक है",
+      "2": "रद्द करना"
     },
     "ViewGameLogDialog": [
-      "Clear",
+      "साफ़ करें",
       "Copy",
       "Close",
       "Upload"
@@ -3967,7 +3967,7 @@
     "RunJsDialog": {
       "1": "Run",
       "2": "Close",
-      "3": "Run Javascript",
+      "3": "जावास्क्रिप्ट चलाएँ",
       "4": "Input:",
       "5": "Output:",
       "6": "Costed time:",
@@ -3995,7 +3995,7 @@
     "TeamPanelWidget": {
       "Create": "Create",
       "Leave": "Leave",
-      "Setting": "Settings",
+      "Setting": "सेटिंग",
       "Members": "Members",
       "TransferLeadership": "Transfer Leadership",
       "Team": "Team",
@@ -4015,7 +4015,7 @@
       "blacklist": "Blacklist",
       "Team": "Team",
       "OperationFailed": "Operation failed: ",
-      "Operation": "Operation",
+      "Operation": "परिचालन",
       "BlackListConfirm": "Add {0} to the blacklist?",
       "UnblackListConfirm": "Remove {0} from the blacklist?",
       "BlacklistSuccess": "{0} added {1} to the blacklist",
@@ -4080,12 +4080,12 @@
     "UpdateDialog": {
       "Btn_CheckUpdate": "Check Update",
       "Btn_StartUpdate": "Start Update",
-      "Btn_Install": "Install",
+      "Btn_Install": "पदासीन करना",
       "Btn_Releases": "Releases",
       "Btn_BrowserDownload": "Web DL",
       "Btn_CloudDownload": "Cloud DL",
       "Btn_OpenFolder": "Open Folder",
-      "Btn_Cancel": "Cancel"
+      "Btn_Cancel": "रद्द करना"
     }
   },
   "UpdateDialog": {
@@ -4167,19 +4167,19 @@
     "Btn_SendCode": "Send Code",
     "Btn_ResendCode": "Resend",
     "Btn_Verify": "Verify & Login",
-    "Btn_Back": "Back",
-    "Btn_Cancel": "Cancel",
-    "Btn_Logout": "Logout",
+    "Btn_Back": "शर्त लगाना",
+    "Btn_Cancel": "रद्द करना",
+    "Btn_Logout": "लॉगआउट",
     "Btn_Unregister": "Unregister",
-    "Dialog_Title": "Tip",
+    "Dialog_Title": "टिप",
     "Dialog_LoginSuccess": "Login Success",
-    "Dialog_Button_Back": "Back",
+    "Dialog_Button_Back": "शर्त लगाना",
     "Error_EmptyContact": "Please enter email or phone number",
     "Error_InvalidEmail": "Please enter a valid email address",
     "Error_InvalidPhone": "Please enter a valid 11-digit phone number",
     "Error_EmptyCode": "Please enter verification code",
     "Error_InvalidCode": "Verification code should be 6 digits",
-    "Error_NetworkUnavailable": "Network unavailable",
+    "Error_NetworkUnavailable": "नेटवर्क अनुपलब्ध",
     "Error_NetworkUnavailable_Unregister": "Network unavailable, cannot unregister",
     "Error_NetworkRequest": "Network request failed: {0} ({1})",
     "Error_Timeout_SendCode": "Send code timeout, please check network",
@@ -4208,8 +4208,8 @@
     "Tip_LoggedInWithContact": "Logged in as: {0}, click to logout",
     "Tip_AuthOpened": "QQ authorization page opened, please complete login",
     "Btn_QQLogin": "Login with QQ",
-    "Btn_Cancel": "Cancel",
-    "Btn_Logout": "Logout",
+    "Btn_Cancel": "रद्द करना",
+    "Btn_Logout": "लॉगआउट",
     "Btn_Unregister": "Unregister",
     "Error_LoginTimeout": "Login timeout: Please try again",
     "Error_LoginFailed": "Login failed: {0}",
@@ -4235,14 +4235,14 @@
     "Btn_SendCode": "Send Code",
     "Btn_ResendCode": "Resend",
     "Btn_Verify": "Verify & Login",
-    "Btn_Back": "Back",
-    "Btn_Cancel": "Cancel"
+    "Btn_Back": "शर्त लगाना",
+    "Btn_Cancel": "रद्द करना"
   },
   "Common": {
-    "Tip": "Tip",
-    "Ok": "OK",
-    "Cancel": "Cancel",
-    "Unknown": "Unknown",
+    "Tip": "टिप",
+    "Ok": "ठीक है",
+    "Cancel": "रद्द करना",
+    "Unknown": "अप्रसिद्घ व्यक्ति",
     "OpFailed": "Operation failed: ",
     "InvalidClient": "Invalid client"
   },
@@ -4268,14 +4268,14 @@
       "7": "HeadCylinderFlat"
     },
     "FireworksColorDisplayNames": {
-      "0": "White",
-      "1": "Cyan",
-      "2": "Red",
-      "3": "Blue",
-      "4": "Yellow",
-      "5": "Green",
-      "6": "Orange",
-      "7": "Purple"
+      "0": "श्‍वेतांश",
+      "1": "सियान",
+      "2": "ललौहा-भूरा",
+      "3": "खिन्‍नता",
+      "4": "पीला",
+      "5": "हरा",
+      "6": "नारंगी",
+      "7": "जामुनी"
     },
     "Other": {
       "1": "Fireworks {0}{1} {2} {3}",
@@ -4286,21 +4286,21 @@
   },
   "WorldPalette": {
     "Colors": [
-      "White",
+      "श्‍वेतांश",
       "Pale Cyan",
       "Pink",
       "Pale Blue",
-      "Yellow",
+      "पीला",
       "Pale Green",
       "Salmon",
       "Light Gray",
       "Gray",
-      "Cyan",
-      "Purple",
-      "Blue",
+      "सियान",
+      "जामुनी",
+      "खिन्‍नता",
       "Brown",
-      "Green",
-      "Red",
+      "हरा",
+      "ललौहा-भूरा",
       "Black"
     ],
     "0": "Invalid colors.",
@@ -4315,15 +4315,15 @@
     "Please select feedback method",
     "Web Feedback",
     "QQ Group Feedback",
-    "Cancel"
+    "रद्द करना"
   ],
   "UploadGameLogDialog": [
     "Upload Log",
     "Please select upload method",
     "Web Upload",
     "QQ Group Feedback",
-    "Cancel",
-    "Open Log Folder"
+    "रद्द करना",
+    "लॉग फ़ोल्डर खोलें"
   ],
   "Database": {
     "DisplayName": {
