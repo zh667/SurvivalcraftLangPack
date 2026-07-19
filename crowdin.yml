@@ -1,0 +1,24 @@
+# Crowdin config: source = base-game English, one project -> many target languages.
+# Create a Crowdin project (source English) and add these target languages:
+#   Indonesian, Turkish, Japanese, Korean, French, German, Italian, Polish,
+#   Hindi, Thai, Ukrainian, Arabic, Vietnamese.
+# Enable Pre-translation (MT) to bootstrap, community reviews, Crowdin opens
+# PRs writing each Assets/Lang/<code>.json back to this repo.
+files:
+  - source: /source/en-US.json
+    translation: /Assets/Lang/%locale%.json
+    languages_mapping:
+      locale:
+        vi: vi-VN
+        id: id-ID
+        tr: tr-TR
+        ja: ja-JP
+        ko: ko-KR
+        fr: fr-FR
+        de: de-DE
+        it: it-IT
+        pl: pl-PL
+        hi: hi-IN
+        th: th-TH
+        uk: uk-UA
+        ar: ar-SA
