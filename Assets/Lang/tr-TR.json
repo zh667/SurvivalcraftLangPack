@@ -375,7 +375,7 @@
   "FurnitureInventoryPanel": {
     "1": "{0} tasarım eklendi.",
     "2": "{0} tasarım dünyada zaten mevcuttu ve atlandı.",
-    "3": "{0} design(s) were skipped because {1} designs limit is reached.",
+    "3": "{0} Tasarım(lar) atlandı çünkü {1} Tasarım sınırına ulaşılır.",
     "4": "İçe Aktarma Başarılı",
     "5": "İçe Aktarma Başarısız",
     "6": "Yeni",
@@ -639,7 +639,7 @@
     "10": "indirmeler"
   },
   "ComponentClothing": {
-    "1": "Must be level {0} to wear {1}",
+    "1": "Düz olmalı {0} giymek {1}",
     "2": "Giysileriniz yıpranmış"
   },
   "SkyRenderingMode": {
@@ -738,7 +738,7 @@
   },
   "SettingsControlsScreen": [
     "{0} blok",
-    "Pix",
+    "Fotoğraflar",
     "Birincil",
     "API'si"
   ],
@@ -870,7 +870,7 @@
     "3": "Tarif yok"
   },
   "ComponentMiner": {
-    "1": "Level {0} required to use {1}",
+    "1": "Seviye {0} Kullanımı zorunlu {1}",
     "2": "Cevapsız",
     "3": "Oyuncu saldırısı devre dışı bırakıldı",
     "4": "{1} - {0}",
@@ -3855,7 +3855,7 @@
       "2": "W/A/S/D",
       "3": "Fare Hareketi",
       "4": "Uzay",
-      "5": "Shift",
+      "5": "Vardiyası",
       "6": "e",
       "7": "Ç",
       "8": "Soru",
@@ -4421,7 +4421,7 @@
       "92": "Jaguar Doğuş Yeri",
       "93": "Zebra",
       "94": "Zebra Yumurtlama Yeri",
-      "95": "Cassowary",
+      "95": "Kassowary",
       "96": "Cassowary Yumurtası",
       "97": "Kadın Oyuncu",
       "98": "Erkek Oyuncu",
