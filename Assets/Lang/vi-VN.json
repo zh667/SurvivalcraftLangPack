@@ -698,7 +698,7 @@
   "LookControlMode": {
     "Pad": "đệm",
     "EntireScreen": "Toàn bộ màn hình",
-    "SplitTouch": "SplitTouch"
+    "SplitTouch": "Tách Chạm"
   },
   "SettingsUiScreen": {
     "1": "Tin nhắn",
@@ -738,7 +738,7 @@
   },
   "SettingsControlsScreen": [
     "{0} khối",
-    "Pix",
+    "Hình ảnh",
     "Chính",
     "API"
   ],
@@ -2429,7 +2429,7 @@
       "Description": "Một diode phát quang. Khi kết nối với nguồn điện sẽ phát ra ánh sáng màu yếu. Màu sắc của ánh sáng phụ thuộc vào giá trị tín hiệu cấp vào diode. 0,8V trở lên tạo ra ánh sáng có 8 màu khác nhau. Ánh sáng quá yếu để có thể chiếu sáng xung quanh nhưng vẫn có thể dễ dàng nhìn thấy được. Hữu ích cho việc tạo đèn trạng thái. Nó có đầu vào ở tất cả các mặt để kết nối dễ dàng và có thể được đặt trên bất kỳ bề mặt nào."
     },
     "OneLedBlock:0": {
-      "DisplayName": "1-LED",
+      "DisplayName": "1-Đèn LED",
       "Description": "Một diode phát sáng hình vuông lớn. Khi kết nối với nguồn điện, đèn led phát ra ánh sáng màu yếu. Màu sắc của ánh sáng phụ thuộc vào giá trị tín hiệu cấp vào diode. 0,8V trở lên tạo ra ánh sáng có 8 màu khác nhau. Ánh sáng quá yếu để có thể chiếu sáng xung quanh nhưng vẫn có thể dễ dàng nhìn thấy được. Hữu ích cho việc tạo màn hình màu. Nó có đầu vào ở tất cả các mặt để kết nối dễ dàng và có thể được đặt trên bất kỳ bề mặt nào."
     },
     "PhotodiodeBlock:0": {
@@ -2495,7 +2495,7 @@
       "CRDescription:0": "May áo len từ canvas"
     },
     "ClothingBlock:25": {
-      "DisplayName": "Long Johns",
+      "DisplayName": "Johns dài",
       "Description": "Long Johns làm bằng vải canvas. Có thể được nhuộm. Hầu như không có sự bảo vệ. Cách nhiệt tốt.",
       "CRDescription:0": "May quần dài từ vải canvas"
     },
@@ -3186,7 +3186,7 @@
       "13": "Người dùng không hoạt động",
       "14": "Người dùng đã chết",
       "15": "Biệt hiệu",
-      "16": "Email",
+      "16": "Thư điện tử",
       "17": "ID người dùng",
       "18": "Tên người dùng",
       "19": "Mã thông báo",
@@ -3649,7 +3649,7 @@
       "NoMsgPlayerAlert": "Bạn đã bị tắt tiếng và không thể gửi tin nhắn",
       "ParserInValid": "Định dạng tin nhắn không hợp lệ. Không thể gửi.",
       "ChatHelp": "Hướng dẫn tính năng trực tuyến",
-      "ChatHelpContent": "<c=vàng>Tương tác giao diện</c><br/>Bảng Tin nhắn, Bữa tiệc và Hoạt động cũng như các điều khiển ở trên cùng bên phải hiện hỗ trợ \"Tự động đưa lên phía trước khi nhấp/kích hoạt\" để giải quyết các vấn đề chồng chéo.<br/><c=gold>Hệ thống nhắn tin</c><br/>Gửi tin nhắn toàn cầu theo mặc định.<br/>Văn bản màu đỏ ban đầu bị ẩn theo mặc định; hệ thống tự động chặn văn bản bị cấm.<br/>Nhấp vào thư đã chọn một lần nữa sẽ hiển thị các tùy chọn sao chép/hành động.<br/>Hộp văn bản nhập hỗ trợ kéo ngang; trên PC, nó còn hỗ trợ định vị con trỏ tức thì khi nhấp chuột. <br/>Bạn có thể điều chỉnh âm thanh thông báo và lớp phủ tin nhắn ở dưới cùng trong Cài đặt.<br/><c=gray>Ctrl+Backspace</c> để xóa nội dung ở bên trái con trỏ.<br/> Lệnh: Nhập / ở đầu dòng để gửi hướng dẫn được hỗ trợ (thay đổi tùy theo máy chủ).<br/><c=gold>Cú pháp văn bản đa dạng thức đơn giản</c><br/>Lưu ý: Vì các lý do cũ, việc lồng nhau không được hỗ trợ. Để chỉnh sửa các thành phần không phải văn bản, hãy sử dụng phím lùi ở bên phải của chúng.<br/>Dấu cách: \\<br/\\>,<br/>Màu: \\<c=green\\>Văn bản xanh\\</c\\>,<br/>Chặn: \\<b\\>8\\</b\\>,<br/>Biểu tượng cảm xúc: \\<em\\>smile\\</em\\><br/>Sử dụng <c=gray>\\\\</c> làm ký tự thoát cho các ký hiệu đặc biệt: <c=gray>\\<, \\>, \\\\</c>.<br/><c=golden>Hệ thống nhóm</c><br/>Hỗ trợ phát sóng các sự kiện của nhóm tới hàng đợi tin nhắn của thành viên, chuyển đổi lửa thân thiện, quyền mời thành viên và quyền đá thành viên.<br/>Các nhà lãnh đạo có thể chuyển giao quyền lãnh đạo cho một thành viên bằng cách chọn họ trong danh sách nhóm trước.<br/><br/>"
+      "ChatHelpContent": "<c=yellow>Tương tác giao diện</c><br/>Bảng Tin nhắn, Bữa tiệc và Hoạt động cũng như các điều khiển ở trên cùng bên phải hiện hỗ trợ \"Tự động đưa lên phía trước khi nhấp/kích hoạt\" để giải quyết các vấn đề chồng chéo.<br/><c=yellow>Hệ thống nhắn tin</c><br/>Gửi tin nhắn toàn cầu theo mặc định.<br/>Văn bản màu đỏ ban đầu bị ẩn theo mặc định; hệ thống tự động chặn văn bản bị cấm.<br/>Nhấp vào thư đã chọn một lần nữa sẽ hiển thị các tùy chọn sao chép/hành động.<br/>Hộp văn bản nhập hỗ trợ kéo ngang; trên PC, nó còn hỗ trợ định vị con trỏ tức thì khi nhấp chuột. <br/>Bạn có thể điều chỉnh âm thanh thông báo và lớp phủ tin nhắn ở dưới cùng trong Cài đặt.<br/><c=gray>Ctrl+Backspace</c> để xóa nội dung ở bên trái con trỏ.<br/> Lệnh: Nhập / ở đầu dòng để gửi hướng dẫn được hỗ trợ (thay đổi tùy theo máy chủ).<br/><c=yellow>Cú pháp văn bản đa dạng thức đơn giản</c><br/>Lưu ý: Vì các lý do cũ, việc lồng nhau không được hỗ trợ. Để chỉnh sửa các thành phần không phải văn bản, hãy sử dụng phím lùi ở bên phải của chúng.<br/>Dấu cách: \\<br/\\>,<br/>Màu: \\<c=green\\>Văn bản xanh\\</c\\>,<br/>Chặn: \\<b\\>8\\</b\\>,<br/>Biểu tượng cảm xúc: \\<em\\>smile\\</em\\><br/>Sử dụng <c=gray>\\\\</c> làm ký tự thoát cho các ký hiệu đặc biệt: <c=gray>\\<, \\>, \\\\</c>.<br/><c=yellow>Hệ thống nhóm</c><br/>Hỗ trợ phát sóng các sự kiện của nhóm tới hàng đợi tin nhắn của thành viên, chuyển đổi lửa thân thiện, quyền mời thành viên và quyền đá thành viên.<br/>Các nhà lãnh đạo có thể chuyển giao quyền lãnh đạo cho một thành viên bằng cách chọn họ trong danh sách nhóm trước.<br/><br/>"
     },
     "SubsystemGameWidgets": {
       "System": "Hệ thống",
@@ -3852,7 +3852,7 @@
     },
     "KeyboardHelpDialog": {
       "1": "Điều khiển bàn phím",
-      "2": "W/A/S/D",
+      "2": "W / A / S / D",
       "3": "Di chuyển chuột",
       "4": "không gian",
       "5": "ca",
@@ -4140,7 +4140,7 @@
     "Btn_VersionSelectButton": "Phiên bản",
     "Item_GitHubSource": "Nguồn GitHub",
     "Item_GiteeSource": "Nguồn Gitee",
-    "Item_MediaFireCloud": "MediaFire",
+    "Item_MediaFireCloud": "Phương tiện truyền thông",
     "Item_QuarkCloud": "chảo quark",
     "Version_Release": "Phát hành",
     "Version_Beta": "bản thử nghiệm",
@@ -4421,7 +4421,7 @@
       "92": "Người sinh sản Jaguar",
       "93": "ngựa vằn",
       "94": "Người sinh sản ngựa vằn",
-      "95": "Cassowary",
+      "95": "Thịt casow",
       "96": "Trứng Cassowary",
       "97": "Cầu thủ nữ",
       "98": "Cầu thủ nam",
