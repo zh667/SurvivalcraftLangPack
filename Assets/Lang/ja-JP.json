@@ -103,13 +103,13 @@
     "56": "Modの置き換えに失敗しました",
     "57": "ファイルは既に存在します",
     "58": "次のパスはスキャンできません:",
-    "59": "{0} valid MOD file(s) has/have been scanned\n",
+    "59": "{0} 有効なMODファイルはすでにスキャンされています。\n",
     "60": "更新",
     "61": "この機能は開発中です",
     "62": "バックグラウンド処理",
     "63": "援助中",
     "64": "MODの補強に関する考慮事項",
-    "65": "Mod reinforcement will replace the current mod file, after the reinforcement usually means can not be restored, please back up the file before operation. \nIf the original project file is accidentally lost after reinforcement, you can contact the community administrator to restore the hardened mod file. \nNormal players can ignore this feature.",
+    "65": "Mod強化は現在のmodファイルを置き換えます。強化後は通常復元できない状態なので、操作前にファイルをバックアップしてください。 \nもし元のプロジェクトファイルが補強後に誤って失われた場合は、コミュニティ管理者に連絡して強化されたMODファイルを復元してもらうことができます。 \n通常のプレイヤーはこの機能を無視できます。",
     "66": "現在のMODファイルは強化されており、補強する必要はありません",
     "67": "現在の mod ファイルの補強に不明なエラーが発生しました:",
     "68": "古い API バージョン(API 1.3) mod は利用できません",
@@ -140,7 +140,7 @@
   },
   "MainMenuScreen": {
     "1": "お知らせの取得に失敗しました",
-    "2": "No announcements available,\nor not connected to the internet"
+    "2": "アナウンスはありません。\nあるいはインターネットに接続していない"
   },
   "SubsystemExplosions": [
     "爆破された",
@@ -244,7 +244,7 @@
     "1": "プレイヤーデータが既に存在する場合、プレイヤークラスを変更できません。",
     "2": "リスポーン中の {0} （レベル {1}）",
     "3": "あなたの項目は死の場所で短い時間のために残る。",
-    "4": "Spawning {0} (Level {1})",
+    "4": "産卵 {0} (レベル) {1})",
     "5": "スポーンモードが無効です。",
     "6": "死んでしまった",
     "7": "{0}\n\n\"{1}\"のゲームモードではリスポーンできません",
@@ -522,7 +522,7 @@
     "77": "午後",
     "78": "イブニング",
     "79": "夜",
-    "80": "{1} day {0:0}",
+    "80": "{1} 日 {0:0}",
     "81": "ワールドが古いバージョンのゲームで開始されたため、プレイヤーの統計が利用できません。",
     "82": "アドベンチャーを再起動",
     "83": "冒険のリセット？",
@@ -816,7 +816,7 @@
     "断熱性",
     "移動速度",
     "はい（ {0}まで）",
-    "{0} days"
+    "{0} 日々"
   ],
   "ComponentVitalStats": {
     "1": "体調が悪くて食べられません。",
@@ -846,11 +846,11 @@
     "25": "凍死する",
     "26": "低体温症",
     "27": "{0} が凍りついた状態で服を乾かしてください！",
-    "28": "Your {0} freezing, seek shelter!",
+    "28": "あなたの {0} 凍える、避難しろ!",
     "29": "あなたの {0} は凍結しています。服を着てください！",
     "30": "{0} が寒くなってきて、服を乾かしてください",
     "31": "あなたの {0} が寒くなってきて、シェルターを探してください",
-    "32": "Your {0} getting cold, get clothed",
+    "32": "あなたの {0} 寒くなったら服を着て",
     "33": "少し肌寒いです。",
     "34": "暑すぎて逃げて！",
     "35": "過熱しました",
@@ -954,7 +954,7 @@
   },
   "ComponentGui": {
     "1": "キーボードコントロール\nを押してください (またはヘルプを参照してください)",
-    "2": "Press START/PAUSE for gamepad controls\n(or see HELP)",
+    "2": "ゲームパッドの操作はSTART/PAUSEを押してください\n(またはヘルプを参照)",
     "3": "スニークモードOFF",
     "4": "スニークモードON",
     "5": "マウント済み",
@@ -1773,7 +1773,7 @@
       "CRDescription:0": "木と棒から鋭い尖った板を作る"
     },
     "GrassTrapBlock:0": {
-      "DisplayName": "草トラップformat@@0",
+      "DisplayName": "草の罠",
       "Description": "草の罠は草に似ているが、重い何かがそれに立つと崩壊する詐欺装置である。 トラップを隠すために使われます。トラップを警戒していない動物がその上を歩いてピットに落ちるようにします。 それはオークの葉からのみ細工することができ、他の葉は動作しません。",
       "CRDescription:0": "オークの葉から草トラップを作って深い穴を隠す。"
     },
@@ -2112,7 +2112,7 @@
       "CRDescription:0": "銅武器を作る"
     },
     "IronSpearBlock:0": {
-      "DisplayName": "アイアンスピアformat@@0",
+      "DisplayName": "鉄の槍",
       "Description": "槍は近接攻撃に使うことができる汎用性の高い武器です。 使用すると、最終的にその鋭さを失い、失敗します。 より良い材料で作られた槍は長持ちし、ダメージが大きくなります。 投げ槍は柔らかい材料に固執します. それはあまりにも固く埋め込まれた槍を削除するのは難しいかもしれません.",
       "CRDescription:0": "鉄の武器を作る"
     },
@@ -2296,12 +2296,12 @@
     },
     "DelayGateBlock:0": {
       "DisplayName": "遅延ゲート",
-      "Description": "1つの入力と1つの出力を持つ遅延ゲート。1つのゲートは約0.2秒間、任意の信号を遅延させます。 2つのゲートを直接連鎖させる(間のワイヤなし)は、1秒の遅延を与えます。3つのゲートを連鎖させると、5秒の遅延が直接与えられます。 ディレイゲートとワイヤ間の連鎖式ディレイゲートは、単純にディレイを組み合わせるだけです。2つのゲートは0の遅延を与えます。 秒、3つのゲートに0.6秒がかかります。任意の面に配置し、目的の方向に回転できます。",
+      "Description": "1つの入力と1つの出力を持つ遅延ゲートです。ゲート1個では信号を約0.2秒遅延させます。間にワイヤーを挟まずに2個を直結すると1秒、3個を直結すると5秒遅延します。間にワイヤーを挟んで接続した場合は遅延時間が単純に加算され、2個で0.4秒、3個で0.6秒となります。任意の面に配置し、希望の方向に回転できます。",
       "CRDescription:0": "銅とゲルマニウムからのクラフトロジックディレイゲート"
     },
     "AdjustableDelayGateBlock:0": {
       "DisplayName": "調整可能な遅延ゲート",
-      "Description": "1つの入力と1つの出力を持つ調整可能なディレイゲートは、ゲートの遅延を0で調整することができます。 1秒単位で編集できます。任意の面に配置し、希望の方向に回転できます。",
+      "Description": "1つの入力と1つの出力を持つ調整可能な遅延ゲートです。編集することで、ゲートの遅延を0.01秒刻みで調整できます。任意の面に配置し、希望の方向に回転できます。",
       "CRDescription:0": "クラフトロジック調整可能な銅、ゲルマニウム、鉄からの遅延ゲート。"
     },
     "SRLatchBlock:0": {
@@ -2316,7 +2316,7 @@
     },
     "MemoryBankBlock:0": {
       "DisplayName": "メモリバンク",
-      "Description": "256個の4ビットワードを含むメモリバンクを書き込むことができます. メモリは、左右に配置された2つの4ビットアドレスラインを使用して処理することができます. アドレス行が接続されていない場合は、ゼロと仮定されます。 指定されたアドレスの下のメモリバンクに格納された値は、最上部の出力で読み取ることができます。 底部入力はSRラッチと同様の方法でクロックとして使用されます。クロックラインが接続されていない場合は、読み込みは即時です。 メモリバンクに書き込むには、バック入力に書き込む値を入力します(ワイヤスルーブロックを使用する必要があります)。 クロック入力を0.1~0.7ボルト(値は0)の間で低電圧に設定することで、書き込みがトリガされます。 そして、大きいと読み取りがトリガーされます)。 メモリブロックの内容は、ブロックを手元に持っているときや見た時に編集ボタンをタップすることで手動で編集できます。 任意の面に配置し、希望の方向に回転することができます。",
+      "Description": "256個の4ビットワードを保存できる書き込み可能なメモリバンクです。左右の2本の4ビットアドレス線でアドレスを指定します。アドレス線が未接続の場合は0とみなされます。指定アドレスの値は上側の出力から読み取れます。下側の入力はSRラッチと同様にクロックとして使われ、未接続なら即時に読み出します。書き込む値は背面入力に与えます（ワイヤースルーブロックが必要です）。クロック入力を0.1～0.7Vの低電圧にすると書き込みが実行され、0.8V以上では読み出しが実行されます。ブロックを手に持つか見ているときに編集ボタンを押すと、内容を手動で編集できます。任意の面に配置し、希望の方向に回転できます。",
       "CRDescription:0": "銅とゲルマニウムからのクラフトメモリバンク。"
     },
     "TruthTableCircuitBlock:0": {
@@ -2326,7 +2326,7 @@
     },
     "RealTimeClockBlock:0": {
       "DisplayName": "リアルタイム時計",
-      "Description": "正確で常に最新の読み出し時間を提供するリアルタイムクロック。 時計の値は、プレーヤーから離れていても変わります。 時計の値はゲームが始まった時点でゼロになります。 時計をリセットすることはできません。ゲームが始まってから、常に時間を表示します。 クロックは5つの出力を介して時間を出力し、それぞれ4ビットのアナログ信号を出力します。 最も重要でない16のビットが四面にあります そして5番目の出力(最も重要な4ビットを含む)は後ろにあります(5番目の出力にアクセスするには、クロックをワイヤスルーブロックに配置する必要があります)。 クロックは、1日に4096ティック正確に進むように設定されています。つまり、それぞれのティックは0です。 秒の長さと4番目の出力にはゲーム開始からの日数が含まれています。 出力1、2、3の組み合わせ値には、約0.3秒の精度までの時間が含まれます。 4番目の出力だけで16日後にオーバーフローします。5番目の出力を使用してオーバーフロー期間を256日に延長します。 ",
+      "Description": "正確で常に最新の時刻を出力するリアルタイムクロックです。プレイヤーから離れていても値は変化します。値0はゲーム開始時点で、リセットはできません。ゲーム開始からの経過時間を常に示します。時刻は5つの出力から、それぞれ4ビットのアナログ信号として出力されます。下位16ビットは四つの側面にあり、上位4ビットを含む5番目の出力は背面にあります（アクセスにはワイヤースルーブロック上への設置が必要です）。1日につき正確に4096ティック進むため、1ティックは約0.3秒です。4番目の出力にはゲーム開始からの日数が含まれます。出力1、2、3の合成値は、約0.3秒精度の時刻を表します。4番目の出力だけでは16日後にオーバーフローします。5番目の出力を使うと256日まで延長できます。 ",
       "CRDescription:0": "銅、ゲルマニウム、ガラスからリアルタイム時計を作る"
     },
     "RandomGeneratorBlock:0": {
@@ -2346,12 +2346,12 @@
     },
     "SoundGeneratorBlock:0": {
       "DisplayName": "サウンドジェネレーター",
-      "Description": "エレクトリックサウンドジェネレータは、ピッチ(左)、オクターブ(右)、音量(上)、トーン(下)の4つの入力をとります。これらの入力はすべてアナログです。 ピッチの範囲は、次のオクターブでCノート(0Vの値)からDノート(1の値)の範囲です。 V). ピッチ入力時の1.5Vは一時停止を意味し、サウンドは再生されません。 オクターブ入力は2オクターブまでピッチをシフトするのに使用できます。 音量入力は再生した音量を設定し、0Vがミュートされ、1. Vは最も大きい音で、トーン入力がゼロからゼロ以外になるたびに実際のサウンドが再生されます。 0から0以外の場合にトーン入力に与えられる値によって、どのインストゥルメントを演奏するかが決まります: 0.1=bell, 0.2=Organ, 0. =Ping, 0.4=String, 0.5=Trumpet, 0.6=Voice, 0.7=Piano, 0.8=PianoSustain, 0.9=Drums. ドラムでは10のドラムのうちの1つがピッチ入力となります: 0. =Snare, 0.1=BassDrum, 0.2=ClosedHiHat, 0.3=PedalHiHat, 0.4=OpenHiHat, 0.5=LowTom, 0.6=HighTom, 0.7=Crash, 0.8=Ride, 0.9=HandClap. 一部の動物, 特に鳥, 大きな音を恐れています. この要素は、任意の表面に配置し、希望の方向に回転することができます.",
+      "Description": "電気式サウンドジェネレーターです。4つの入力、ピッチ（左）、オクターブ（右）、音量（上）、音色（下）を持ち、すべてアナログ入力です。ピッチはC音（値0V）から次のオクターブのD音（値1.4V）までです。ピッチ入力が1.5Vの場合は休符となり、音は鳴りません。オクターブ入力でピッチを最大2オクターブ移動できます。音量入力は0Vで無音、1.5Vで最大音量です。音色入力が0から0以外に変化したときに音が鳴り、その値で楽器が決まります: 0.1=bell, 0.2=Organ, 0.3=Ping, 0.4=String, 0.5=Trumpet, 0.6=Voice, 0.7=Piano, 0.8=PianoSustain, 0.9=Drums. ドラムではピッチ入力で10種類から選択します: 0.0=Snare, 0.1=BassDrum, 0.2=ClosedHiHat, 0.3=PedalHiHat, 0.4=OpenHiHat, 0.5=LowTom, 0.6=HighTom, 0.7=Crash, 0.8=Ride, 0.9=HandClap. 一部の動物、特に鳥は大きな音を怖がります。任意の面に配置し、希望の方向に回転できます。",
       "CRDescription:0": "銅、ゲルマニウム、鉄製のサウンドジェネレーターをクラフトする"
     },
     "BatteryBlock:0": {
       "DisplayName": "バッテリー",
-      "Description": "電気回路の電源に使用される電気電池。 その隣に配置された任意のワイヤに接続し、定電圧(1)に給電します。 V をデフォルトで指定します。電圧はバッテリーを編集することで調整できます。",
+      "Description": "電気回路の電源に使用される電気電池。 その隣に配置された任意のワイヤに接続し、定電圧(1.5)に給電します。 V をデフォルトで指定します。電圧はバッテリーを編集することで調整できます。",
       "CRDescription:0": "銅と石炭から電池をクラフトする"
     },
     "LightbulbBlock:0": {
@@ -2371,21 +2371,21 @@
     },
     "PressurePlateBlock:0": {
       "DisplayName": "木製の感圧板",
-      "Description": "電気圧力プレート。 圧力プレートは、例えば重い何かがそれを休ませたり、弾丸がそれを打つことによって、それが押されたときに信号を生成します。 生成される電圧はアイテムの重量に依存し、0の間です。 V (最軽量) と 1.5V (最も重い) したがって、圧力プレートは重量として使用することができます。 圧力が除去されるとすぐに出力信号は0Vに戻ります。 プレートには簡単に接続できるように、すべての側面に出力があります。どの面にも配置できます。",
+      "Description": "電気圧力プレート。 圧力プレートは、例えば重い何かがそれを休ませたり、弾丸がそれを打つことによって、それが押されたときに信号を生成します。 生成される電圧はアイテムの重量に依存し、0.8の間です。 V (最軽量) と 1.5V (最も重い) したがって、圧力プレートは重量として使用することができます。 圧力が除去されるとすぐに出力信号は0Vに戻ります。 プレートには簡単に接続できるように、すべての側面に出力があります。どの面にも配置できます。",
       "CRDescription:0": "銅と板から電圧板を作成する"
     },
     "MotionDetectorBlock:0": {
       "DisplayName": "モーション検出",
-      "Description": "電動モーション検出器。検出器は、顔の前で動きを検出するたびに信号を発生します。最大約8ブロック離れています。 モーションが検出されると、モーション検出器の出力は0の間です。 1.5Vは検出器の動きを示しています 接続が容易なすべての側面に出力があり、任意の面に配置することができます。",
+      "Description": "電気式モーション検出器です。正面約8ブロック以内の動きを検知すると信号を出力します。検知時の出力は0.8Vから1.5Vで、動く物体が検出器に近いほど高くなります。接続しやすいよう全側面に出力があり、任意の面に配置できます。",
       "CRDescription:0": "銅、ガラス、大理石からモーションディテクターをクラフトする"
     },
     "PistonBlock:0": {
       "DisplayName": "Piston",
-      "Description": "ピストンは押したり引いたりするのに使うことができます。ピストンの延長は電圧によって制御されます。 0.8Vはピストンを1ブロック0まで延長します。 Vから2など。1.5Vはピストンを最大8ブロックまで延長します。 ピストンは、最大拡張子を低い値に制限するように編集することもできます。 ピストンがプルピストンの場合は、引き込んだ時にブロックを引き戻します。 ピストンが厳しいプルピストンであれば、十分なブロックを引き戻さない限り、ピストンは引き戻されません。 プルされたブロックの数は、最大8まで編集することができます。"
+      "Description": "ピストンはブロックを押したり引いたりできます。伸長距離は加えられた電圧で制御され、0.8Vで1ブロック、0.9Vで2ブロック、1.5Vで最大8ブロックまで伸びます。編集して最大伸長距離を小さく制限することもできます。プルピストンは収縮時にブロックを引き戻します。厳密プルピストンは、設定数のブロックを引き戻せない場合は収縮しません。引くブロック数は編集で最大8まで設定できます。"
     },
     "PistonHeadBlock:0": {
       "DisplayName": "ピストンヘッド",
-      "Description": "ピストンは押したり引いたりするのに使うことができます。ピストンの延長は電圧によって制御されます。 0.8Vはピストンを1ブロック0まで延長します。 Vから2など。1.5Vはピストンを最大8ブロックまで延長します。 ピストンは、最大拡張子を低い値に制限するように編集することもできます。 ピストンがプルピストンの場合は、引き込んだ時にブロックを引き戻します。 ピストンが厳しいプルピストンであれば、十分なブロックを引き戻さない限り、ピストンは引き戻されません。 プルされたブロックの数は、最大8まで編集することができます。"
+      "Description": "ピストンはブロックを押したり引いたりできます。伸長距離は加えられた電圧で制御され、0.8Vで1ブロック、0.9Vで2ブロック、1.5Vで最大8ブロックまで伸びます。編集して最大伸長距離を小さく制限することもできます。プルピストンは収縮時にブロックを引き戻します。厳密プルピストンは、設定数のブロックを引き戻せない場合は収縮しません。引くブロック数は編集で最大8まで設定できます。"
     },
     "WireThroughPlanksBlock:0": {
       "DisplayName": "木材を通す線",
@@ -2434,7 +2434,7 @@
     },
     "PhotodiodeBlock:0": {
       "DisplayName": "フォトダイオード（フォトダイオード）",
-      "Description": "電動フォトダイオード。光を検出するために使用します。光が表面に当たるとダイオードが信号を発生します。 電圧は光の強度に依存し、0の間です。 V(最も暗い)から1.5V(最も明るい)まで。0Vは光を意味しません。 ダイオードはすべての側面に出力を備えており、接続が容易で、任意の面に配置することができます。",
+      "Description": "電動フォトダイオード。光を検出するために使用します。光が表面に当たるとダイオードが信号を発生します。 電圧は光の強度に依存し、0.8の間です。 V(最も暗い)から1.5V(最も明るい)まで。0Vは光を意味しません。 ダイオードはすべての側面に出力を備えており、接続が容易で、任意の面に配置することができます。",
       "CRDescription:0": "銅とガラスからフォトダイオードを作成する"
     },
     "TargetBlock:0": {
@@ -2525,7 +2525,7 @@
       "CRDescription:0": "革のテーラーパンツ"
     },
     "ClothingBlock:29": {
-      "DisplayName": "レザーサンダルformat@@0",
+      "DisplayName": "レザーサンダル",
       "Description": "革製のサンダル。染めることができます。いくつかの保護。いくつかの断熱材。",
       "CRDescription:0": "革と板から革のサンダルを作る"
     },
@@ -2760,22 +2760,22 @@
     },
     "PressurePlateBlock:1": {
       "DisplayName": "石の感圧板",
-      "Description": "電気圧力プレート。 圧力プレートは、例えば重い何かがそれを休ませたり、弾丸がそれを打つことによって、それが押されたときに信号を生成します。 生成される電圧はアイテムの重量に依存し、0の間です。 V (最軽量) と 1.5V (最も重い) したがって、圧力プレートは重量として使用することができます。 圧力が除去されるとすぐに出力信号は0Vに戻ります。 プレートには簡単に接続できるように、すべての側面に出力があります。どの面にも配置できます。",
+      "Description": "電気圧力プレート。 圧力プレートは、例えば重い何かがそれを休ませたり、弾丸がそれを打つことによって、それが押されたときに信号を生成します。 生成される電圧はアイテムの重量に依存し、0.8の間です。 V (最軽量) と 1.5V (最も重い) したがって、圧力プレートは重量として使用することができます。 圧力が除去されるとすぐに出力信号は0Vに戻ります。 プレートには簡単に接続できるように、すべての側面に出力があります。どの面にも配置できます。",
       "CRDescription:0": "銅と石から電圧板を作製する"
     },
     "PistonBlock:448": {
       "DisplayName": "Piston",
-      "Description": "ピストンは押したり引いたりするのに使うことができます。ピストンの延長は電圧によって制御されます。 0.8Vはピストンを1ブロック0まで延長します。 Vから2など。1.5Vはピストンを最大8ブロックまで延長します。 ピストンは、最大拡張子を低い値に制限するように編集することもできます。 ピストンがプルピストンの場合は、引き込んだ時にブロックを引き戻します。 ピストンが厳しいプルピストンであれば、十分なブロックを引き戻さない限り、ピストンは引き戻されません。 プルされたブロックの数は、最大8まで編集することができます。",
+      "Description": "ピストンはブロックを押したり引いたりできます。伸長距離は加えられた電圧で制御され、0.8Vで1ブロック、0.9Vで2ブロック、1.5Vで最大8ブロックまで伸びます。編集して最大伸長距離を小さく制限することもできます。プルピストンは収縮時にブロックを引き戻します。厳密プルピストンは、設定数のブロックを引き戻せない場合は収縮しません。引くブロック数は編集で最大8まで設定できます。",
       "CRDescription:0": "板、半導体、銅を使用してピストンを作る"
     },
     "PistonBlock:450": {
       "DisplayName": "ピストンを引っ張っています",
-      "Description": "ピストンは押したり引いたりするのに使うことができます。ピストンの延長は電圧によって制御されます。 0.8Vはピストンを1ブロック0まで延長します。 Vから2など。1.5Vはピストンを最大8ブロックまで延長します。 ピストンは、最大拡張子を低い値に制限するように編集することもできます。 ピストンがプルピストンの場合は、引き込んだ時にブロックを引き戻します。 ピストンが厳しいプルピストンであれば、十分なブロックを引き戻さない限り、ピストンは引き戻されません。 プルされたブロックの数は、最大8まで編集することができます。",
+      "Description": "ピストンはブロックを押したり引いたりできます。伸長距離は加えられた電圧で制御され、0.8Vで1ブロック、0.9Vで2ブロック、1.5Vで最大8ブロックまで伸びます。編集して最大伸長距離を小さく制限することもできます。プルピストンは収縮時にブロックを引き戻します。厳密プルピストンは、設定数のブロックを引き戻せない場合は収縮しません。引くブロック数は編集で最大8まで設定できます。",
       "CRDescription:0": "引くピストンを作るためにピストンに鉄のフックを加えてください"
     },
     "PistonBlock:452": {
       "DisplayName": "Piston Pulling Piston",
-      "Description": "ピストンは押したり引いたりするのに使うことができます。ピストンの延長は電圧によって制御されます。 0.8Vはピストンを1ブロック0まで延長します。 Vから2など。1.5Vはピストンを最大8ブロックまで延長します。 ピストンは、最大拡張子を低い値に制限するように編集することもできます。 ピストンがプルピストンの場合は、引き込んだ時にブロックを引き戻します。 ピストンが厳しいプルピストンであれば、十分なブロックを引き戻さない限り、ピストンは引き戻されません。 プルされたブロックの数は、最大8まで編集することができます。",
+      "Description": "ピストンはブロックを押したり引いたりできます。伸長距離は加えられた電圧で制御され、0.8Vで1ブロック、0.9Vで2ブロック、1.5Vで最大8ブロックまで伸びます。編集して最大伸長距離を小さく制限することもできます。プルピストンは収縮時にブロックを引き戻します。厳密プルピストンは、設定数のブロックを引き戻せない場合は収縮しません。引くブロック数は編集で最大8まで設定できます。",
       "CRDescription:0": "ピストンに銅フックを加えると、厳しいピストンができます。"
     },
     "DirtSlabBlock:0": {
@@ -2808,171 +2808,171 @@
       "Title": "キーボードコントロール"
     },
     "3": {
-      "value": "\\n Use the touchpad at the bottom left side of the screen to move.\\n Tap it once to jump.\\n This can also be configured to use directional buttons instead of the pad.\\n \\n\\n\\n Use the touchpad at the bottom right side of the screen to look around.\\n Tap it once to jump.\\n You can also drag your finger across any area of the screen to look.\\n \\n\\n\\n You can tweak control scheme of the game in the Controls and Sensitivity settings.\\n Experiment with various options, for example you may find you prefer buttons to touchpads, or split touch with crosshair to regular controls.\\n Controlling a first person game on a small touchscreen may look difficult, but once you get the hang of it, it is no different than using a gamepad or a mouse.\\n Because you can touch any part of the screen at any time, some actions like block digging or placement may even be easier.\\n \\n\\n\\n Some cheap or old devices have low quality touch screens or buggy touch drivers.\\n They might intermittently drop active touch points, or mix them up if touched in more than one point at once.\\n These are best avoided as playing on them is extremely frustrating.\\n ",
+      "value": "\\n 画面左下のタッチパッドを使って移動します。\\n 一度タップするとジャンプできます。\\n また、パッドの代わりに方向ボタンを使うように設定することも可能です。\\n \\n\\n\\n 画面右下のタッチパッドを使って周囲を見てください。\\n 一度タップするとジャンプできます。\\n 画面のどの部分でも指をドラッグして見ることができます。\\n \\n\\n\\n コントロール設定と感度設定で操作方法を調整できます。\\n いろいろなオプションを試してみてください。例えば、タッチパッドよりボタンを好む場合や、通常の操作よりもクロスヘアで分割タッチを使うことなどです。\\n 小さなタッチスクリーンで一人称ゲームを操作するのは難しく見えるかもしれませんが、慣れればゲームパッドやマウスを使うのと何ら変わりません。\\n 画面のどの部分にもいつでも触れられるため、ブロックを掘ったり配置したりする動作がより簡単になることもあります。\\n \\n\\n\\n 安価または古い機器には、低品質のタッチスクリーンやバグのあるタッチドライバーがあります。\\n 時折アクティブなタッチポイントを外したり、複数のポイントに同時に触れると混同したりすることもあります。\\n これらは避けたほうがいい。プレイは非常にフラストレーションが溜まるからだ。\\n ",
       "Title": "タッチスクリーンコントロール"
     },
     "4": {
-      "value": "\\n Sneaking is useful if you want to move slowly and carefully, for example to avoid falling near the edge of a tall crevice.\\n \\n\\n\\n To toggle sneak mode, press the sneak button on the right side of the screen.\\n When sneak mode is enabled, your movement will be restricted at edges to prevent you from falling.\\n \\n\\n\\n Sneaking also makes your movements much quieter, allowing you to come closer to certain animals without scaring them away. \\n For example, you can use sneak to get close to a bird without scaring it away. \\n Just make sure you don't approach it from the front, because it will see you and fly away. \\n ",
+      "value": "\\n ゆっくり慎重に動きたい場合、例えば高い割れ目の縁で落ちないように、忍び込むのは便利です。\\n \\n\\n\\n スニークモードを切り替えるには、画面右側のスニークボタンを押してください。\\n スニークモードを有効にすると、落ちないように端で動きが制限されます。\\n \\n\\n\\n また、こっそり行動することで動きがずっと静かになり、特定の動物を怖がらせずに近づけられます。 \\n 例えば、スニークを使って鳥に近づけても逃げさせません。 \\n ただし、正面から近づかないように注意してください。そうすると見つかって飛び去ってしまいます。 \\n ",
       "Title": "スニーク"
     },
     "5": {
-      "value": "\\n Flight is only available in Creative Mode.\\n To toggle fly mode, tap the flight button on the right side of the screen. \\n Jumping twice in quick succession will also toggle fly mode.\\n \\n\\n\\n Flying is much faster than walking and allows you to quickly get to otherwise inaccessible areas.\\n ",
+      "value": "\\n フライトはクリエイティブモードでのみ利用可能です。\\n フライモードを切り替えるには、画面右側のフライトボタンをタップしてください。 \\n 連続して2回ジャンプすると飛行モードも切り替えられます。\\n \\n\\n\\n 飛行は歩くよりもはるかに速く、普段はアクセスできない場所に素早く移動できます。\\n ",
       "Title": "飛行中"
     },
     "6": {
-      "value": "\\n Ladders can be crafted from wooden sticks.\\n Once placed on a vertical wall, they allow you to climb the wall easily.\\n \\n\\n\\n It's safest to climb the ladder when facing it.\\n This is true both for climbing upwards and downwards.\\n \\n\\n\\n Consequently, the best way to climb down a ladder is to approach it backwards, as you would do in real life.\\n \\n\\n\\n You can jump off the ladder at any time\\n ",
+      "value": "\\n はしごは木の棒で作ることができます。\\n 垂直の壁に設置すると、簡単に壁を登ることができます。\\n \\n\\n\\n 対峙するときには梯子を登るのが一番安全です。\\n これは上り坂でも下り坂でも同じです。\\n \\n\\n\\n したがって、はしごを降りる最良の方法は、現実のように後ろ向きにアプローチすることです。\\n \\n\\n\\n はしごから飛び降りるのはいつでもいい\\n ",
       "Title": "はしごを登っています"
     },
     "7": {
-      "value": "\\n Health bar is displayed in the game screen as little hearts.\\n It is the amount of life left in the player.\\n When it drops to zero, the player dies.\\n \\n\\n\\n It slowly replenishes when player is not hungry, it replenishes faster when sleeping.\\n Be careful when your health is low, even a slight injury may kill you.\\n \\n\\n\\n When the player is sick, the hearts become dirty green.\\n Do not eat dodgy food to avoid sickness.\\n When the player has flu, the hearts become blue.\\n Do not get cold for prolonged periods to avoid getting flu.\\n ",
+      "value": "\\n ヘルスバーはゲーム画面に小さなハートとして表示されます。\\n それはプレイヤーに残されたライフの量です。\\n ゼロになるとプレイヤーは死亡します。\\n \\n\\n\\n プレイヤーが空腹でないときはゆっくりと回復し、睡眠中はより早く回復します。\\n 健康が低いときは注意してください。軽い怪我でも命に関わることがあります。\\n \\n\\n\\n プレイヤーが病気になると、ハートは汚れた緑色になります。\\n 病気を避けるために、まずい食べ物は食べないでください。\\n インフルエンザにかかった場合、ハートは青くなります。\\n インフルエンザを避けるために、長時間寒さを感じないようにしましょう。\\n ",
       "Name": "健康",
       "Title": "健康"
     },
     "8": {
-      "value": "\\n When you eat raw meat, uncooked eggs or any food that has been allowed to rot, the player may become sick.\\n \\n\\n\\n Sickness is an unpleasant condition. \\n You health will slowly drop down to a single heart, making you very vulnerable.\\n Your activities will be constantly interrupted by vomiting and nausea attacks.\\n You will move slowly, be weak and tire easily.\\n You will not be able to eat certain food types.\\n \\n\\n\\n It is best to sleep it off, maybe in the morning your stomach will get better.\\n ",
+      "value": "\\n 生肉や生の卵、腐らせた食品を食べると、プレイヤーが体調を崩すことがあります。\\n \\n\\n\\n 病気は不快な状態です。 \\n 体力は徐々にハート1点にまで減り、非常に脆弱になります。\\n 嘔吐や吐き気の発作によって活動が絶えず中断されます。\\n 動きが遅く、弱くなり、疲れやすいです。\\n 特定の食品は食べられなくなります。\\n \\n\\n\\n 寝て治すのが一番です。朝には胃の調子が良くなるかもしれません。\\n ",
       "Name": "Sickness",
       "Title": "Sickness"
     },
     "9": {
-      "value": "\\n When your body temperature stays low for a long period, the player will start to sneeze.\\n This is a warning sign that you may get flu soon.\\n Warm yourself up quickly.\\n \\n\\n\\n Flu is a dangerous condition.\\n You health will slowly drop down to two hearts, making you very vulnerable.\\n Your activities will be frequently interrupted by coughing attacks.\\n You will move slowly, be weak and tire easily.\\n You will also become very sleepy.\\n \\n\\n\\n It is best to get to a warm place and sleep the flu off, maybe in the morning you will get better.\\n Flu is very difficult to cure when you are cold.\\n ",
+      "value": "\\n 体温が長時間低いままになると、プレイヤーはくしゃみをし始めます。\\n これはインフルエンザにかかるかもしれないという警告サインです。\\n 早く体を温めて。\\n \\n\\n\\n インフルエンザは危険な病気です。\\n 体力は徐々にハートが2つに減り、非常に脆弱になります。\\n あなたの活動はしばしば咳の発作によって中断されます。\\n 動きが遅く、弱くなり、疲れやすいです。\\n また、とても眠くなることもあります。\\n \\n\\n\\n 暖かい場所に行って寝てインフルエンザを治すのが一番です。朝には良くなるかもしれません。\\n 風邪は寒さのときに治すのが非常に難しいです。\\n ",
       "Name": "Flu",
       "Title": "Flu"
     },
     "10": {
-      "value": "\\n Hunger bar is displayed in the game screen as little fishes.\\n If you don't eat for a long time, your character will start complaining about it and eventually losing health, until you die.\\n In addition to that, if you're hungry, you don't regenerate health.\\n \\n\\n\\n To eat, drag an edible item onto the player in the body panel.\\n Your character will inform you whether you are still hungry.\\n \\n\\n\\n Food can be obtained from many sources in the game.\\n The obvious one is hunting edible animals, such as cows, birds and wildboars.\\n Keep in mind that hunting may be dangerous, and the supply of animals will quickly dry up in nearby areas, forcing you to search further.\\n \\n\\n\\n An alternative to hunting is farming.\\n Farming lets you create a sustainable source of food, although it may require lots of preparatory work and further maintenance.\\n ",
+      "value": "\\n ゲーム画面には小さな魚の形で空腹バーが表示されます。\\n 長時間食べなければ、キャラクターは文句を言い始め、最終的に体力を失い、最終的に死んでしまいます。\\n さらに、空腹の場合は体力が回復しません。\\n \\n\\n\\n 食べるには、ボディパネルで食べられるアイテムをプレイヤーにドラッグします。\\n キャラクターがまだお腹が空いているかどうかを教えてくれます。\\n \\n\\n\\n 食料はゲーム内のさまざまな供給源から入手可能です。\\n 明らかなのは、牛や鳥、イノシシなどの食用動物の狩猟です。\\n 狩猟は危険な場合があり、近隣の動物の供給が急速に枯渇するので、さらに探さなければならなくなることを覚えておいてください。\\n \\n\\n\\n 狩猟の代替手段として農業があります。\\n 農業は持続可能な食料源を作ることを可能にしますが、多くの準備作業やさらなるメンテナンスが必要になることもあります。\\n ",
       "Name": "Hunger",
       "Title": "Hunger"
     },
     "11": {
-      "value": "\\n Stamina is the measure of tiredness of your character.\\n When you perform a tiring action for a long time without break, you will tire and start panting.\\n \\n\\n\\n When you are panting, your performance is lower than when you are rested.\\n You will move and dig slower, and you will not be able to perform jumps.\\n \\n\\n\\n Some of the actions that are tiring: running, jumping, swimming, digging, fighting.\\n \\n\\n\\n It is very dangerous to get tired when you are in water, because you can't rest while swimming.\\n Watch for early signs of panting, and get out of water immediately.\\n When you get exhausted while in water, you will start drowning and die unless the shore is very near.\\n \\n\\n\\n Be careful, it's easy to get tired when running away from dangerous animals.\\n ",
+      "value": "\\n スタミナはキャラクターの疲労度の指標です。\\n 長時間休まずに疲れる動作を続けると、疲れて息切れし始めます。\\n \\n\\n\\n 息を切らしているときは、休んでいる時よりもパフォーマンスが低下します。\\n 動きや掘り方が遅くなり、ジャンプもできなくなります。\\n \\n\\n\\n 疲れる動作のいくつか:走ること、ジャンプすること、泳ぐこと、掘ること、戦うこと。\\n \\n\\n\\n 水中で疲れるのは非常に危険です。泳いでいる間は休めません。\\n パンティングの初期兆候に注意し、すぐに水から出てください。\\n 水中で疲れ果てると、岸がとても近くでない限り溺れて死にます。\\n \\n\\n\\n 危険な動物から逃げると疲れやすいので注意してください。\\n ",
       "Name": "Estamina",
       "Title": "Estamina"
     },
     "12": {
-      "value": "\\n Sleeping will help restore your health and pass the boring night hours when it's too dark or dangerous to work.\\n \\n\\n\\n Even if you are not hurt, you still need to sleep from time to time.\\n If you neglect it, your character will start to have short blackouts.\\n If you keep active despite this warning, the blackouts will get longer and eventually you will lose consciousness.\\n Losing consciousness is very dangerous, because predatory animals will quickly smell you and feast on your unguarded flesh.\\n \\n\\n\\n Although you don't need a bed, you can only sleep in a cosy and comfortable place.\\n The ground cannot be too hard and the area cannot be too exposed to the elements, or wet.\\n \\n\\n\\n Your respawn point is set to a place where you last slept.\\n To sleep, open the body screen and press a little sleeping button.\\n \\n\\n\\n Note: Sleeping is disabled in the demo.\\n ",
+      "value": "\\n 睡眠は健康を回復させ、暗すぎたり危険な夜の時間を乗り越えるのに役立ちます。\\n \\n\\n\\n 怪我をしていなくても、時々は睡眠が必要です。\\n それを怠ると、キャラクターは短いブラックアウトを経験し始めます。\\n この警告にもかかわらず活動を続ければ、意識喪失は長くなり、最終的には意識を失います。\\n 意識を失うことは非常に危険です。なぜなら、捕食動物はすぐにあなたの匂いを嗅ぎつけ、無防備な肉を食べてくるからです。\\n \\n\\n\\n ベッドは必要ありませんが、居心地の良い場所でしか眠れません。\\n 地面は硬すぎず、場所も自然にさらされすぎたり、湿ったりしてはいけません。\\n \\n\\n\\n リスポーン地点は最後に寝た場所に設定されています。\\n 寝るには、ボディスクリーンを開いて小さなスリープボタンを押す。\\n \\n\\n\\n 注:デモではスリープは無効になっています。\\n ",
       "Name": "スリープ",
       "Title": "スリープ中"
     },
     "13": {
-      "value": "\\n When you are out in the cold without proper clothes, your body temperature will drop.\\n Your view will start to freeze over and you will start losing health.\\n Find a warmer place or get near fire to warm and dry yourself.\\n If you stay cold for a long time, you will start sneezing and may get flu.\\n \\n\\n\\n Too much warmth will do you no good either, standing too close to a large fire will cause you to overheat.\\n \\n\\n\\n Sheltered areas are warmer than outside.\\n Plugging all the holes and locking doors will make a shelter warmer still.\\n Even a small hole open to the elements will admit draughts and make a large difference to temperature.\\n Make a fire inside your shelter to make it homely warm and allow you to take your clothes off.\\n \\n\\n\\n Being wet dramatically increases your susceptibility to cold, find a warm place to dry yourself faster.\\n \\n\\n\\n The best way to deal with cold is to wear multiple layers of thick, dry clothes.\\n You need to cover your entire body, leaving feet or head unclothed will defeat most of the warming effect other clothes have.\\n Clothes made of animal fur are best for keeping cold out.\\n ",
+      "value": "\\n 適切な服を着ずに寒い中でいると、体温が下がります。\\n 視界がフリーズし始め、体力が減っていきます。\\n 暖かい場所を見つけるか、火の近くで暖かく体を乾かしましょう。\\n 長時間寒さを保つとくしゃみが出て、インフルエンザにかかることがあります。\\n \\n\\n\\n 暖かすぎると良くなく、大きな火の近くに立つと暑くなります。\\n \\n\\n\\n 風の中のある場所は外よりも暖かいです。\\n すべての穴を塞ぎ、ドアに鍵をかければ、シェルターはさらに暖かくなります。\\n 小さな穴でも風が入り込み、温度に大きな差を生みます。\\n シェルターの中で火を起こして、家のように暖かくし、服を脱ぐこともできます。\\n \\n\\n\\n 濡れていると寒さに弱くなります。暖かい場所で早く乾かしましょう。\\n \\n\\n\\n 寒さに対処する最良の方法は、厚手で乾いた服を何枚も重ね着することです。\\n 全身を覆う必要があります。足や頭を裸にすると、他の服が持つ暖かさの効果がほとんど失われます。\\n 動物の毛皮で作られた服は寒さを防ぐのに最適です。\\n ",
       "Name": "温度",
       "Title": "体温度"
     },
     "14": {
-      "value": "\\n Your character can get wet by being outside in the rain or by falling into water.\\n Wetness heavily reduces insulation provided by clothing, so it's very easy to freeze in colder climates.\\n Your character will dry faster in a warm place.\\n ",
+      "value": "\\n キャラクターは雨の中にいることで濡れたり、水に落ちたりします。\\n 湿っていると衣服の断熱力が大幅に減るため、寒冷地では凍りやすいです。\\n 暖かい場所の方がキャラクターが早く乾きます。\\n ",
       "Name": "濡れ",
       "Title": "濡れ"
     },
     "15": {
-      "value": "\\n All food items will turn rotten after some time.\\n The little white fish icon next to the item will turn brown to indicate that the rot process is starting.\\n Some time after that, the food item will rot.\\n \\n\\n\\n Raw food will rot very quickly.\\n Cooking food will prolong its life.\\n \\n\\n\\n Rotten food is still attractive to animals and can even be eaten by the player, but has a high chance of causing sickness.\\n \\n\\n\\n When the player is sick, he is very slow, weak and will stop to vomit periodically.\\n It's best to go to sleep and wait for the sickness to pass.\\n \\n\\n\\n Most rotten food will eventually turn into compost, a valuable farming resource which can be used instead of soil to grow plants more quickly.\\n This will let you utilize valuable saltpeter for making explosives, instead of sprinkling it as fertilizer. \\n ",
+      "value": "\\n すべての食品は時間が経つと腐ってしまいます。\\n アイテムの横にある小さな白い魚のアイコンが茶色に変わり、腐敗のプロセスが始まっていることを示します。\\n その後しばらくすると、その食品は腐ってしまいます。\\n \\n\\n\\n 生の食品は非常に早く腐ります。\\n 料理をすることでその寿命が延びます。\\n \\n\\n\\n 腐った食べ物は動物にとって魅力的で、プレイヤーが食べることもありますが、病気を引き起こす可能性が高いです。\\n \\n\\n\\n 病気の時は非常に動きが鈍く、弱っており、時折嘔吐を止めることがあります。\\n 寝て病気が治まるのを待つのが一番だ。\\n \\n\\n\\n 腐った食品の多くは最終的に堆肥に変わり、土壌の代わりに植物をより早く育てる貴重な農業資源となります。\\n これにより、肥料として撒く代わりに貴重な硝石を爆薬作りに活用できます。 \\n ",
       "Name": "Comercial",
       "Title": "食料ロット"
     },
     "16": {
-      "value": "\\n Your character becomes more experienced over time.\\n Experience is represented by little golden orbs that can be picked up.\\n They appear when you mine minerals, harvest crops or hunt animals.\\n Collect them.\\n \\n\\n\\n If you gather enough experience, your character will advance to the next level.\\n Your strength, speed and resilience will increase and your food needs will decrease.\\n You will also be able to use more advanced tools, weapons and armor.\\n \\n\\n\\n When you die and respawn, your level is reduced to a much lower value.\\n It will take a lot of time to regain the lost experience.\\n ",
+      "value": "\\n キャラクターは時間とともに経験を積んでいきます。\\n 経験値は拾うことができる小さな金色の球体で表現されます。\\n 鉱物を採掘したり、作物を収穫したり、動物を狩ったりすると、彼らは現れます。\\n 集めろ。\\n \\n\\n\\n 十分な経験値を得れば、キャラクターは次のレベルに進みます。\\n あなたの筋力、スピード、回復力は向上し、食事の必要量も減ります。\\n より高度な道具や武器、防具も使えるようになります。\\n \\n\\n\\n 死んでリスポーンすると、レベルは大幅に下がります。\\n 失われた経験を取り戻すにはかなりの時間がかかります。\\n ",
       "Name": "レベル",
       "Title": "レベルと経験"
     },
     "17": {
-      "value": "\\n You can ride certain animals, such as horses or camels.\\n Riding an animal lets you move more quickly and view the world from a higher vantage point.\\n \\n\\n\\n To mount an animal, get close to it and wait for it to stop.\\n The sneak button will turn into mount button.\\n Press it to mount/dismount.\\n You can also mount boats in the same way as animals.\\n \\n\\n\\n To successfully ride an animal, you need a saddle, which can be crafted from leather and wooden sticks.\\n When the animal is saddled, its behavior changes and it becomes more friendly towards you.\\n Do not mount an unsaddled animal, it will not like it, and may even hurt you.\\n \\n\\n\\n A whistle will summon any saddled animals that are nearby.\\n It is a good idea to carry a whistle with you when you are riding.\\n ",
+      "value": "\\n 馬やラクダなど特定の動物に乗ることができます。\\n 動物に乗ることでより速く動き、高い視点から世界を眺めることができます。\\n \\n\\n\\n 動物に乗るには近づき、止まるのを待ちます。\\n スニークボタンはマウントボタンに変わります。\\n マウント/ディスマウントで押します。\\n 動物と同じようにボートに乗ることも可能です。\\n \\n\\n\\n 動物に乗り込むには鞍が必要で、鞍は革や木の棒で作ることができます。\\n 動物が鞍をつけられると、行動が変わり、あなたに対してより友好的になります。\\n 鞍のない馬に乗ってはいけません。動物はそれを嫌い、時にはあなたを傷つけることさえあります。\\n \\n\\n\\n 笛を吹くと近くにいる鞍をつけた動物を呼び寄せます。\\n 乗馬中にホイッスルを持ち歩くのは良い考えです。\\n ",
       "Title": "動物に乗る"
     },
     "18": {
-      "value": "\\n In Survivalcraft, the entire world is destructible.\\n \\n\\n\\n To dig a block, press it and hold your finger.\\n Digging cracks will appear as the block is being dug.\\n \\n\\n\\n Some blocks take a very long time to dig without proper tools.\\n Digging some blocks, such as glass, will destroy them.\\n ",
+      "value": "\\n サバイバルクラフトでは、世界全体が破壊可能です。\\n \\n\\n\\n ブロックを掘るには、押して指を押さえます。\\n 掘削中にひび割れが見えます。\\n \\n\\n\\n 適切な工具がないと掘るのに非常に時間がかかるブロックもあります。\\n ガラスなどのブロックを掘ると破壊されます。\\n ",
       "Title": "掘削ブロック"
     },
     "19": {
-      "value": "\\n To place a block, select it from your inventory so that you are holding it in your hand.\\n Then tap the face of an existing block, where you want the new block to be attached.\\n The block will be placed there immediately, unless it is impossible for some reason.\\n \\n\\n\\n Certain items behave differently if attached to different parts of an existing block.\\n For example, trapdoors can be attached to the top or bottom parts with different results.\\n ",
+      "value": "\\n ブロックを置くには、インベントリから手に持つように選択してください。\\n 次に、新しいブロックを取り付けたい既存のブロックの面をタップします。\\n ブロックは何らかの理由で不可能でない限り、すぐにそこに設置されます。\\n \\n\\n\\n 既存のブロックの異なる部分に取り付けると、特定のアイテムが異なる挙動を示します。\\n 例えば、トラップドアは上部や下部に取り付けることで、結果は異なります。\\n ",
       "Title": "ブロックの配置"
     },
     "20": {
-      "value": "\\n Certain blocks are interactive.\\n Some examples of interactive blocks: doors, chests, workbenches, furnaces, buttons.\\n \\n\\n\\n To interact with a block, tap on it.\\n This will invoke the action associated with the block.\\n \\n\\n\\n For example, if you tap on a closed door, it will open.\\n ",
+      "value": "\\n 特定のブロックはインタラクティブです。\\n インタラクティブブロックの例としては、ドア、チェスト、作業台、炉、ボタンなどがあります。\\n \\n\\n\\n ブロックとやり取りするには、それをタップしてください。\\n これによりブロックに関連するアクションが発動されます。\\n \\n\\n\\n 例えば、閉まったドアを叩くと開きます。\\n ",
       "Title": "ブロックとの相互作用"
     },
     "21": {
-      "value": "\\n Some blocks are editable.\\n Examples of editable blocks: crossbow, memory bank, musket, truth table.\\n \\n\\n\\n Editable blocks are marked with an edit icon in your inventory.\\n \\n\\n\\n To edit a block in the inventory, select it so that you hold it in your hand.\\n If the selected block is editable, sneak button will turn into edit button.\\n \\n\\n\\n To edit a block which is placed on the ground, stand close to it and point center of the screen at the block.\\n If the block in front of you is editable, it will be highlighted and sneak button will turn into edit button.\\n \\n\\n\\n Editing lets you change advanced properties of blocks.\\n For example editing a crossbow will let you draw it and load a bolt.\\n Editing a truth table lets you see and set the binary values.\\n To discover which items are editable, watch out for the edit icon on inventory items.\\n \\n\\n\\n If you both hold an editable item in your hand and look at an editable block in the terrain, the item in the terrain will take precedence.\\n ",
+      "value": "\\n 一部のブロックは編集可能です。\\n 編集可能なブロックの例:クロスボウ、メモリーバンク、マスケット銃、真理表。\\n \\n\\n\\n 編集可能なブロックはインベントリ内で編集アイコンでマークされています。\\n \\n\\n\\n インベントリ内のブロックを編集するには、手に持つように選択してください。\\n 選択したブロックが編集可能であれば、スニークボタンは編集ボタンに変わります。\\n \\n\\n\\n 地面に置かれたブロックを編集するには、そのブロックの近くに立ち、画面中央をブロックに向けてください。\\n 目の前のブロックが編集可能なら、ハイライトされ、スニークボタンが編集ボタンに変わります。\\n \\n\\n\\n 編集ではブロックの高度なプロパティを変更できます。\\n 例えばクロスボウを編集すると、それを抜いてボルトを装填できます。\\n 真理値表を編集することで、バイナリ値が表示されて設定できます。\\n どのアイテムが編集可能かを知るには、インベントリアイテムの編集アイコンに注目してください。\\n \\n\\n\\n 両手に編集可能なアイテムを持ち、地形の編集可能なブロックを見ていると、その地形内のアイテムが優先されます。\\n ",
       "Title": "ブロックの編集"
     },
     "22": {
-      "value": "\\n Certain items can be thrown.\\n Some examples of throwable items: stone chunks, spears, bricks, snowballs.\\n \\n\\n\\n To throw an item, select it in your inventory, so that you are holding it in your hand.\\n Press and hold a point on the screen where you want to throw.\\n A throwing sights will appear.\\n \\n\\n\\n You can move the sights to refine your aim.\\n Once you release your finger, the item will be thrown.\\n To cancel a throw, move the sights to the edge of the screen.\\n \\n\\n\\n Spears are powerful thrown weapons that do a lot of damage when they hit the target.\\n ",
+      "value": "\\n 特定のアイテムは投げることができます。\\n 投げられるアイテムの例としては、石の塊、槍、レンガ、雪玉などがあります。\\n \\n\\n\\n アイテムを投げるには、インベントリ内で手に持つように選択してください。\\n 投げたい画面上のポイントを押し続けると良いです。\\n 投げるサイトが表示されます。\\n \\n\\n\\n 照準を動かして狙いを絞ることができます。\\n 指を離すと、そのアイテムは投げられます。\\n 投げをキャンセルするには、照準器を画面の端に移動させます。\\n \\n\\n\\n 槍は強力な投擲武器で、命中時に大きなダメージを与えます。\\n ",
       "Title": "投げるアイテム"
     },
     "23": {
-      "value": "\\n All items and blocks can be dropped if you no longer need them.\\n \\n\\n\\n To drop an item or block, drag it from the inventory slot and drop it on the screen.\\n The item will fly a short distance away and fall to the ground.\\n \\n\\n\\n Watch out, if you're standing too close you will immediately pick up the dropped item again.\\n \\n\\n\\n Dropping items into fire or magma will destroy them.\\n ",
+      "value": "\\n 必要なくなったアイテムやブロックはドロップ可能です。\\n \\n\\n\\n アイテムやブロックを落とすには、インベントリスロットからドラッグして画面に置きます。\\n そのアイテムは少し離れて地面に落ちます。\\n \\n\\n\\n 注意してください。近くに立っていると、すぐに落としたアイテムを拾ってしまいます。\\n \\n\\n\\n アイテムを火やマグマに落とすと破壊されます。\\n ",
       "Title": "アイテムをドロップ"
     },
     "24": {
-      "value": "\\n Crafting is a process of making more complicated items out of simpler ones, using a workbench or the crafting area.\\n \\n\\n\\n To craft, you need to place ingredients in the crafting slots in a pattern specific to the item being crafted.\\n All crafting recipes are available in RECIPAEDIA.\\n \\n\\n\\n There are two sizes of crafting areas: 2x2 and 3x3.\\n The smaller area is always available and can be accessed by pressing the crafting button.\\n To craft more complicated items on a 3x3 area you need to make a workbench, place it somewhere in the world and click on it.\\n ",
+      "value": "\\n クラフティングとは、作業台やクラフトエリアを使って、よりシンプルなものからより複雑なアイテムを作るプロセスです。\\n \\n\\n\\n クラフトするには、素材をクラフトスロットに、作成するアイテムに特有のパターンで配置する必要があります。\\n すべてのクラフトレシピはRECIPAEDIAで利用可能です。\\n \\n\\n\\n クラフトエリアには2×2と3×3の2つのサイズがあります。\\n 小さなエリアは常に利用可能で、クラフトボタンを押すことでアクセスできます。\\n 3x3のエリアでより複雑なアイテムを作るには、作業台を作り、世界のどこかに置いてクリックする必要があります。\\n ",
       "Title": "クラフト"
     },
     "25": {
-      "value": "\\n Smelting is thermal processing of substances in a furnace.\\n Up to 2 substances can be placed in the furnace at the same time.\\n \\n\\n\\n Furnace requires fuel to work.\\n You can use anything that is combustible as a fuel, but some fuels are better (longer lasting) than others.\\n The best fuel is coal.\\n \\n\\n\\n You can leave the furnace while it is smelting. The smelting process will continue while you are away.\\n All smelting recipes are available in RECIPAEDIA.\\n ",
+      "value": "\\n 精錬は、炉内で物質を熱処理する作業です。\\n 最大2種類の物質を同時に炉に入れることができます。\\n \\n\\n\\n 暖炉は燃料が必要です。\\n 可燃性のものなら何でも燃料として使えますが、燃料によっては耐久性が良いものもあります。\\n 最良の燃料は石炭です。\\n \\n\\n\\n 製錬中は炉を放置しても構いません。あなたが不在中も精錬は続きます。\\n すべての精錬レシピはRECIPAEDIAで入手可能です。\\n ",
       "Title": "精錬所"
     },
     "26": {
-      "value": "\\n Press and hold the slot containing the stack you want to split for about 1 second.\\n A red border will appear around it.\\n The slot is now in splitting mode.\\n Tap any other empty slot, and one item will be taken from the highlighted slot and placed into the tapped slot.\\n \\n\\n\\n This technique can also be used to quickly spread items from one stack to multiple slots, e.g. in a workbench.\\n ",
+      "value": "\\n 分割したいスタックが入っているスロットを約1秒間押し続けます。\\n 赤い枠がその周りに現れます。\\n スロットは現在分割モードに入っています。\\n 他の空いているスロットをタップすると、ハイライトされたスロットからアイテムが1つ取り出され、タップされたスロットに置かれます。\\n \\n\\n\\n この技術は、例えば作業台などで、アイテムを一つのスタックから複数のスロットに素早く分散させるためにも使えます。\\n ",
       "Title": "アイテムのスタックを分割する"
     },
     "27": {
-      "value": "\\n You need to mine to obtain resources needed for crafting and smelting.\\n Mining can be as simple as digging in a random place with your bare hands.\\n You will however soon discover that it is not an effective way to mine, because digging hard rock by hand takes a very long time.\\n \\n\\n\\n You need to craft mining tools, such as a shovel and pickaxe first.\\n You also need to dig in different places to find specific resources.\\n Caves are a good starting point, because they show you a large cross section through the terrain for free.\\n \\n\\n\\n Be aware that some resources, such as diamonds or malachite, require tools made of strong materials to be mined.\\n ",
+      "value": "\\n クラフトや精錬に必要な資源を得るためには採掘が必要です。\\n 採掘は素手で適当な場所を掘るだけでも簡単です。\\n しかし、手作業で硬い岩を掘るのは非常に時間がかかるため、この方法が効果的な採掘方法ではないことがすぐにわかるでしょう。\\n \\n\\n\\n まずはシャベルやツルハシなどの採掘道具をクラフトする必要があります。\\n また、特定の資源を見つけるために異なる場所を掘る必要があります。\\n 洞窟は良い出発点です。なぜなら、地形の広い断面を無料で見せてくれるからです。\\n \\n\\n\\n ダイヤモンドやマラカイトのような資源は、採掘に強い素材で作られた道具を必要とするものもあります。\\n ",
       "Title": "採掘中"
     },
     "28": {
-      "value": "\\n Farming allows you to grow a variety of plants for decorative or consumption purposes.\\n To grow a plant, you need to obtain its seeds, usually from a fully grown plant specimen.\\n \\n\\n\\n Some plants will drop seeds immediately when they are harvested, some will require crafting to extract seeds.\\n Some seeds will tolerate poor soil, like dirt or grass.\\n Others, like rye or pumpkins, require high quality tilled and moist soil, which has been fertilized with saltpeter.\\n To make sure the soil is moist, use bucket to create water channels no further than several blocks away.\\n Moist soil is darker than a dry one.\\n To further enhance soil quality, sprinkle it with saltpeter (which is a source of nitrogen).\\n \\n\\n\\n Plants may take a long time to grow, be patient.\\n ",
+      "value": "\\n 農業では、装飾や消費目的でさまざまな植物を育てることができます。\\n 植物を育てるには、通常は完全に成長した植物の標本から種を入手する必要があります。\\n \\n\\n\\n 収穫するとすぐに種を落とす植物もあれば、種を採取するためにクラフトが必要なものもあります。\\n 一部の種子は土や草のような劣悪な土壌に耐えられます。\\n ライ麦やカボチャのように、高品質で耕され湿った土壌が必要で、そこに硝石を施肥します。\\n 土壌を湿らせるために、バケツを使って数ブロック以内の水道を作りましょう。\\n 湿った土は乾いた土よりも濃い色をしています。\\n さらに土壌の質を向上させるために、硝石(窒素の供給源)を撒いてください。\\n \\n\\n\\n 植物は成長に時間がかかることもありますが、焦らずに待ってください。\\n ",
       "Title": "農業"
     },
     "29": {
-      "value": "\\n Buckets are used for transporting fluids, such as water or magma.\\n To fill empty bucket with a fluid, you need to find a source block of the fluid.\\n For example, all ocean blocks are source blocks of water.\\n \\n\\n\\n Holding the empty bucket in your hand, tap the source block to collect it.\\n The block will be removed from the world and placed inside the bucket.\\n \\n\\n\\n To pour the fluid from the bucket, tap on terrain.\\n A new source block of fluid will be created, and the fluid will spread out from there.\\n You can collect the placed source block again with the empty bucket.\\n ",
+      "value": "\\n バケツは水やマグマなどの流体を運ぶために使用されます。\\n 空のバケツに液体を入れるには、その液体の供給ブロックを見つける必要があります。\\n 例えば、すべての海洋ブロックは水源ブロックです。\\n \\n\\n\\n 空のバケツを手に持ち、ソースブロックをタップして回収します。\\n そのブロックは世界から取り出され、バケツの中に入れられます。\\n \\n\\n\\n バケツから液体を注ぐには、地形を軽く叩きます。\\n 新たな流体の供給ブロックが作られ、そこから流体が広がっていきます。\\n 空のバケツで設置したソースブロックを再度回収できます。\\n ",
       "Title": "Bucket"
     },
     "30": {
-      "value": "\\n Some blocks and items can be dyed or painted.\\n \\n\\n\\n To paint bricks, stone, wood or other blocks, make a paint bucket of appropriate color and use it on the item you want to paint.\\n One bucket is good for painting several dozen blocks, after that it runs out.\\n \\n\\n\\n Paint stripper can be used to remove paint and restore blocks to their original appearance.\\n \\n\\n\\n To dye clothing, place a piece of clothing with a bucket full of paint in a furnace.\\n You can dye clothing multiple times, combining colors.\\n \\n\\n\\n You can also dye carpets in a similar way.\\n \\n\\n\\n Available colors of the paint (palette) can be customized in the world options screen.\\n You can also customize the names of colors.\\n The total number of colors is always 16, so to make a new color you need to sacrifice one of the existing ones.\\n Customized colors also affect clothing, dyeing and furniture.\\n ",
+      "value": "\\n 一部のブロックやアイテムは染色や塗装が可能です。\\n \\n\\n\\n レンガや石、木材、その他のブロックを塗るには、適切な色の塗料バケツを作り、塗りたいものに使ってください。\\n 1つのバケツは数十ブロックを塗るのに適していますが、その後は使い切られます。\\n \\n\\n\\n ペイントストリッパーは塗料を剥がし、ブロックを元の姿に戻すために使用できます。\\n \\n\\n\\n 服を染めるには、服の一切れと塗料の入ったバケツを炉に入れます。\\n 服は色を組み合わせて何度も染めることができます。\\n \\n\\n\\n カーペットも同様の方法で染めることができます。\\n \\n\\n\\n パレットの色はワールドオプション画面でカスタマイズ可能です。\\n 色の名前もカスタマイズ可能です。\\n 総色数は常に16種なので、新しい色を作るには既存の色の1つを犠牲にする必要があります。\\n カスタマイズされた色は衣服、染色、家具にも影響します。\\n ",
       "Title": "染料・絵画"
     },
     "31": {
-      "value": "\\n Electricity is a powerful mechanism in the game that can be used to control behavior of certain blocks.\\n For example, a lightbulb will produce light when connected to a source of electricity, doors will open or close if activated with an electric signal, and many more.\\n \\n\\n\\n If you know a bit about real-world electronics, you should feel at home in Survivalcraft.\\n All the familiar devices, such as logic gates (AND, OR, NOT etc.) are present and signals are characterized by voltage.\\n You can combine gates to build complex circuits, even computers or video games (check Community Content for some great builds by master electricians).\\n There are also sensors, such as pressure plates, photodiodes etc. that produce varying signals depending on conditions around them.\\n \\n\\n\\n For descriptions of all available electric devices, see RECIPAEDIA.\\n \\n\\n\\n Electric signals in the game are conducted through copper wires and have a voltage that is between 0V and 1.5V, in increments of 0.1V.\\n This gives 16 distinct voltage values.\\n \\n\\n\\n Digital devices, such as buttons, switches or doors work only with digital signals that have two possible values: low (0, false, off, no) and high (1, true, on, yes).\\n In this case, a voltage below 0.8V indicates low, 0.8V and greater indicates high.\\n Most commonly digital signals have voltages of 0V for low and 1.5V for high, but any value below 0.8V will be read as low.\\n \\n\\n\\n Analog devices, such as pressure plates, motion detectors or lightbulbs work with analog signals.\\n They will react to each different value of voltage between 0 and 1.5V, not just low and high states.\\n For example, sound generator volume and pitch inputs are controlled by analog voltages.\\n The volume and pitch will increase smoothly as the voltages get higher.\\n \\n\\n\\n It's good to remember that both analog and digital signals are really the same thing when conducted through the wire, a voltage between 0V and 1.5V.\\n Only the way a device interprets the signals voltage determines whether it is digital or analog.\\n \\n\\n\\n Voltage can also be interpreted as a number, with 0V representing 0 and 1.5V representing 15.\\n Some devices, such as displays, DAC/ADC converters or counters use this interpretation.\\n \\n\\n\\n All electric devices have connections (inputs and outputs) on their sides, and sometimes also on their back (the face attached to the wall).\\n On complex devices these are indicated by blue and red dots on edges of the elements.\\n Blue means input, red means output.\\n Number of dots means number of the connection.\\n Simple devices, such as buttons, switches or lightbulbs do not have these dots, because they use one input/output only and can be connected from any side.\\n \\n\\n\\n Electric devices can be placed on the walls and on the floor/ceiling (with some exceptions).\\n Once placed, they can be rotated so that it's easy to connect appropriate inputs and outputs together with the wires.\\n \\n\\n\\n There is a special type of block in the game, called wire-though-block, which is a normal block with a hole drilled and an electric wire threaded though it.\\n It is very useful when trying to hide wires from sight, run them though the wall, or prevent them from connecting with other wires.\\n It is also the only way to access the \"back\" connection of devices which have it.\\n \\n\\n\\n Electricity in Survivalcraft is processed at a frequency of 100Hz.\\n It means that voltage goes from one element to another in 0.01s, irrespective of the length of the wire.\\n If you need to delay the signal, you may place some neutral elements in its path (for example an OR gate or a pair of NOT gates).\\n Each additional element in the way of the signal will delay it by 0.01s.\\n For longer delays use Adjustable Delay Gate, which can produce delays of up to 2.55s.\\n \\n\\n\\n Electricity is a complex topic and making large working machines requires some learning, but is very satisfying.\\n Simple devices however can be constructed by anyone.\\n For example, try placing a button next to the hinges of a door.\\n You will notice a wire appeared, clicking the button will now operate the door!\\n All this scary talk about voltages, signals, digital and analog, but in reality it's that simple.\\n \\n\\n\\n Another easy thing to build might be a light switch.\\n Place a lightbulb on the ceiling and a switch (not button) on the wall.\\n Then connect them with a wire.\\n The switch now operates the light, like in a real room!\\n \\n\\n\\n Survivalcraft is more about realism than other games of this type, and electricity is no exception.\\n What you learn here, might become invaluable when you get to learn this at school, or have to use it for living.\\n \\n\\n\\n Explore and have fun!\\n ",
+      "value": "\\n 電気はゲーム内で強力な仕組みで、特定のブロックの挙動を制御するために使えます。\\n 例えば、電球は電気源に接続されると光を発し、電気信号でドアが開閉するなど、他にも多くのことがあります。\\n \\n\\n\\n 実世界の電子機器について少し知っているなら、Survivalcraftに馴染むはずです。\\n 論理ゲート(AND、OR、NOT など)など、よく知られた素子はすべて存在し、信号は電圧で特徴付けられます。\\n ゲートを組み合わせて複雑な回路を作ることもでき、コンピューターやビデオゲームでも可能です(マスター電気技師による素晴らしいビルドはコミュニティコンテンツで確認してください)。\\n また、圧力板やフォトダイオードなどのセンサーもあり、周囲の条件に応じて異なる信号を発生させます。\\n \\n\\n\\n 利用可能なすべての電気機器の説明については、RECIPAEDIA を参照してください。\\n \\n\\n\\n ゲーム内の電気信号は銅線を通して伝導され、0Vから1.5Vの間、0.1Vの段階で電圧がかかります。\\n これにより16種類の異なる電圧値が得られます。\\n \\n\\n\\n ボタン、スイッチ、ドアなどのデジタルデバイスは、低(0、偽、オフ、ノー)と高(1、真、オン、イエス)の2つの値を持つデジタル信号でのみ動作します。\\n この場合、0.8V未満の電圧は低電圧、0.8V以上は高電圧を示します。\\n 一般的にデジタル信号は低電圧が0V、高電圧が1.5Vですが、0.8V未満の値は低電圧と読み取られます。\\n \\n\\n\\n 圧力板、モーションセンサー、電球などのアナログ機器はアナログ信号で動作します。\\n これらは0Vから1.5Vの間の電圧値に反応し、低電圧や高電圧だけでなく反応します。\\n 例えば、サウンドジェネレーターの音量やピッチ入力はアナログ電圧で制御されます。\\n 電圧が上がると音量とピッチは滑らかに上がります。\\n \\n\\n\\n アナログ信号とデジタル信号は、ワイヤーを通して伝導される際には実質的に同じもので、電圧は0Vから1.5Vの間で行われることを覚えておくと良いでしょう。\\n デバイスが信号の電圧をどう解釈するかによって、デジタルかアナログかが決まります。\\n \\n\\n\\n 電圧は数字としても解釈でき、0Vは0、1.5Vは15を表します。\\n ディスプレイ、DAC/ADCコンバーター、カウンターなど一部のデバイスではこの解釈が用いられます。\\n \\n\\n\\n すべての電気機器は側面に入力と出力の接続があり、時には背面(壁に取り付けられた面)にも接続があります。\\n 複雑な装置では、要素の縁に青と赤の点で示されます。\\n 青は入力、赤は出力を示します。\\n 点の数は接続の数を示します。\\n ボタン、スイッチ、電球などの単純な装置にはこれらの点はありません。なぜなら、これらは入力/出力が一つだけで、どの側からでも接続可能だからです。\\n \\n\\n\\n 電気機器は壁や床・天井に設置できます(例外もあります)。\\n 一度設置すれば回転させて、適切な入力と出力をワイヤーで簡単に接続できます。\\n \\n\\n\\n ゲーム内にはワイヤー・スルー・ブロックと呼ばれる特別なブロックがあり、これは穴を開けて電気ワイヤーを通した普通のブロックです。\\n 配線を見えないように隠したり、壁を通して配線を通したり、他の配線と接続しないようにしたりする際に非常に有用です。\\n また、バック接続を持つデバイスの「バック」接続にアクセスする唯一の方法でもあります。\\n \\n\\n\\n サバイバルクラフトの電気は100Hzの周波数で処理されます。\\n これは、導線の長さに関係なく、電圧が0.01秒でエレメントからエレメントへと伝わります。\\n 信号を遅延させる必要がある場合は、その経路に中性素子(例えばORゲートやNOTゲートのペア)を配置することができます。\\n 信号の途中で追加要素が増えるごとに、信号は0.01秒ずつ遅延します。\\n より長い遅延には、最大2.55秒の遅延を生み出せる可変遅延ゲート(Adjustable Delay Gate)を使用してください。\\n \\n\\n\\n 電気は複雑なテーマで、大型の作業機械を作るには多少の学習が必要ですが、非常にやりがいがあります。\\n しかし、シンプルな装置は誰でも作ることができます。\\n 例えば、ドアの蝶番のそばにボタンを置いてみてください。\\n ワイヤーが現れ、ボタンを押すとドアが操作されます!\\n 電圧や信号、デジタルとアナログについて怖い話ばかりですが、実際にはそれだけのことです。\\n \\n\\n\\n もう一つ簡単に作れるのはライトスイッチかもしれません。\\n 天井に電球を置き、壁にスイッチ(ボタンではなく)を設置します。\\n そしてワイヤーでつなげてください。\\n スイッチが本物の部屋のようにライトを操作します!\\n \\n\\n\\n サバイバルクラフトはこのタイプの他のゲームよりもリアリズム重視であり、電気も例外ではありません。\\n ここで学ぶことは、学校で学んだり、生活に使わなければならないときに非常に貴重になるかもしれません。\\n \\n\\n\\n 探索して楽しんでください!\\n ",
       "Title": "電気"
     },
     "32": {
-      "value": "\\n In Survivalcraft you can design and use custom furniture blocks.\\n \\n\\n\\n Furniture blocks are sculpted from up to 16x16x16 smaller sub-blocks.\\n Sub-blocks within a single furniture block can be made of different materials and painted to different colors.\\n Through crafting, furniture blocks can be combined, made interactive or made to work with electricity.\\n Furniture designs can be combined into packs, shared between worlds and uploaded to Community Content.\\n \\n\\n\\n To design and create furniture use the hammer tool.\\n You need to build the design from regular blocks in the world and then use the hammer on the resulting structure to shrink it down.\\n Furniture design window will appear where you can tweak the design by moving it, rotating it and changing resolution (between 2x2x2 and 16x16x16).\\n Once you are happy with the design, you can commit it.\\n \\n\\n\\n In creative mode, the design will be turned into a single furniture block, and the source blocks from which the design was created will remain in the world.\\n In survival modes, the design will be turned into several copies of the furniture block (with number depending on resolution) and the source blocks will be consumed.\\n Furniture blocks can be placed in the world in 4 orientations, similar to e.g. a furnace or a ladder.\\n \\n\\n\\n Not every block can be used for furniture design.\\n For example, dirt or grass are ignored by the hammer tool.\\n Allowed materials include: planks, granite, basalt, sand, clay, cobblestone, stone bricks, sandstone, marble, bricks, coal, malachite, diamond, copper, iron, glass, carpet, torches, wicker lamps, water, magma.\\n Source blocks of the design can be painted or dyed to make the design more colorful.\\n Finished furniture can also be painted, this will cover any colors of the source blocks.\\n \\n\\n\\n Certain source blocks have special functions.\\n For example a torch/lamp block will cause the furniture to have a fire attached to it in the place of the block.\\n The design will also emit light.\\n \\n\\n\\n You have to be careful when constructing furniture to avoid placing the design on a base made of allowed material (for example sand).\\n The hammer tool will not be able to distinguish between the blocks you placed and the base, and will try to incorporate base into the design.\\n This will likely cause \"design too large\" error, because the maximum size of a design in any dimension is 16 blocks.\\n \\n\\n\\n Once the furniture block has been created, you can use workbench to combine it with other blocks in various ways.\\n The following combinations are possible:\\n \\n\\n\\n * Combine multiple pieces of furniture into one to create interactive furniture.\\n Interactive furniture toggles between its constituing designs on click or on electric signal.\\n You can create opening doors, switchable lights, raising platforms etc.\\n Up to 9 pieces of furniture can be combined (max capacity of workbench).\\n \\n\\n\\n * Combine exactly one furniture design with an electric button to create a custom button.\\n The resulting furniture will act as a button.\\n \\n\\n\\n * Combine exactly two furniture designs with an electric switch to create a custom switch.\\n The resulting furniture will act as a switch, with two furniture pieces acting as two states of the switch.\\n \\n\\n\\n * Combine multiple pieces of furniture with an electric wire to create connected interactive furniture.\\n The furniture will work in the same way as interactive furniture, but toggling it will also toggle all neighboring pieces of connected interactive furniture.\\n You can create multi-block toggleable structures, for example large doors.\\n \\n\\n\\n In the furniture panel in creative inventory you can view and organize your furniture designs.\\n Create named furniture sets to categorize the designs.\\n The newly created designs are placed in \"Uncategorized\" set, which has a special function.\\n Any design in this set, which does not otherwise exist in the world (no items or placed blocks) will be automatically recycled.\\n Be careful and move valuable designs to named furniture sets to avoid accidentally losing them.\\n Each named furniture set can be turned into a furniture pack and exported from the world.\\n You can later import it to other worlds or upload to Dropbox/SDcard and share with others.\\n Furniture packs can also be uploaded to community content.\\n \\n\\n\\n There are certain limitations to the furniture system:\\n \\n\\n\\n * A furniture block can be made from up to 16x16x16 sub-blocks.\\n \\n\\n\\n * The amount of geometry used for a single design cannot exceed 300 triangles (too complex designs with many nooks and crannies are not possible).\\n The game uses an intelligent tesselation algorithm that optimizes the geometry, so 300 triangles is plenty for even fairly complex designs, unless you really go over the top.\\n To reduce number of triangles, you can reduce number of small details, reduce number of painted blocks and fill up any internal holes in the design.\\n \\n\\n\\n * You can only have up to 1024 unique furniture designs in the world.\\n Every time you paint a furniture or combine it with others, you are creating new designs that count towards the total.\\n Unused designs (that do not exist in the world either as items or blocks, and are in the \"uncategorized\" set in the inventory) are automatically recycled.\\n ",
+      "value": "\\n Survivalcraftではカスタム家具ブロックをデザインして使うことができます。\\n \\n\\n\\n 家具ブロックは最大16x16x16の小さなサブブロックから彫刻されています。\\n 1つの家具ブロック内のサブブロックは異なる素材で作られ、異なる色に塗装することができます。\\n クラフトを通じて家具ブロックを組み合わせたり、インタラクティブにしたり、電気で動かしたりすることができます。\\n 家具のデザインはパックにまとめられ、ワールド間で共有され、コミュニティコンテンツにアップロードできます。\\n \\n\\n\\n 家具をデザイン・制作するにはハンマーツールを使いましょう。\\n 世界の普通のブロックからデザインを作り、ハンマーで構造物を縮小させる必要があります。\\n 家具デザインウィンドウが表示され、デザインを動かしたり回転させたり、解像度(2x2x2から16x16x16の間で)を変えたりして調整できます。\\n デザインに満足したら、すぐにコミットできます。\\n \\n\\n\\n クリエイティブモードでは、デザインは単一の家具ブロックに変換され、デザインが作られた元のブロックは世界に残ります。\\n サバイバルモードでは、デザインは家具ブロックの複数のコピー(解像度によって数が異なる)に変換され、ソースブロックは消費されます。\\n 家具ブロックは、例えば炉やはしごのように4つの向きで世界に配置できます。\\n \\n\\n\\n すべてのブロックが家具デザインに使えるわけではありません。\\n 例えば、土や草はハンマーツールでは無視されます。\\n 許可される材料には、板材、花崗岩、玄武岩、砂、粘土、石畳、石レンガ、砂岩、大理石、レンガ、石炭、マラカイト、ダイヤモンド、銅、鉄、ガラス、カーペット、松明、柳灯、水、マグマなどがあります。\\n デザインのソースブロックは塗装や染色で、よりカラフルに仕上げることができます。\\n 完成した家具は塗装も可能で、これにより元のブロックの色をカバーできます。\\n \\n\\n\\n 特定のソースブロックには特別な機能があります。\\n 例えば、懐中電灯やランプブロックを使うと、家具の代わりに火がついてしまいます。\\n デザインは光も発します。\\n \\n\\n\\n 家具を作る際は、許可された素材(例えば砂)で作られたベースにデザインを置かないように注意が必要です。\\n ハンマーツールは置いたブロックとベースを区別できず、ベースをデザインに組み込もうとします。\\n これにより「設計が大きすぎる」エラーが生じる可能性があります。なぜなら、どの寸法でも最大サイズが16ブロックだからです。\\n \\n\\n\\n 家具ブロックが作成されたら、Workbenchを使って他のブロックと様々な方法で組み合わせることができます。\\n 以下の組み合わせが考えられます。\\n \\n\\n\\n * 複数の家具を組み合わせてインタラクティブな家具を作りましょう。\\n インタラクティブ家具はクリックや電気信号で構成デザインを切り替えます。\\n 開くドアやスイッチ可能な照明、高くするプラットフォームなどを作ることができます。\\n 最大9点の家具を組み合わせて作業台の最大容量を使えます。\\n \\n\\n\\n * 家具のデザインを一つだけ電気ボタンと組み合わせてカスタムボタンを作りましょう。\\n できた家具はボタンの役割を果たします。\\n \\n\\n\\n * 家具のデザインを正確に2つに電気スイッチと組み合わせてカスタムスイッチを作りましょう。\\n その結果生まれた家具はスイッチとして機能し、2つの家具パーツがスイッチの2つの状態として機能します。\\n \\n\\n\\n * 複数の家具を電線で組み合わせて、つながったインタラクティブな家具を作りましょう。\\n 家具はインタラクティブ家具と同じように動作しますが、切り替えると隣接するすべての接続されたインタラクティブ家具も切り替わります。\\n 例えば大きな扉など、複数ブロックのトグル可能な構造物を作成できます。\\n \\n\\n\\n クリエイティブインベントリの家具パネルでは、家具デザインを閲覧・整理できます。\\n デザインを分類するために名前付きの家具セットを作成しましょう。\\n 新たに作成されたデザインは「未分類」セットに分類され、特別な機能を持っています。\\n このセットに含まれているデザインで、他に存在しないもの(アイテムや置いたブロックがない)は自動的にリサイクルされます。\\n 価値のあるデザインは名前付きの家具セットに移して、誤って失くさないように注意してください。\\n 名前のある家具セットは家具パックに変換でき、世界から輸出できます。\\n 後で他のワールドにインポートしたり、DropboxやSDcardにアップロードして他の人と共有することもできます。\\n 家具パックはコミュニティコンテンツにもアップロード可能です。\\n \\n\\n\\n 家具システムにはいくつかの制限があります:\\n \\n\\n\\n * 家具ブロックは最大16x16x16のサブブロックから作ることができます。\\n \\n\\n\\n * 単一の設計で使うジオメトリの数は300個を超えてはならず(多くの隅や隙間が多すぎる複雑な設計は不可能です)。\\n ゲームは知的なテッセレーションアルゴリズムを使ってジオメトリを最適化しているので、300個の三角形はかなり複雑なデザインでも十分です。ただし、極端にやりすぎない限りは。\\n 三角形の数を減らすには、細かいディテールの数を減らしたり、塗装されたブロックの数を減らしたり、デザイン内の穴を埋めたりすることができます。\\n \\n\\n\\n * 世界で持てる家具デザインは最大1024点までです。\\n 家具を塗ったり、他の家具と組み合わせたりするたびに、新しいデザインが生まれ、それが全体のカウントに加わります。\\n 未使用のデザイン(アイテムやブロックとして存在せず、インベントリの「未分類」セットにあるもの)は自動的にリサイクルされます。\\n ",
       "Title": "家具"
     },
     "33": {
-      "value": "\\n Pistons are blocks that can push or pull other blocks. \\n Pistons will extend or retract based on voltage applied to them.\\n They can be placed facing any direction.\\n \\n\\n\\n There are 3 types of pistons: push pistons, pull pistons and strict pull pistons.\\n \\n\\n\\n Push pistons push up to 8 blocks as they extend, but they do not pull them back when they retract.\\n \\n\\n\\n Pull pistons act like push pistons, but additionally they pull up to 8 blocks back when they retract.\\n \\n\\n\\n Strict pull pistons act like normal pull pistons, but they will not retract unless they are pulling enough blocks.\\n \\n\\n\\n Voltage applied to a piston determines the extension length.\\n Anthing below 0.8V is retracted. 0.8V is one block extension, 0.9V is two blocks etc.\\n 1.5V equals full extension of 8 blocks.\\n The piston will only react to voltage changes when it is not moving.\\n It will always complete the current move before starting another.\\n \\n\\n\\n Pistons can be edited.\\n You can adjust maximum extension, number of pulled blocks and speed of movement.\\n \\n\\n\\n Certain blocks cannot be moved by pistons.\\n These include any block that contains inventory (chest, workbench, furnace etc.), diamond block and any piston that is extended.\\n Retracted pistons however can be moved by other pistons.\\n This opens up a world of possibilities, with complicated machines where pistons move other pistons.\\n Pistons will also block fluids when extended, so you can use them to make valves.\\n \\n\\n\\n Use pistons to make doors, elevators, moving platforms and all kinds of ingenious machines.\\n ",
+      "value": "\\n ピストンは他のブロックを押し引くことができるブロックです。 \\n ピストンは電圧によって伸縮します。\\n これらはどの方向にも配置可能です。\\n \\n\\n\\n ピストンには3種類あります:プッシュピストン、プルピストン、そして厳引ピストンです。\\n \\n\\n\\n プッシュピストンは伸びる際に最大8ブロックまで押し出しますが、引き戻すことはありません。\\n \\n\\n\\n プルピストンはプッシュピストンのように動作しますが、格納時に最大8ブロック後ろに引っ張られます。\\n \\n\\n\\n 厳格なプルピストンは通常のプルピストンと同じように動作しますが、十分なブロックを引っ張らないと引き戻されません。\\n \\n\\n\\n ピストンにかかる電圧が伸長を決定します。\\n 0.8V以下の部分は格納されます。0.8Vは1ブロックの延長、0.9Vは2ブロック、という具合です。\\n 1.5Vは8ブロック分のフルエクステンションに相当します。\\n ピストンは動いていない時だけ電圧変化に反応します。\\n 次の手を始める前に、必ず現在の手をクリアします。\\n \\n\\n\\n ピストンは編集可能です。\\n 最大伸び方、引き抜くブロック数、移動速度を調整できます。\\n \\n\\n\\n 特定のブロックはピストンで動かせません。\\n これには、在庫(チェスト、作業台、炉など)、ダイヤモンドブロック、そして拡張されたピストンを含むブロックが含まれます。\\n しかし、格納されたピストンは他のピストンによって動かすことができます。\\n これにより、ピストン同士がピストンを動かす複雑な機械が生まれ、可能性が広がります。\\n ピストンは伸ばすと流体を塞ぐので、バルブを作るのに使えます。\\n \\n\\n\\n ピストンを使ってドアやエレベーター、動くプラットフォーム、あらゆる巧妙な機械を作りましょう。\\n ",
       "Title": "Pistons"
     },
     "34": {
-      "value": "\\n Wearing clothing provides warmth in cold climates and armor protection during combat.\\n You need heavy clothing to survive for any period of time in cold areas of the world.\\n \\n\\n\\n The level of thermal insulation is measured in CLO units.\\n For example, 0.0 CLO is naked body, 1.0 CLO is light clothing, 3.0 CLO is heavy insulation.\\n \\n\\n\\n You can access clothing interface by using Clothing button.\\n There are 4 clothing slots on your body: head, torso, legs and feet.\\n Each slot can have multiple clothing items, layered one on top of each other.\\n The effects of multiple clothing items combine.\\n \\n\\n\\n Not everything can be worn on top of everything else, for example you will not be able to wear a t-shirt on top of a fur coat.\\n \\n\\n\\n Wearing thick clothes in one slot while leaving another slot bare will not afford much insulation.\\n It's imperative to cover entire body to really benefit from clothing.\\n It's the thinnest piece of clothing that determines how much heat the character loses.\\n ",
+      "value": "\\n 衣服を着ることは寒冷地では暖かさを得て、戦闘時には鎧の保護にもなります。\\n 世界の寒冷な地域で長期間生き延びるには厚手の衣服が必要です。\\n \\n\\n\\n 断熱のレベルはCLO単位で測定されます。\\n 例えば、0.0 CLOは裸のボディ、1.0 CLOは軽い衣服、3.0 CLOは厚い断熱材です。\\n \\n\\n\\n 服のインターフェースにはClothingボタンを使ってアクセスできます。\\n 体には4つの服のスロットがあります:頭、胴体、脚、足です。\\n 各スロットには複数の衣類を重ねて置くことができます。\\n 複数の衣服の効果が組み合わさる。\\n \\n\\n\\n すべてを重ねて着られるわけではなく、例えば毛皮のコートの上にTシャツを重ねることはできません。\\n \\n\\n\\n 片方の穴に厚手の服を着て、もう片方の隙間を空けておくと断熱効果はあまりありません。\\n 服の効果を本当に得るためには、全身を覆うことが不可欠です。\\n 最も薄い服の一枚が、キャラクターがどれだけ熱を失うかを決めます。\\n ",
       "Name": "服",
       "Title": "服"
     },
     "35": {
-      "value": "\\n Wearing armor or thick clothing will reduce or even completely eliminate combat injuries.\\n Armor will absorb the hits, so that they damage the armor instead of injuring your body.\\n Once the armor receives too much damage, it will disintegrate.\\n \\n\\n\\n When you are attacked, you will randomly receive a hit into one of your four body areas: head, torso, legs or feet.\\n If there is no armor at that slot, you will receive full injury, irrespective of how much armor you wear elsewhere.\\n By far the most likely area to receive hits is torso, followed by legs.\\n Wearing torso armor will stop 60% of hits, torso and legs together will stop 80%.\\n Head and feet armor is of less importance, unless you want to be 100% safe.\\n \\n\\n\\n The strongest armor is made of iron and diamonds.\\n Early in the game, you can craft wooden torso armor from sticks and strings.\\n It's not very sturdy but will stand a few hits potentially saving your life.\\n \\n\\n\\n Even plain clothes have certain armor value, especially thick ones made of leather and fur.\\n They do not stop all hits, but only partially reduce the damage.\\n \\n\\n\\n Wearing heavy armor will make you sink to the bottom and drown, be careful around deep water.\\n ",
+      "value": "\\n 鎧や厚手の衣服を着ることで、戦闘中の負傷が減るか、完全に消えることもあります。\\n アーマーは攻撃を吸収し、体を傷つけるのではなくアーマー自体にダメージを与えます。\\n 鎧が過度にダメージを受けると、崩壊します。\\n \\n\\n\\n 攻撃を受けると、頭部、胴体、脚、足の4つの部位のいずれかにランダムな攻撃を受けます。\\n そのスロットにアーマーがなければ、他の場所でどれだけアーマーを着ていてもフルダメージを受けます。\\n 最も攻撃を受けやすいのは胴体、次いで脚です。\\n 胴体アーマーを着用すると60%の攻撃を防ぎ、胴体と脚を合わせると80%防げます。\\n 頭と足の防具はそれほど重要ではありません。100%安全を目指すなら別ですが。\\n \\n\\n\\n 最も強力な鎧は鉄とダイヤモンドでできている。\\n ゲーム序盤では、棒や紐で木製の胴体防具を作れます。\\n あまり頑丈ではありませんが、数回の攻撃に耐えられ、命を救う可能性があります。\\n \\n\\n\\n 私服でさえ、特に革や毛皮で作られた厚手の服には一定の鎧価値があります。\\n すべての攻撃を止めるわけではなく、ダメージを部分的に軽減するだけです。\\n \\n\\n\\n 重い鎧を着ると底に沈んで溺れます。深い水の近くには注意してください。\\n ",
       "Title": "よろいかぶと"
     },
     "36": {
-      "value": "\\n Boats can be used to travel across large bodies of water quickly and safely.\\n \\n\\n\\n If you don't have a boat, you risk drowning from exhaustion or being attacked by dangerous underwater creatures.\\n \\n\\n\\n To craft a boat you need lots of wood and a workbench.\\n Once the boat is crafted, it can be placed on the shore and mounted in the same way as a horse.\\n \\n\\n\\n You can only control a boat when it is in the water.\\n ",
+      "value": "\\n ボートは広い水域を迅速かつ安全に移動することができます。\\n \\n\\n\\n ボートを持っていなければ、疲労で溺れたり、危険な水中生物に襲われるリスクがあります。\\n \\n\\n\\n ボートを作るには大量の木材と作業台が必要です。\\n 一度船が作られれば、岸に置き、馬と同じように取り付けることができます。\\n \\n\\n\\n ボートを操作できるのは、船が水中にいる時だけです。\\n ",
       "Title": "ボート"
     },
     "37": {
-      "value": "\\n Sometimes when you are stuck, the only option is to force respawn at your last sleeping place.\\n \\n\\n\\n To do it, open the body screen and repeatedly press the skull and bones button.\\n ",
+      "value": "\\n 時には、最後の寝場所で強制リスポーンするしか選択肢がないこともあります。\\n \\n\\n\\n それを行うには、ボディ画面を開き、スカル&ボーンズボタンを何度も押します。\\n ",
       "Title": "リスポーンを強制する"
     },
     "38": {
-      "value": "\\n The game uses Dropbox service to allow you to download and upload data to/from your device.\\n \\n\\n\\n Through Dropbox, you can backup and share worlds with others.\\n You can also download custom blocks textures, character skins, furniture packs.\\n \\n\\n\\n To login to Dropbox, click on the login button on the Dropbox screen.\\n If you don't have a Dropbox account yet, you will be able to setup one during the login.\\n \\n\\n\\n Once you log in, the Dropbox screen will show you the contents of your online Dropbox folders, and allow you to download the files to your device.\\n \\n\\n\\n See https://dropbox.com website for more details.\\n ",
+      "value": "\\n このゲームはDropboxサービスを使って、デバイスのダウンロードやアップロードが可能です。\\n \\n\\n\\n Dropboxを使えば、ワールドのバックアップや共有ができます。\\n また、カスタムブロックやテクスチャ、キャラクタースキン、家具パックもダウンロードできます。\\n \\n\\n\\n Dropboxにログインするには、Dropbox画面のログインボタンをクリックしてください。\\n まだDropboxアカウントを持っていなければ、ログイン時に設定できます。\\n \\n\\n\\n ログインすると、Dropboxの画面でオンラインのDropboxフォルダの内容が表示され、そのファイルからデバイスへダウンロードできます。\\n \\n\\n\\n 詳細 https://dropbox.com ウェブサイトをご覧ください。\\n ",
       "Title": "Dropbox"
     },
     "39": {
-      "value": "\\n The game uses transfer.sh anonymous file service to allow you to upload data from your device without the hassle of creating any user accounts.\\n \\n\\n\\n Use the link provided after the upload to access the data.\\n Transfer.sh keeps the data for a few days only, after that it is automatically deleted.\\n \\n\\n\\n Do not use these temporary links for Community Content uploads, your item will be deleted by the service and Community Content item will stop working.\\n \\n\\n\\n It is not possible to see the list of items you uploaded, the sole access to data is through the links.\\n \\n\\n\\n See https://transfer.sh website for more details.\\n \\n\\n\\n Big Kudos to The Dutch Coders!\\n ",
+      "value": "\\n このゲームは匿名ファイルサービスを利用 transfer.sh、ユーザーアカウントを作成する手間なくデバイスからデータをアップロードできます。\\n \\n\\n\\n アップロード後に提供されたリンクからデータにアクセスしてください。\\n Transfer.sh データは数日間だけ保持され、その後自動的に削除されます。\\n \\n\\n\\n これらの一時的なリンクをコミュニティコンテンツのアップロードに使わないでください。サービスによってあなたのアイテムは削除され、コミュニティコンテンツの項目は機能しなくなります。\\n \\n\\n\\n アップロードしたアイテムのリストを見ることはできません。データへのアクセスはリンクを通じてのみです。\\n \\n\\n\\n 詳細 https://transfer.sh ウェブサイトをご覧ください。\\n \\n\\n\\n オランダのコーダーズに大きな敬意を表します!\\n ",
       "Title": "Transfer.sh"
     },
     "40": {
-      "value": "\\n The game allows you to import and export worlds to SD Card for sharing and backup purposes.\\n \\n\\n\\n If your device does not have an SD Card, generic external storage folder will be used.\\n The location of the data on the device is normally /sdcard/Survivalcraft\\n ",
+      "value": "\\n このゲームでは、世界をSDカードにインポート・エクスポートして共有やバックアップが可能です。\\n \\n\\n\\n もしデバイスにSDカードがない場合は、汎用の外部ストレージフォルダが使われます。\\n デバイス上のデータの位置は通常 /sdcard/Survivalcraft です\\n ",
       "Title": "SD カード",
       "DisabledPlatforms": "Ios, Windows81, WindowsPhone81, Desktop"
     },
     "41": {
-      "value": "\\n The game allows you to browse a list of worlds, block textures and other items published by other Survivalcraft community members, and download them.\\n \\n\\n\\n Once you make something interesting, you can also publish it through this service, and it will appear on the list for anyone to download.\\n \\n\\n\\n To publish something, first you need to put it on the internet, so that it's accessible to everyone.\\n The easiest place to use is Dropbox, although you can use any other provider.\\n Once it's done, you can publish the link to it through \"Publish Link\" dialog in the game.\\n \\n\\n\\n Note: the server does not store your content, only the link.\\n Just like a search engine.\\n You are responsible for keeping the data accessible through the published link.\\n Watch out for exceeding bandwidth limits of your provider, having a link near top of the list will make your content receive many thousands of downloads in a short time.\\n ",
+      "value": "\\n このゲームでは、他のSurvivalcraftコミュニティメンバーが公開したワールドやブロックテクスチャ、その他のアイテムのリストを閲覧し、ダウンロードすることができます。\\n \\n\\n\\n 面白いものを作ったら、このサービスを通じて公開でき、誰でもダウンロードできるリストに表示されます。\\n \\n\\n\\n 何かを公開するには、まずインターネット上に公開し、誰もがアクセスできるようにする必要があります。\\n 最も使いやすいのはDropboxですが、他のプロバイダーも使えます。\\n 完成したら、ゲーム内の「Publish Link」ダイアログからリンクを公開できます。\\n \\n\\n\\n 注意:サーバーはあなたのコンテンツを保存せず、リンクのみを保存します。\\n 検索エンジンのようなものです。\\n 公開されたリンクを通じてデータをアクセス可能な状態に保つ責任はあなたにあります。\\n プロバイダーの帯域幅制限を超えていないよう注意してください。リストの上部にリンクがあると、短期間で何千回ものダウンロードが届きます。\\n ",
       "Title": "コミュニティコンテンツ"
     }
   },
@@ -3018,7 +3018,7 @@
     "TerrainGenerationMode.Huge.Description": "警告:デバイスの性能要件が非常に高くなります!世界中の高さの制限は512に増加し、より壮大な山々とバイオームがあります。",
     "TerrainGenerationMode.Cave.Name": "Frozen Plateau 256",
     "TerrainGenerationMode.Cave.Description": "全世界は凍結した台地で覆われており、クモの巣のようなカルスト洞窟が交差しています。 土と植生は非常に不足しており、あなたの生存限界に挑戦します。",
-    "TerrainGenerationMode.SkyIsland.Name": "スカイアイランドサバイバルformat@@0",
+    "TerrainGenerationMode.SkyIsland.Name": "スカイアイランドサバイバル",
     "TerrainGenerationMode.SkyIsland.Description": "島の世界は、空に浮かんで、すべてのステップは、高高度絶望的な状況で生き残るために苦労して注意が必要です。",
     "TerrainGenerationMode.Bedrock.Name": "岩盤大陸（岩盤）",
     "TerrainGenerationMode.Bedrock.Description": "神々の戦争の後に粉砕大陸、岩盤で覆われた表面、環境極端で危険。",
@@ -3049,7 +3049,7 @@
     "ServerConfig.MaxPlayers.Description": "同時にオンラインにできるプレイヤーの最大数を設定します。範囲：1-20。値が高いほど、サーバーのパフォーマンスが向上します。",
     "ServerConfig.NeedLogin.Description": "プレイヤーがサーバーに参加する前にコミュニティアカウントにログインする必要があるかどうかを設定します。 有効にすると、プレイヤーの身元を管理し、悪意のある行動を防ぐことができます。",
     "ServerConfig.RandomSpawn.Description": "ランダムスポーン地点を有効にするかどうか。有効にすると、新たに参加したプレイヤーは固定のスポーン地点ではなくランダムな位置にスポーンします。",
-    "ServerConfig.DaySpeed.Description": "昼/夜のサイクル速度を設定します。1.0は通常の速度、2.0は半速、10です。 はスピードが最も遅いです。昼/夜のサイクルを遅くすると、プレイヤーは建築や探索に時間がかかります。",
+    "ServerConfig.DaySpeed.Description": "昼/夜のサイクル速度を設定します。1.0は通常の速度、2.0は半速、10.0です。 はスピードが最も遅いです。昼/夜のサイクルを遅くすると、プレイヤーは建築や探索に時間がかかります。",
     "ServerConfig.RecoverySpeed.Description": "睡眠時の回復速度係数を設定します。睡眠中の回復速度が速くなります。最小値は0.1です。",
     "ServerConfig.DisableBlocks.Description": "無効にするブロックのリストを設定します。セミコロン(;)で複数のブロックIDを分離します。無効にしたブロックは配置または使用できません。例: 1;2;3",
     "ServerConfig.KeywordBlocking.Description": "ブロックするキーワードのリストを設定します。複数のキーワードをセミコロン（;）で区切ってください。これらのキーワードを含むチャットメッセージは自動的にフィルタリングされます。",
@@ -3225,7 +3225,7 @@
       "5": "購入",
       "6": "終了",
       "7": "もう一度戻るボタンを押して終了します。",
-      "8": "format@@0またはformat@@1を押して終了します。"
+      "8": "Start または Esc を押して終了します。"
     },
     "NewWorldScreen": [
       "新しいワールドを始める",
@@ -3438,7 +3438,7 @@
       "3": "あなたが始めたすべてのワールドを保持することができます。",
       "4": "購入",
       "5": "終了",
-      "6": "You managed to survive a day\nin this world",
+      "6": "一日を生き延びたんだ\nこの世界で",
       "7": "Survivalcraft を購入するか、再びプレイするために新しいワールドを開始してください。",
       "8": "購入",
       "9": "新しいワールド"
@@ -3649,7 +3649,7 @@
       "NoMsgPlayerAlert": "ミュートされ、メッセージを送信できません。",
       "ParserInValid": "無効なメッセージ形式です。送信できません。",
       "ChatHelp": "オンライン機能ガイド",
-      "ChatHelpContent": "<c=yellow>Interface Interaction</c><br/>The Message, Party, and Activity panels, as well as top-right controls, now support \"Auto-bring to front on click/activation\" to resolve overlapping issues.<br/><c=yellow>Messaging System</c><br/>Sends global messages by default.<br/>Initial red text is hidden by default; the system automatically blocks prohibited text.<br/>Clicking a selected message again brings up copy/action options.<br/>The input text box supports horizontal dragging; on PC, it additionally supports instant cursor positioning upon clicking. <br/>Notification sounds and bottom message overlays can be adjusted in Settings.<br/><c=gray>Ctrl+Backspace</c> to delete content to the left of the cursor.<br/> Commands: Type / at the start of a line to send supported instructions (varies by server).<br/><c=yellow>Simple Rich Text Syntax</c><br/>Note: Due to legacy reasons, nesting is not supported. To edit non-text elements, use backspace on their right side.<br/>Space: \\<br/\\>,<br/>Color: \\<c=green\\>Green Text\\</c\\>,<br/>Block: \\<b\\>8\\</b\\>,<br/>Emoji: \\<em\\>smile\\</em\\><br/>Use <c=gray>\\\\</c> as an escape character for special symbols: <c=gray>\\<, \\>, \\\\</c>.<br/><c=yellow>Party System</c><br/>Supports broadcasting party events to member message queues, friendly fire toggles, member invitation permissions, and member kick permissions.<br/>Leaders can transfer leadership to a member by selecting them in the party list first.<br/><br/>"
+      "ChatHelpContent": "<c=yellow>インターフェースインタラクション</c><br/>メッセージ、パーティー、アクティビティパネル、そして右上のコントロールは、「クリック/起動時に自動前方に持ち込む」機能をサポートし、重複する問題を解決しました。<br/><c=yellow>メッセージングシステム</c><br/>デフォルトでグローバルメッセージを送信します。<br/>初期の赤い文字はデフォルトで隠されています。システムは禁止されたテキストを自動的にブロックします。<br/>選択したメッセージを再度クリックすると、コピーやアクションのオプションが表示されます。<br/>入力テキストボックスは水平ドラッグに対応しています。PC版では、クリック時の即時カーソル配置もサポートしています。 <br/>通知音や下部のメッセージオーバーレイは設定で調整できます。<br/><c=gray>Ctrl+バックスペース</c> カーソルの左側にあるコンテンツを削除するためです。<br/> コマンド:行の冒頭に/と入力して対応命令を送信します(サーバーによって異なります)。<br/><c=yellow>シンプルなリッチテキスト構文</c><br/>注:レガシー上の理由により、ネストはサポートされていません。非テキスト要素を編集するには、右側のバックスペースを使います。<br/>スペース:\\<br/\\>,<br/>色:\\<c=green\\>緑のテキスト\\</c\\>,<br/>ブロック: \\<b\\>8\\</b\\>,<br/>絵文字: \\<em\\>笑顔\\</em\\><br/>使用方法 <c=gray>\\\\</c> 特殊記号のエスケープ文字として: <c=gray>\\<, \\=\"\">, \\\\</c>.<br/><c=yellow>政党制度</c><br/>パーティーイベントの放送からメンバーメッセージキュー、フレンドファイアの切り替え、メンバー招待権限、メンバーキック権限までサポートします。<br/>党首は党名簿から先に選ばれることで党首を譲渡できます。<br/><br/></,>"
     },
     "SubsystemGameWidgets": {
       "System": "システム",
@@ -4278,7 +4278,7 @@
       "7": "パープル"
     },
     "Other": {
-      "1": "Fireworks {0}{1} {2} {3}",
+      "1": "花火 {0}{1} {2} {3}",
       "2": " ちらつき",
       "3": "（低い）",
       "4": "(高)"
@@ -4348,7 +4348,7 @@
       "19": "Leopard Spawner",
       "20": "Gnu Antelope",
       "21": "Gnu Spawner",
-      "22": "灰色の狼format@@0",
+      "22": "灰色オオカミ",
       "23": "灰色のオオカミのスポーナー",
       "24": "Rhinoceros",
       "25": "RhinoSpawner",
@@ -4387,7 +4387,7 @@
       "58": "Donkey Spawner",
       "59": "茶色の牛",
       "60": "茶色のウシのスポーナー",
-      "61": "黒い雄牛format@@0",
+      "61": "黒い雄牛",
       "62": "黒いブル・スポナー",
       "63": "Piranha",
       "64": "Piranha Spawner",
@@ -4412,7 +4412,7 @@
       "83": "Seagull",
       "84": "カモメの卵",
       "85": "白アルパカスポナー",
-      "86": "白き雄牛format@@0",
+      "86": "白い雄牛",
       "87": "グレートホワイトシャーク",
       "88": "グレートホワイト・シャークスポナー",
       "89": "バイソン",

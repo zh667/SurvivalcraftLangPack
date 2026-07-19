@@ -55,7 +55,7 @@
     "8": "Có nên xóa mod không",
     "9": "Xóa",
     "10": "Hủy bỏ",
-    "11": "Bấm đúp vào tệp mod để xem mô tả mod.  Quét nhanh thư mục dưới đây:",
+    "11": "Bấm đúp vào tệp mod để xem mô tả mod.\n\nQuét nhanh thư mục dưới đây:",
     "12": "Nếu mod bạn đã tải xuống không nằm trong một trong những thư mục này, bạn có thể chọn thư mục để quét theo cách thủ công.",
     "13": "Hiện không có đường dẫn quét nhanh",
     "14": "Hướng dẫn",
@@ -85,7 +85,7 @@
     "38": "Khởi động lại mod game sẽ chỉ có hiệu lực, có khởi động lại hay không",
     "39": "Khởi động lại",
     "40": "Thư mục hiện tại:",
-    "41": "Thư mục:{0} Không thể quét.",
+    "41": "Thư mục:{0}\nKhông thể quét.",
     "42": "Quản lý",
     "43": "Đang tải",
     "44": "Gỡ cài đặt",
@@ -103,13 +103,13 @@
     "56": "Thay thế mod không thành công",
     "57": "Tệp đã tồn tại",
     "58": "Không thể quét các đường dẫn sau:",
-    "59": "{0} (các) tệp MOD hợp lệ đã/đã được quét",
+    "59": "{0} (các) tệp MOD hợp lệ đã/đã được quét\n",
     "60": "cập nhật",
     "61": "Tính năng này đang được phát triển",
     "62": "Xử lý nền",
     "63": "gia cố",
     "64": "Cân nhắc tăng cường mod",
-    "65": "Gia cố mod sẽ thay thế tệp mod hiện tại, sau khi gia cố thường có nghĩa là không thể khôi phục được, vui lòng sao lưu tệp trước khi thao tác.  Nếu tệp dự án gốc vô tình bị mất sau khi gia cố, bạn có thể liên hệ với quản trị viên cộng đồng để khôi phục tệp mod đã cứng.  Người chơi bình thường có thể bỏ qua tính năng này.",
+    "65": "Gia cố mod sẽ thay thế tệp mod hiện tại, sau khi gia cố thường có nghĩa là không thể khôi phục được, vui lòng sao lưu tệp trước khi thao tác.\nNếu tệp dự án gốc vô tình bị mất sau khi gia cố, bạn có thể liên hệ với quản trị viên cộng đồng để khôi phục tệp mod đã cứng.\nNgười chơi bình thường có thể bỏ qua tính năng này.",
     "66": "File mod hiện tại đã cứng và không cần gia cố",
     "67": "Việc gia cố tệp mod hiện tại không thành công với một lỗi không xác định:",
     "68": "Phiên bản API cũ (API 1.3) không có sẵn",
@@ -125,7 +125,7 @@
     "3": "Gói nội thất | {0} thiết kế",
     "4": "Da nhân vật | {0}x{1}",
     "5": "[{0}] sẽ bị xóa không thể phục hồi được.",
-    "6": "[{0}] sẽ bị xóa không thể phục hồi được. (được sử dụng bởi {1} thế giới, họ sẽ quay lại sử dụng mặc định)",
+    "6": "[{0}] sẽ bị xóa không thể phục hồi được.\n(được sử dụng bởi {1} thế giới, họ sẽ quay lại sử dụng mặc định)",
     "7": "Chọn bộ lọc mục",
     "8": "Tất cả các mục",
     "9": "Bạn có chắc không?",
@@ -140,7 +140,7 @@
   },
   "MainMenuScreen": {
     "1": "Tìm nạp thông báo không thành công",
-    "2": "Không có thông báo nào hoặc không được kết nối với internet"
+    "2": "Không có thông báo nào\nhoặc không được kết nối với internet"
   },
   "SubsystemExplosions": [
     "Bị nổ tung",
@@ -247,9 +247,9 @@
     "4": "Sinh sản {0} (Cấp {1})",
     "5": "Chế độ sinh sản không hợp lệ.",
     "6": "BẠN ĐÃ CHẾT",
-    "7": "{0} Không thể hồi sinh trong chế độ trò chơi \"{1}\"",
-    "8": "{0} Nhấn để bắt đầu lại cuộc phiêu lưu",
-    "9": "{0} Nhấn để hồi sinh",
+    "7": "{0}\n\nKhông thể hồi sinh trong chế độ trò chơi \"{1}\"",
+    "8": "{0}\n\nNhấn để bắt đầu lại cuộc phiêu lưu",
+    "9": "{0}\n\nNhấn để hồi sinh",
     "10": "Hơn 1 người chơi có PlayerIndex {0} được thêm vào thế giới.",
     "11": "Không tìm thấy GameWidget nào cho người chơi.",
     "12": "Không xác định",
@@ -566,17 +566,17 @@
     "Not Dyed": "không nhuộm"
   },
   "BestiaryDescriptionScreen": {
-    "1": "Có thể cưỡi:",
+    "1": "Có thể cưỡi:\n",
     "2": "({0}% thời gian)",
-    "resilience": "Khả năng phục hồi:",
-    "attack": "Sức mạnh tấn công:",
-    "herding": "Hành vi chăn gia súc:",
-    "speed": "Tốc độ:",
-    "jump height": "Chiều cao nhảy:",
-    "length unit": "mét",
+    "resilience": "Khả năng phục hồi:\n",
+    "attack": "Sức mạnh tấn công:\n",
+    "herding": "Hành vi chăn gia súc:\n",
+    "speed": "Tốc độ:\n",
+    "jump height": "Chiều cao nhảy:\n",
+    "length unit": "mét\n",
     "speed unit": "km/h",
     "weight unit": "kg",
-    "weight": "Trọng lượng:",
+    "weight": "Trọng lượng:\n",
     "range": "{0} đến {1}"
   },
   "CommunityContentScreen": {
@@ -698,7 +698,7 @@
   "LookControlMode": {
     "Pad": "đệm",
     "EntireScreen": "Toàn bộ màn hình",
-    "SplitTouch": "SplitTouch"
+    "SplitTouch": "Tách Chạm"
   },
   "SettingsUiScreen": {
     "1": "Tin nhắn",
@@ -738,7 +738,7 @@
   },
   "SettingsControlsScreen": [
     "{0} khối",
-    "Pix",
+    "Hình ảnh",
     "Chính",
     "API"
   ],
@@ -777,10 +777,10 @@
     "1": "{0} khối",
     "2": "(tốt cho các thiết bị chậm hơn)",
     "3": "(Khuyến nghị RAM 1GB)",
-    "4": "(Khuyến nghị RAM 2GB và thiết bị nhanh)",
-    "5": "(Khuyến nghị sử dụng RAM 4GB và thiết bị rất nhanh)",
-    "6": "(Khuyến nghị sử dụng RAM 8GB và thiết bị rất nhanh)",
-    "7": "(Khuyến nghị sử dụng RAM 16GB và thiết bị cực nhanh)",
+    "4": "(Khuyến nghị RAM 2GB và\nthiết bị nhanh)",
+    "5": "(Khuyến nghị sử dụng RAM 4GB và\nthiết bị rất nhanh)",
+    "6": "(Khuyến nghị sử dụng RAM 8GB và\nthiết bị rất nhanh)",
+    "7": "(Khuyến nghị sử dụng RAM 16GB và\nthiết bị cực nhanh)",
     "8": "{0} vsync",
     "9": "Không giới hạn",
     "10": "Phạm vi hiển thị lớn",
@@ -953,8 +953,8 @@
     "1": "Lén lút để cải thiện mục tiêu của bạn"
   },
   "ComponentGui": {
-    "1": "Nhấn H để điều khiển bàn phím (hoặc xem TRỢ GIÚP)",
-    "2": "Nhấn BẮT ĐẦU/TẠM DỪNG để điều khiển gamepad (hoặc xem TRỢ GIÚP)",
+    "1": "Nhấn H để điều khiển bàn phím\n(hoặc xem TRỢ GIÚP)",
+    "2": "Nhấn BẮT ĐẦU/TẠM DỪNG để điều khiển gamepad\n(hoặc xem TRỢ GIÚP)",
     "3": "Tắt chế độ lén lút",
     "4": "Bật chế độ lén lút",
     "5": "Đã gắn kết",
@@ -1154,7 +1154,7 @@
     "StatusLoggedIn": "Trạng thái hiện tại: Đã đăng nhập",
     "UserInfoGuest": "Chọn phương thức đăng nhập: Đăng nhập xác minh email/điện thoại hoặc đăng nhập nhanh QQ",
     "UserInfoLoggedIn": "Đã đăng nhập: {0}",
-    "UserInfoLoggedInWithMessage": "Đã đăng nhập: {0} {1}",
+    "UserInfoLoggedInWithMessage": "Đã đăng nhập: {0}\n{1}",
     "LoginButton": "Đăng nhập xác minh email/điện thoại",
     "QQLoginButton": "QQ đăng nhập nhanh",
     "RoleCreateButton": "Tạo vai trò",
@@ -2429,7 +2429,7 @@
       "Description": "Một diode phát quang. Khi kết nối với nguồn điện sẽ phát ra ánh sáng màu yếu. Màu sắc của ánh sáng phụ thuộc vào giá trị tín hiệu cấp vào diode. 0,8V trở lên tạo ra ánh sáng có 8 màu khác nhau. Ánh sáng quá yếu để có thể chiếu sáng xung quanh nhưng vẫn có thể dễ dàng nhìn thấy được. Hữu ích cho việc tạo đèn trạng thái. Nó có đầu vào ở tất cả các mặt để kết nối dễ dàng và có thể được đặt trên bất kỳ bề mặt nào."
     },
     "OneLedBlock:0": {
-      "DisplayName": "1-LED",
+      "DisplayName": "1-Đèn LED",
       "Description": "Một diode phát sáng hình vuông lớn. Khi kết nối với nguồn điện, đèn led phát ra ánh sáng màu yếu. Màu sắc của ánh sáng phụ thuộc vào giá trị tín hiệu cấp vào diode. 0,8V trở lên tạo ra ánh sáng có 8 màu khác nhau. Ánh sáng quá yếu để có thể chiếu sáng xung quanh nhưng vẫn có thể dễ dàng nhìn thấy được. Hữu ích cho việc tạo màn hình màu. Nó có đầu vào ở tất cả các mặt để kết nối dễ dàng và có thể được đặt trên bất kỳ bề mặt nào."
     },
     "PhotodiodeBlock:0": {
@@ -2495,7 +2495,7 @@
       "CRDescription:0": "May áo len từ canvas"
     },
     "ClothingBlock:25": {
-      "DisplayName": "Long Johns",
+      "DisplayName": "Johns dài",
       "Description": "Long Johns làm bằng vải canvas. Có thể được nhuộm. Hầu như không có sự bảo vệ. Cách nhiệt tốt.",
       "CRDescription:0": "May quần dài từ vải canvas"
     },
@@ -3186,7 +3186,7 @@
       "13": "Người dùng không hoạt động",
       "14": "Người dùng đã chết",
       "15": "Biệt hiệu",
-      "16": "Email",
+      "16": "Thư điện tử",
       "17": "ID người dùng",
       "18": "Tên người dùng",
       "19": "Mã thông báo",
@@ -3438,7 +3438,7 @@
       "3": "Bạn sẽ có thể giữ tất cả các thế giới mà bạn đã bắt đầu.",
       "4": "Mua hàng",
       "5": "Thoát",
-      "6": "Bạn đã sống sót được một ngày trên thế giới này",
+      "6": "Bạn đã sống sót được một ngày\ntrên thế giới này",
       "7": "Vui lòng mua Survivalcraft hoặc bắt đầu một thế giới mới để chơi lại.",
       "8": "Mua hàng",
       "9": "Thế giới mới"
@@ -3649,7 +3649,7 @@
       "NoMsgPlayerAlert": "Bạn đã bị tắt tiếng và không thể gửi tin nhắn",
       "ParserInValid": "Định dạng tin nhắn không hợp lệ. Không thể gửi.",
       "ChatHelp": "Hướng dẫn tính năng trực tuyến",
-      "ChatHelpContent": "<c=vàng>Tương tác giao diện</c><br/>Bảng Tin nhắn, Bữa tiệc và Hoạt động cũng như các điều khiển ở trên cùng bên phải hiện hỗ trợ \"Tự động đưa lên phía trước khi nhấp/kích hoạt\" để giải quyết các vấn đề chồng chéo.<br/><c=gold>Hệ thống nhắn tin</c><br/>Gửi tin nhắn toàn cầu theo mặc định.<br/>Văn bản màu đỏ ban đầu bị ẩn theo mặc định; hệ thống tự động chặn văn bản bị cấm.<br/>Nhấp vào thư đã chọn một lần nữa sẽ hiển thị các tùy chọn sao chép/hành động.<br/>Hộp văn bản nhập hỗ trợ kéo ngang; trên PC, nó còn hỗ trợ định vị con trỏ tức thì khi nhấp chuột. <br/>Bạn có thể điều chỉnh âm thanh thông báo và lớp phủ tin nhắn ở dưới cùng trong Cài đặt.<br/><c=gray>Ctrl+Backspace</c> để xóa nội dung ở bên trái con trỏ.<br/> Lệnh: Nhập / ở đầu dòng để gửi hướng dẫn được hỗ trợ (thay đổi tùy theo máy chủ).<br/><c=gold>Cú pháp văn bản đa dạng thức đơn giản</c><br/>Lưu ý: Vì các lý do cũ, việc lồng nhau không được hỗ trợ. Để chỉnh sửa các thành phần không phải văn bản, hãy sử dụng phím lùi ở bên phải của chúng.<br/>Dấu cách: \\<br/\\>,<br/>Màu: \\<c=green\\>Văn bản xanh\\</c\\>,<br/>Chặn: \\<b\\>8\\</b\\>,<br/>Biểu tượng cảm xúc: \\<em\\>smile\\</em\\><br/>Sử dụng <c=gray>\\\\</c> làm ký tự thoát cho các ký hiệu đặc biệt: <c=gray>\\<, \\>, \\\\</c>.<br/><c=golden>Hệ thống nhóm</c><br/>Hỗ trợ phát sóng các sự kiện của nhóm tới hàng đợi tin nhắn của thành viên, chuyển đổi lửa thân thiện, quyền mời thành viên và quyền đá thành viên.<br/>Các nhà lãnh đạo có thể chuyển giao quyền lãnh đạo cho một thành viên bằng cách chọn họ trong danh sách nhóm trước.<br/><br/>"
+      "ChatHelpContent": "<c=yellow>Tương tác giao diện</c><br/>Bảng Tin nhắn, Bữa tiệc và Hoạt động cũng như các điều khiển ở trên cùng bên phải hiện hỗ trợ \"Tự động đưa lên phía trước khi nhấp/kích hoạt\" để giải quyết các vấn đề chồng chéo.<br/><c=yellow>Hệ thống nhắn tin</c><br/>Gửi tin nhắn toàn cầu theo mặc định.<br/>Văn bản màu đỏ ban đầu bị ẩn theo mặc định; hệ thống tự động chặn văn bản bị cấm.<br/>Nhấp vào thư đã chọn một lần nữa sẽ hiển thị các tùy chọn sao chép/hành động.<br/>Hộp văn bản nhập hỗ trợ kéo ngang; trên PC, nó còn hỗ trợ định vị con trỏ tức thì khi nhấp chuột. <br/>Bạn có thể điều chỉnh âm thanh thông báo và lớp phủ tin nhắn ở dưới cùng trong Cài đặt.<br/><c=gray>Ctrl+Backspace</c> để xóa nội dung ở bên trái con trỏ.<br/> Lệnh: Nhập / ở đầu dòng để gửi hướng dẫn được hỗ trợ (thay đổi tùy theo máy chủ).<br/><c=yellow>Cú pháp văn bản đa dạng thức đơn giản</c><br/>Lưu ý: Vì các lý do cũ, việc lồng nhau không được hỗ trợ. Để chỉnh sửa các thành phần không phải văn bản, hãy sử dụng phím lùi ở bên phải của chúng.<br/>Dấu cách: \\<br/\\>,<br/>Màu: \\<c=green\\>Văn bản xanh\\</c\\>,<br/>Chặn: \\<b\\>8\\</b\\>,<br/>Biểu tượng cảm xúc: \\<em\\>smile\\</em\\><br/>Sử dụng <c=gray>\\\\</c> làm ký tự thoát cho các ký hiệu đặc biệt: <c=gray>\\<, \\>, \\\\</c>.<br/><c=yellow>Hệ thống nhóm</c><br/>Hỗ trợ phát sóng các sự kiện của nhóm tới hàng đợi tin nhắn của thành viên, chuyển đổi lửa thân thiện, quyền mời thành viên và quyền đá thành viên.<br/>Các nhà lãnh đạo có thể chuyển giao quyền lãnh đạo cho một thành viên bằng cách chọn họ trong danh sách nhóm trước.<br/><br/>"
     },
     "SubsystemGameWidgets": {
       "System": "Hệ thống",
@@ -3852,7 +3852,7 @@
     },
     "KeyboardHelpDialog": {
       "1": "Điều khiển bàn phím",
-      "2": "W/A/S/D",
+      "2": "W / A / S / D",
       "3": "Di chuyển chuột",
       "4": "không gian",
       "5": "ca",
@@ -4140,7 +4140,7 @@
     "Btn_VersionSelectButton": "Phiên bản",
     "Item_GitHubSource": "Nguồn GitHub",
     "Item_GiteeSource": "Nguồn Gitee",
-    "Item_MediaFireCloud": "MediaFire",
+    "Item_MediaFireCloud": "Phương tiện truyền thông",
     "Item_QuarkCloud": "chảo quark",
     "Version_Release": "Phát hành",
     "Version_Beta": "bản thử nghiệm",
@@ -4421,7 +4421,7 @@
       "92": "Người sinh sản Jaguar",
       "93": "ngựa vằn",
       "94": "Người sinh sản ngựa vằn",
-      "95": "Cassowary",
+      "95": "Thịt casow",
       "96": "Trứng Cassowary",
       "97": "Cầu thủ nữ",
       "98": "Cầu thủ nam",
