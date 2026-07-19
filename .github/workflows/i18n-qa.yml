@@ -1,0 +1,24 @@
+name: Translation QA
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - l10n_main
+      - qa-repair
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Translation audit
+        run: python tools/i18n_audit.py --strict
+      - name: Build language pack
+        run: python tools/build.py

@@ -1,6 +1,6 @@
 {
   "Language": {
-    "Name": "Inglese"
+    "Name": "Italiano"
   },
   "SubsystemBedrockBlockBehavior": {
     "ShowBounds": "Mostra I Bounds",
@@ -120,10 +120,10 @@
     "73": "Sblocca"
   },
   "ManageContentScreen": {
-    "1": "Blocca texture <unk> {0}x{1}",
-    "2": " <unk> in {0} mondo(i)",
-    "3": "Pacchetto mobili <unk> {0} disegni",
-    "4": "Skin Personaggio <unk> {0}x{1}",
+    "1": "Blocca texture | {0}x{1}",
+    "2": " | in {0} mondo(i)",
+    "3": "Pacchetto mobili | {0} disegni",
+    "4": "Skin Personaggio | {0}x{1}",
     "5": "[{0}] sarà cancellata irrimediabilmente.",
     "6": "[{0}] sarà cancellato irrimediabilmente.\n(usato dai mondi {1} , torneranno a usare il valore predefinito)",
     "7": "Seleziona Filtro Elementi",
@@ -413,7 +413,7 @@
     "8": "Creazione Collegamento",
     "9": "Recupero Cartella",
     "10": "Scaricamento",
-    "11": " <unk> (scaricato)",
+    "11": " | (scaricato)",
     "12": "Importazione",
     "13": "Apertura del file non riuscita",
     "14": "Il tipo di file non è supportato: "

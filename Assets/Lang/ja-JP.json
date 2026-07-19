@@ -1773,7 +1773,7 @@
       "CRDescription:0": "木と棒から鋭い尖った板を作る"
     },
     "GrassTrapBlock:0": {
-      "DisplayName": "草トラップformat@@0",
+      "DisplayName": "Grass Trap",
       "Description": "草の罠は草に似ているが、重い何かがそれに立つと崩壊する詐欺装置である。 トラップを隠すために使われます。トラップを警戒していない動物がその上を歩いてピットに落ちるようにします。 それはオークの葉からのみ細工することができ、他の葉は動作しません。",
       "CRDescription:0": "オークの葉から草トラップを作って深い穴を隠す。"
     },
@@ -2112,7 +2112,7 @@
       "CRDescription:0": "銅武器を作る"
     },
     "IronSpearBlock:0": {
-      "DisplayName": "アイアンスピアformat@@0",
+      "DisplayName": "Iron Spear",
       "Description": "槍は近接攻撃に使うことができる汎用性の高い武器です。 使用すると、最終的にその鋭さを失い、失敗します。 より良い材料で作られた槍は長持ちし、ダメージが大きくなります。 投げ槍は柔らかい材料に固執します. それはあまりにも固く埋め込まれた槍を削除するのは難しいかもしれません.",
       "CRDescription:0": "鉄の武器を作る"
     },
@@ -2525,7 +2525,7 @@
       "CRDescription:0": "革のテーラーパンツ"
     },
     "ClothingBlock:29": {
-      "DisplayName": "レザーサンダルformat@@0",
+      "DisplayName": "Leather Sandals",
       "Description": "革製のサンダル。染めることができます。いくつかの保護。いくつかの断熱材。",
       "CRDescription:0": "革と板から革のサンダルを作る"
     },
@@ -3018,7 +3018,7 @@
     "TerrainGenerationMode.Huge.Description": "警告:デバイスの性能要件が非常に高くなります!世界中の高さの制限は512に増加し、より壮大な山々とバイオームがあります。",
     "TerrainGenerationMode.Cave.Name": "Frozen Plateau 256",
     "TerrainGenerationMode.Cave.Description": "全世界は凍結した台地で覆われており、クモの巣のようなカルスト洞窟が交差しています。 土と植生は非常に不足しており、あなたの生存限界に挑戦します。",
-    "TerrainGenerationMode.SkyIsland.Name": "スカイアイランドサバイバルformat@@0",
+    "TerrainGenerationMode.SkyIsland.Name": "Sky Island Survival",
     "TerrainGenerationMode.SkyIsland.Description": "島の世界は、空に浮かんで、すべてのステップは、高高度絶望的な状況で生き残るために苦労して注意が必要です。",
     "TerrainGenerationMode.Bedrock.Name": "岩盤大陸（岩盤）",
     "TerrainGenerationMode.Bedrock.Description": "神々の戦争の後に粉砕大陸、岩盤で覆われた表面、環境極端で危険。",
@@ -3225,7 +3225,7 @@
       "5": "購入",
       "6": "終了",
       "7": "もう一度戻るボタンを押して終了します。",
-      "8": "format@@0またはformat@@1を押して終了します。"
+      "8": "Press Start or Esc to quit."
     },
     "NewWorldScreen": [
       "新しいワールドを始める",
@@ -4348,7 +4348,7 @@
       "19": "Leopard Spawner",
       "20": "Gnu Antelope",
       "21": "Gnu Spawner",
-      "22": "灰色の狼format@@0",
+      "22": "Gray Wolf",
       "23": "灰色のオオカミのスポーナー",
       "24": "Rhinoceros",
       "25": "RhinoSpawner",
@@ -4387,7 +4387,7 @@
       "58": "Donkey Spawner",
       "59": "茶色の牛",
       "60": "茶色のウシのスポーナー",
-      "61": "黒い雄牛format@@0",
+      "61": "Black Bull",
       "62": "黒いブル・スポナー",
       "63": "Piranha",
       "64": "Piranha Spawner",
@@ -4412,7 +4412,7 @@
       "83": "Seagull",
       "84": "カモメの卵",
       "85": "白アルパカスポナー",
-      "86": "白き雄牛format@@0",
+      "86": "White Bull",
       "87": "グレートホワイトシャーク",
       "88": "グレートホワイト・シャークスポナー",
       "89": "バイソン",

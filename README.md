@@ -32,7 +32,30 @@ modinfo.json             # mod 元数据
 crowdin.yml              # Crowdin 源→各语言映射
 tools/build.py           # 打包 .netmod（自动收集所有语言文件）
 tools/mt_seed_all.py     # 免费端点机翻脚本（有限流，仅作打样）
+tools/i18n_audit.py      # 检查键、占位符、标签、数字和机翻污染
 artifacts/SurvivalcraftLangPack.netmod
+```
+
+## 翻译 QA
+
+在合并 Crowdin PR 或打包前运行：
+
+```bash
+python tools/i18n_audit.py \
+  --report reports/i18n-audit.md \
+  --json-report reports/i18n-audit.json
+```
+
+结构缺失、占位符/标签不一致、空翻译和 `format@@0` 等机翻标记属于发布阻断错误。
+英文原文残留、数字及换行差异属于警告，需要结合语境复核。游戏没有英语回退，因此即使
+Crowdin 显示翻译未完成，导出的语言文件也必须保留完整的 3267 个叶子键。
+
+Crowdin 导出后可先预览安全修复，再写入文件：
+
+```bash
+python tools/i18n_repair.py
+python tools/i18n_repair.py --write
+python tools/i18n_audit.py --strict
 ```
 
 ## 安装测试
