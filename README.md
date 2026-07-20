@@ -7,21 +7,17 @@
 > 独立的语言包 mod，只翻译游戏本体。旅行地图 mod 自己的 `TravelMap` 文本由旅行地图仓库
 > 单独提供 `<code>.json`，运行时按同一语言代码自动合并。
 
+## 配合模组使用
+
+游戏本体只内置 5 种语言。模组（如 [旅行地图](https://github.com/zh667/SurvivalCraftTravelMap)）即便自带了其他语言的文本，若游戏本体缺这门语言，它在游戏里仍是残缺的“孤儿语言”（界面显示键名）。**想使用这些扩展语言时，把本语言包和对应模组一起放进 `NetMods/` 即可**：本包补齐游戏本体翻译，模组补齐自己的文本，二者在同一语言代码下自动合并，整个界面即完整显示。仅需游戏内置的 5 种语言时，可不安装本包。
+
 ## 现状
 
-`Assets/Lang/` 下**已有 3 种机翻草稿**（免费端点打样，占位符已保护，`Language.Name` 用母语名）：
+`Assets/Lang/` 下已通过 Crowdin 预翻译生成**全部 13 种语言**（`Language.Name` 用母语名，占位符已保护）：
 
-| 代码 | 语言 | 状态 |
-|---|---|---|
-| vi-VN | Tiếng Việt | 机翻草稿 ✅ |
-| id-ID | Bahasa Indonesia | 机翻草稿 ✅ |
-| tr-TR | Türkçe | 机翻草稿 ✅ |
+`vi-VN` · `id-ID` · `tr-TR` · `ja-JP` · `ko-KR` · `fr-FR` · `de-DE` · `it-IT` · `pl-PL` · `hi-IN` · `th-TH` · `uk-UA` · `ar-SA`（阿拉伯语为 RTL，需重点验 UI）。
 
-**其余语言改由 Crowdin 预翻译生成**（免费端点按 IP 限流，翻 3 种就被封，扛不住 13 种的量；
-Crowdin 用正规授权 MT，有配额、不被封）。`crowdin.yml` 已配好这些目标语言的代码映射：
-ja-JP / ko-KR / fr-FR / de-DE / it-IT / pl-PL / hi-IN / th-TH / uk-UA / ar-SA（阿拉伯语 RTL，需重点验 UI）。
-
-⚠️ 所有语言都是**机翻草稿，尚未人工校对**，术语（尤其方块/物品名）需通过 Crowdin 众包完善。
+⚠️ 目前均为**机翻草稿，尚未逐条人工校对**，术语（尤其方块/物品名）仍在通过 Crowdin 众包完善。
 
 ## 结构
 
@@ -59,7 +55,7 @@ artifacts/SurvivalcraftLangPack.netmod
 
 ## 待办
 
-- [ ] Windows 逐语言 UI 溢出/RTL 检查（先测 vi/id/tr 三种草稿）。
-- [ ] Crowdin 生成并众包校对其余 10 种。
-- [ ] 旅行地图仓库补 `Assets/Lang/<code>.json`（各语言的 128 条 `TravelMap` 文本；
-      vi 有 123 条人工翻译可从 git `4261e6a` 恢复）。
+- [x] Crowdin 生成全部 13 种语言（机翻草稿）。
+- [x] 旅行地图仓库补齐各语言的 `TravelMap` 文本（已随包发布 18 种语言）。
+- [ ] Windows 逐语言 UI 溢出 / 阿拉伯语 RTL 检查。
+- [ ] 各语言逐条人工校对（重点统一方块/物品名术语）。
